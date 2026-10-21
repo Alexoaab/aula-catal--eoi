@@ -1,6 +1,6 @@
-AULA CATALÀ · TEMA 01
+AULA CATALÀ · TEMES 01 I 02
 
-Aplicació estàtica amb teoria i set pràctiques del tema 01.
+Aplicació estàtica amb teoria i set pràctiques del tema 01, i sis exercicis d’accentuació del tema 02.
 Obre index.html per utilitzar-la localment.
 
 NETLIFY
