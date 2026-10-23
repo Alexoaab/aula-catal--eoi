@@ -5,3 +5,5 @@
 .ca-spell-layer mark{color:transparent;background:transparent;text-decoration:underline wavy #c22d35;text-decoration-thickness:1.5px;text-underline-offset:3px}
 .ca-spell-status{display:block;font-size:12px;line-height:1.5;color:#65776e;margin:4px 0 8px;overflow-wrap:anywhere;font-weight:400}
 .ca-spell-settings{padding:10px 16px;margin:12px 0;background:#edf1e8;border-radius:8px;font-size:14px}.ca-spell-settings summary{cursor:pointer;font-weight:600}.ca-spell-settings label{display:flex;align-items:center;gap:8px;margin-top:10px}.ca-spell-settings input{min-height:auto}.ca-spell-settings p{max-width:80ch}
+
+.ca-spell-word,.ca-spell-option{font:inherit;min-height:32px;border:1px solid #c7d8cc;border-radius:5px;padding:4px 9px;margin:3px;background:#fff;color:#193b37}.ca-spell-word{text-decoration:underline wavy #c22d35;text-underline-offset:3px}.ca-spell-option{background:#e7f1e9;font-weight:600}.ca-spell-suggestions{display:block;margin-top:5px}.ca-spell-status{font-size:13px}

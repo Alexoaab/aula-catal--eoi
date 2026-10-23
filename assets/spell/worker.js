@@ -7,9 +7,14 @@ const ready=Promise.all(['ca.aff','ca.dic'].map(async name=>{
 })).then(([aff,dic])=>{dictionary=new Typo('ca',aff,dic);postMessage({type:'ready'});});
 ready.catch(()=>postMessage({type:'error'}));
 onmessage=async({data})=>{
- if(data.type!=='check')return;
+ if(!['check','suggest'].includes(data.type))return;
  try{
   await ready;
+  if(data.type==='suggest'){
+   const word=data.word.normalize('NFC').replace(/[’‘]/g,"'");
+   const suggestions=word.length<=32?dictionary.suggest(word,6):[];
+   postMessage({type:'suggestions',id:data.id,revision:data.revision,request:data.request,word:data.word,suggestions});return;
+  }
   const errors=[];
   for(const word of data.words){
    const normalized=word.normalize('NFC').replace(/[’‘]/g,"'").replace(/ŀ/g,'l·').replace(/Ŀ/g,'L·');

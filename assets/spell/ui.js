@@ -8,12 +8,13 @@
  function start(){
   if(worker||failed)return;
   try{
-   worker=new Worker(new URL('worker.js',base));
+   worker=new Worker(new URL('worker.js?v=2',base));
    worker.onmessage=({data})=>{
     if(data.type==='ready'){ready=true;for(const f of fields.values())if(f.el.isConnected)queue(f,0);return}
     if(data.type==='error'){fail();return}
     const f=fields.get(data.id);
     if(!f||!f.el.isConnected||!enabled||data.revision!==f.revision)return;
+    if(data.type==='suggestions'){showSuggestions(f,data);return}
     paint(f,new Set(data.errors));
    };
    worker.onerror=fail;
@@ -36,10 +37,36 @@
    const mark=document.createElement('mark');mark.textContent=t.word;frag.append(mark);last=t.end;
   }
   frag.append(document.createTextNode(f.el.value.slice(last)+'\n'));f.layer.append(frag);geometry(f);
-  const words=[...errors];f.status.textContent=words.length?'Revisa: '+words.slice(0,12).join(', ')+(words.length>12?'…':''):'Corrector català · Cap paraula desconeguda.';
+  f.errors=errors;f.status.replaceChildren();
+  if(!errors.size){f.status.textContent='Corrector català · Cap paraula desconeguda.';return}
+  f.status.append(document.createTextNode('Revisa (prem una paraula per veure suggeriments): '));
+  for(const word of errors){const button=document.createElement('button');button.type='button';button.className='ca-spell-word';button.textContent=word;button.onclick=()=>requestSuggestions(f,word);f.status.append(button)}
+  const panel=document.createElement('span');panel.className='ca-spell-suggestions';panel.setAttribute('aria-live','polite');f.status.append(panel);f.panel=panel;
+ } 
+ function requestSuggestions(f,word,start){
+  const token=tokens(f.el.value).find(t=>t.word===word&&(start===undefined||t.start===start));
+  if(!token||!f.panel||!enabled)return;
+  f.choice={...token,value:f.el.value,revision:f.revision,request:(f.request||0)+1};f.request=f.choice.request;
+  f.panel.textContent='Cercant suggeriments per a «'+word+'»…';
+  worker.postMessage({type:'suggest',id:f.id,revision:f.revision,request:f.request,word});
+ }
+ function showSuggestions(f,data){
+  const choice=f.choice;
+  if(!choice||data.request!==choice.request||choice.value!==f.el.value||!f.panel?.isConnected)return;
+  f.panel.replaceChildren();
+  f.panel.append(document.createTextNode(data.suggestions.length?'Substituir «'+choice.word+'» per: ':'No s’han trobat suggeriments per a «'+choice.word+'».'));
+  for(const suggestion of data.suggestions){
+   const button=document.createElement('button');button.type='button';button.className='ca-spell-option';button.textContent=suggestion;
+   button.onclick=()=>{
+    if(f.el.value!==choice.value||f.revision!==choice.revision)return;
+    f.el.focus();f.el.setRangeText(suggestion,choice.start,choice.end,'end');
+    f.el.dispatchEvent(new Event('input',{bubbles:true}));
+   };f.panel.append(button);
+  }
+
  }
  function queue(f,delay=450){
-  clearTimeout(f.timer);f.revision++;f.layer.replaceChildren();
+  clearTimeout(f.timer);f.revision++;f.choice=null;f.panel=null;f.errors=new Set();f.layer.replaceChildren();
   if(!enabled){f.status.textContent='Corrector català pausat.';return}
   if(failed){f.status.textContent='Corrector català no disponible. Recarrega la pàgina per tornar-ho a provar.';return}
   if(!f.el.value.trim()){f.status.textContent='Corrector català · Revisió ortogràfica local.';return}
@@ -57,13 +84,14 @@
   const layer=document.createElement('span');layer.className='ca-spell-layer';layer.setAttribute('aria-hidden','true');
   const status=document.createElement('span');status.className='ca-spell-status';status.id='ca-spell-'+(++nextId);
   el.setAttribute('aria-describedby',((el.getAttribute('aria-describedby')||'')+' '+status.id).trim());
-  el.before(wrap);wrap.append(layer,el);wrap.after(status);el.classList.add('ca-spell-input');
+  el.before(wrap);wrap.append(layer,el);const label=wrap.closest('label');(label||wrap).after(status);el.classList.add('ca-spell-input');
   if(el.tagName==='INPUT')wrap.classList.add('ca-spell-short');
   const f={el,layer,status,id:nextId,revision:0};fields.set(f.id,f);
   el.addEventListener('input',()=>{if(!f.composing)queue(f)});
   el.addEventListener('compositionstart',()=>{f.composing=true;f.revision++;clearTimeout(f.timer);layer.replaceChildren()});
   el.addEventListener('compositionend',()=>{f.composing=false;queue(f)});
   el.addEventListener('focus',()=>{if(enabled)start();geometry(f)});
+  el.addEventListener('click',()=>{const t=tokens(el.value).find(t=>t.start<=el.selectionStart&&t.end>=el.selectionStart);if(t&&f.errors?.has(t.word))requestSuggestions(f,t.word,t.start)});
   el.addEventListener('scroll',()=>geometry(f));
   if(window.ResizeObserver){f.observer=new ResizeObserver(()=>geometry(f));f.observer.observe(el)}
   queue(f);requestAnimationFrame(()=>geometry(f));
