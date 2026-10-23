@@ -1,0 +1,16 @@
+Corrector català local d’Aula
+
+Motor: Typo.js, Christopher Finke. Modified BSD license (TYPO-LICENSE.txt).
+Source: https://github.com/cfinke/Typo.js/tree/master/typo
+
+Catalan dictionary, version 3.0.8 (2023-08-06):
+Copyright (C) 2013-2023 Jaume Ortolà
+Copyright (C) 2002-2008 Joan Moratinos
+Distributed under LGPL 2.1 or later; full license: LGPL-2.1.txt.
+Dictionary files ca.aff and ca.dic are unmodified copies of:
+https://github.com/wooorm/dictionaries/tree/main/dictionaries/ca
+The original files and notices are available in this same folder.
+ca.aff SHA-1 Git blob: a00e65b156788fb8ac3d4be9f2d56b24e18c3a99
+ca.dic SHA-1 Git blob: d1ab153c03e59dc0ad5345afaa7d00b359547da6
+
+Local integration: ui.js, worker.js, style.css. No text is transmitted to a spelling service.
