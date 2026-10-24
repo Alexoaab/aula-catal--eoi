@@ -7,7 +7,9 @@
  let indexPromise;const shards=new Map(),formShards=new Map();
  async function loadJson(path){const r=await fetch(path);if(!r.ok)throw Error('dictionary');return r.json()}
  async function senses(word){
-  if(!indexPromise)indexPromise=loadJson('assets/definitions/index.json?v=1').catch(e=>{indexPromise=null;throw e});
+  word=word.normalize('NFC').toLocaleLowerCase('ca').replace(/[’‘]/g,"'").trim();
+  if(!word)return [];
+  if(!indexPromise)indexPromise=loadJson('assets/definitions/index.json?v=2').catch(e=>{indexPromise=null;throw e});
   const index=await indexPromise;let lemmas=Object.hasOwn(index,word)?index[word]:[];
   if(!lemmas.length){
    const key=word.codePointAt(0).toString(16);
@@ -20,7 +22,7 @@
   const found=[];
   for(const lemma of lemmas){
    const key=lemma.codePointAt(0).toString(16);
-   if(!shards.has(key))shards.set(key,loadJson('assets/definitions/data/'+key+'.json?v=1').catch(e=>{shards.delete(key);throw e}));
+   if(!shards.has(key))shards.set(key,loadJson('assets/definitions/data/'+key+'.json?v=2').catch(e=>{shards.delete(key);throw e}));
    const data=await shards.get(key);if(Object.hasOwn(data,lemma))found.push(data[lemma]);
   }
   return found;

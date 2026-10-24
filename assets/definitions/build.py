@@ -69,12 +69,14 @@ def walk(x,key=''):
    if k not in ignore:walk(v,k)
  elif isinstance(x,list):
   for v in x:walk(v,key)
- elif isinstance(x,str) and not x.startswith('data:'):texts.append(re.sub('<[^>]*>',' ',html.unescape(x)))
+ elif isinstance(x,str) and not x.startswith('data:'):texts.append(re.sub('<[^>]*>','',re.sub(r'</?(?:p|div|li|td|th|tr|h[1-6]|br|section|table|ul|ol)\b[^>]*>',' ',html.unescape(x),flags=re.I)))
 walk(base);walk(book)
 words=collections.Counter(re.findall(r"[^\W\d_]+(?:[·'’-][^\W\d_]+)*",' '.join(texts).lower(),re.U))
 words={unicodedata.normalize('NFC',w.replace('’',"'")):n for w,n in words.items()}
-forms={}
-for p in BOOK.joinpath('translate/forms').glob('*.json'):forms.update(json.loads(p.read_text()))
+from morphology import all_forms
+forms=all_forms(definitions)
+for form,lemma in {'pardalets':'pardalet','musicassets':'musicasset','rodolons':'rodoló','entravessa':'entravessar','jaguis':'jaure','distragui':'distreure','distraguis':'distreure','queixen':'queixar','queixava':'queixar','queixeu':'queixar','guixant':'guixar','esporguem':'esporgar','tramitadors':'tramitador','tramitadora':'tramitador','llarguíssim':'llarg','llarguíssima':'llarg','tardíssim':'tard','tarongers':'taronger','faroles':'farola','nominals':'nominal'}.items():
+ if lemma in definitions:forms.setdefault(form,[]).append(lemma)
 # Recursively follow attested inflections and redirects, preserving alternative lemmas.
 def resolve(word,seen=None):
  seen=set() if seen is None else seen
@@ -82,11 +84,12 @@ def resolve(word,seen=None):
  seen.add(word);out=[word] if word in definitions else []
  for lemma in aliases.get(word,[])+forms.get(word,[]):out.extend(resolve(lemma,seen))
  if not out:
-  clitic=re.match(r"^(.+?)(?:-(?:me|te|se|lo|la|los|les|li|ho|ne|hi|nos|vos)|'(?:m|t|s|l|ls|n))+$",word)
+  clitic=re.match(r"^(.+?)(?:-(?:me|te|se|lo|la|los|les|li|ho|ne|hi|nos|vos|us|m|t|s|l|n)|'(?:m|t|s|l|ls|n|ns|ho|hi))+$",word)
   if clitic:
    for lemma in resolve(clitic[1],seen):
     if any(s['pos'].startswith('verb') for s in definitions[lemma]['senses']):out.append(lemma)
  if not out and re.match(r"^(l|d|n|s|m|t)'",word):out.extend(resolve(word.split("'",1)[1],seen))
+ if not out and '-' in word and "'" not in word:out.extend(resolve(word.replace('-',''),seen))
  return list(dict.fromkeys(out))
 needed=set();index={};missing={}
 for word,count in words.items():

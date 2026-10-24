@@ -1,34 +1,7428 @@
 {
-"complement":[["nom masculí","Element que s’afegeix a un altre per completar-lo."],["nom masculí · gramàtica","Mot o grup de mots que completa o precisa el significat d’un altre element de l’oració."]],
-"qual":[["pronom relatiu","Precedit d’un article, introdueix una oració que fa referència a un antecedent: «la persona de la qual parlem»."],["determinant interrogatiu · ús antic o literari","Serveix per demanar la identificació o la qualitat d’una cosa."]],
-"indirecte":[["adjectiu","Que arriba a un resultat per mitjà d’una altra cosa, sense actuar-hi directament."],["adjectiu · gramàtica","Dit del discurs que reprodueix les paraules d’algú integrant-les en l’oració del narrador."],["adjectiu · gramàtica","En «complement indirecte», designa el complement que expressa habitualment el destinatari o beneficiari d’una acció."]],
-"postal":[["adjectiu","Relatiu al servei de correus."],["nom femení","Targeta, sovint amb una imatge, que es pot enviar per correu sense sobre."]],
-"indeterminat":[["adjectiu","Que no s’ha fixat, delimitat o identificat amb precisió."],["adjectiu · gramàtica","Dit de l’article que presenta un referent no identificat prèviament, com «un» o «una»."]],
-"preposicional":[["adjectiu · gramàtica","Relatiu a una preposició o a una construcció introduïda per una preposició."]],
-"consonàntic":[["adjectiu · fonètica","Relatiu a les consonants o que té les característiques d’una consonant."]],
-"intermedi":[["adjectiu","Situat entre dos extrems, moments o graus."],["nom masculí","Interval que interromp temporalment un espectacle o una activitat."]],
-"sintagma":[["nom masculí · gramàtica","Unitat formada per un mot o per un conjunt de mots organitzats al voltant d’un nucli, que exerceix una funció dins l’oració."]],
-"signatura":[["nom femení","Nom o traç amb què una persona identifica o valida un document."],["nom femení","Codi que indica on es conserva un document en una biblioteca o un arxiu."]],
-"destinatari":[["nom masculí","Persona o entitat a qui s’adreça un missatge, una tramesa o una comunicació."]],
-"informal":[["adjectiu","Que no segueix un protocol o unes convencions formals."],["adjectiu · llenguatge","Dit del registre propi de situacions de confiança o de poca formalitat."],["adjectiu","Que no compleix amb serietat els compromisos adquirits."]],
-"pronunciar":[["verb transitiu","Produir els sons que formen una paraula."],["verb transitiu","Dir públicament un discurs o unes paraules."],["verb pronominal","Expressar una opinió o prendre posició sobre una qüestió."]],
-"trasllat":[["nom masculí","Acció de portar algú o alguna cosa d’un lloc a un altre."],["nom masculí","Canvi de destinació o de lloc de treball."],["nom masculí · dret","Comunicació d’un escrit o d’una actuació a una part perquè en tingui coneixement o hi respongui."]],
-"invariable":[["adjectiu","Que no canvia."],["adjectiu · gramàtica","Dit d’un mot que no presenta variació de gènere, nombre o altres marques de flexió."]],
-"ortogràfic":[["adjectiu","Relatiu a les normes d’escriptura d’una llengua."]],
-"guionet":[["nom masculí · ortografia","Signe curt que uneix elements d’alguns mots o que indica la partició d’una paraula al final d’una ratlla."]],
-"vocàlic":[["adjectiu · fonètica","Relatiu a les vocals o que té les característiques d’una vocal."]],
-"atribut":[["nom masculí","Qualitat o característica pròpia d’algú o d’alguna cosa."],["nom masculí · gramàtica","Complement que expressa una propietat del subjecte a través d’un verb copulatiu, com a «La sala és gran»."],["nom masculí","Objecte o signe que permet reconèixer una figura en una representació artística."]],
-"fiscalia":[["nom femení · dret","Organisme o conjunt de serveis on exerceixen les seves funcions els fiscals."],["nom femení","Càrrec o funció de fiscal."]],
-"accentuació":[["nom femení · fonètica","Distribució o realització dels accents en la pronunciació."],["nom femení · ortografia","Col·locació dels accents gràfics segons les regles d’escriptura."],["nom femení","Acció de fer més intens o més perceptible un tret o una situació."]],
-"horari":[["adjectiu","Relatiu a les hores."],["nom masculí","Distribució de les hores en què es fan unes activitats o funciona un servei."]],
-"quantificador":[["nom masculí · gramàtica","Element que expressa quantitat, nombre o grau, com «molts», «tres» o «massa»."],["nom masculí · lògica","Operador que indica a quants elements s’aplica una afirmació."]],
-"comunicatiu":[["adjectiu","Relatiu a la comunicació."],["adjectiu","Dit d’algú que comparteix fàcilment pensaments o sentiments amb els altres."]],
-"cursiva":[["nom femení · tipografia","Lletra inclinada que es fa servir, entre altres usos, per destacar exemples, títols o mots citats."]],
-"cafeteria":[["nom femení","Establiment on se serveixen cafè, altres begudes i menjars senzills."]],
-"casset":[["nom masculí","Capsa que conté una cinta magnètica per enregistrar i reproduir so."],["nom masculí","Aparell que reprodueix o enregistra aquestes cintes."]],
-"encarregar":[["verb transitiu","Demanar a algú que faci una feina o que proporcioni una cosa."],["verb pronominal","Assumir la responsabilitat d’una tasca o d’una persona."]],
-"assegurança":[["nom femení","Contracte pel qual una entitat cobreix determinats riscos a canvi d’una prima."],["nom femení","Protecció o garantia davant un risc."]],
-"tècnic":[["adjectiu","Relatiu als procediments o coneixements especialitzats d’una activitat."],["nom masculí","Persona especialitzada en una tècnica o activitat professional."]],
-"tramitació":[["nom femení","Conjunt de passos i actuacions necessaris per gestionar o resoldre un assumpte administratiu o judicial."]],
-"fitxatge":[["nom masculí","Acció d’incorporar una persona a un equip o una organització."],["nom masculí","Registre de l’entrada o la sortida d’un lloc de treball."]]
+  "complement": [
+    [
+      "nom masculí",
+      "Element que s’afegeix a un altre per completar-lo."
+    ],
+    [
+      "nom masculí · gramàtica",
+      "Mot o grup de mots que completa o precisa el significat d’un altre element de l’oració."
+    ]
+  ],
+  "qual": [
+    [
+      "pronom relatiu",
+      "Precedit d’un article, introdueix una oració que fa referència a un antecedent: «la persona de la qual parlem»."
+    ],
+    [
+      "determinant interrogatiu · ús antic o literari",
+      "Serveix per demanar la identificació o la qualitat d’una cosa."
+    ]
+  ],
+  "indirecte": [
+    [
+      "adjectiu",
+      "Que arriba a un resultat per mitjà d’una altra cosa, sense actuar-hi directament."
+    ],
+    [
+      "adjectiu · gramàtica",
+      "Dit del discurs que reprodueix les paraules d’algú integrant-les en l’oració del narrador."
+    ],
+    [
+      "adjectiu · gramàtica",
+      "En «complement indirecte», designa el complement que expressa habitualment el destinatari o beneficiari d’una acció."
+    ]
+  ],
+  "postal": [
+    [
+      "adjectiu",
+      "Relatiu al servei de correus."
+    ],
+    [
+      "nom femení",
+      "Targeta, sovint amb una imatge, que es pot enviar per correu sense sobre."
+    ]
+  ],
+  "indeterminat": [
+    [
+      "adjectiu",
+      "Que no s’ha fixat, delimitat o identificat amb precisió."
+    ],
+    [
+      "adjectiu · gramàtica",
+      "Dit de l’article que presenta un referent no identificat prèviament, com «un» o «una»."
+    ]
+  ],
+  "preposicional": [
+    [
+      "adjectiu · gramàtica",
+      "Relatiu a una preposició o a una construcció introduïda per una preposició."
+    ]
+  ],
+  "consonàntic": [
+    [
+      "adjectiu · fonètica",
+      "Relatiu a les consonants o que té les característiques d’una consonant."
+    ]
+  ],
+  "intermedi": [
+    [
+      "adjectiu",
+      "Situat entre dos extrems, moments o graus."
+    ],
+    [
+      "nom masculí",
+      "Interval que interromp temporalment un espectacle o una activitat."
+    ]
+  ],
+  "sintagma": [
+    [
+      "nom masculí · gramàtica",
+      "Unitat formada per un mot o per un conjunt de mots organitzats al voltant d’un nucli, que exerceix una funció dins l’oració."
+    ]
+  ],
+  "signatura": [
+    [
+      "nom femení",
+      "Nom o traç amb què una persona identifica o valida un document."
+    ],
+    [
+      "nom femení",
+      "Codi que indica on es conserva un document en una biblioteca o un arxiu."
+    ]
+  ],
+  "destinatari": [
+    [
+      "nom masculí",
+      "Persona o entitat a qui s’adreça un missatge, una tramesa o una comunicació."
+    ]
+  ],
+  "informal": [
+    [
+      "adjectiu",
+      "Que no segueix un protocol o unes convencions formals."
+    ],
+    [
+      "adjectiu · llenguatge",
+      "Dit del registre propi de situacions de confiança o de poca formalitat."
+    ],
+    [
+      "adjectiu",
+      "Que no compleix amb serietat els compromisos adquirits."
+    ]
+  ],
+  "pronunciar": [
+    [
+      "verb transitiu",
+      "Produir els sons que formen una paraula."
+    ],
+    [
+      "verb transitiu",
+      "Dir públicament un discurs o unes paraules."
+    ],
+    [
+      "verb pronominal",
+      "Expressar una opinió o prendre posició sobre una qüestió."
+    ]
+  ],
+  "trasllat": [
+    [
+      "nom masculí",
+      "Acció de portar algú o alguna cosa d’un lloc a un altre."
+    ],
+    [
+      "nom masculí",
+      "Canvi de destinació o de lloc de treball."
+    ],
+    [
+      "nom masculí · dret",
+      "Comunicació d’un escrit o d’una actuació a una part perquè en tingui coneixement o hi respongui."
+    ]
+  ],
+  "invariable": [
+    [
+      "adjectiu",
+      "Que no canvia."
+    ],
+    [
+      "adjectiu · gramàtica",
+      "Dit d’un mot que no presenta variació de gènere, nombre o altres marques de flexió."
+    ]
+  ],
+  "ortogràfic": [
+    [
+      "adjectiu",
+      "Relatiu a les normes d’escriptura d’una llengua."
+    ]
+  ],
+  "guionet": [
+    [
+      "nom masculí · ortografia",
+      "Signe curt que uneix elements d’alguns mots o que indica la partició d’una paraula al final d’una ratlla."
+    ]
+  ],
+  "vocàlic": [
+    [
+      "adjectiu · fonètica",
+      "Relatiu a les vocals o que té les característiques d’una vocal."
+    ]
+  ],
+  "atribut": [
+    [
+      "nom masculí",
+      "Qualitat o característica pròpia d’algú o d’alguna cosa."
+    ],
+    [
+      "nom masculí · gramàtica",
+      "Complement que expressa una propietat del subjecte a través d’un verb copulatiu, com a «La sala és gran»."
+    ],
+    [
+      "nom masculí",
+      "Objecte o signe que permet reconèixer una figura en una representació artística."
+    ]
+  ],
+  "fiscalia": [
+    [
+      "nom femení · dret",
+      "Organisme o conjunt de serveis on exerceixen les seves funcions els fiscals."
+    ],
+    [
+      "nom femení",
+      "Càrrec o funció de fiscal."
+    ]
+  ],
+  "accentuació": [
+    [
+      "nom femení · fonètica",
+      "Distribució o realització dels accents en la pronunciació."
+    ],
+    [
+      "nom femení · ortografia",
+      "Col·locació dels accents gràfics segons les regles d’escriptura."
+    ],
+    [
+      "nom femení",
+      "Acció de fer més intens o més perceptible un tret o una situació."
+    ]
+  ],
+  "horari": [
+    [
+      "adjectiu",
+      "Relatiu a les hores."
+    ],
+    [
+      "nom masculí",
+      "Distribució de les hores en què es fan unes activitats o funciona un servei."
+    ]
+  ],
+  "quantificador": [
+    [
+      "nom masculí · gramàtica",
+      "Element que expressa quantitat, nombre o grau, com «molts», «tres» o «massa»."
+    ],
+    [
+      "nom masculí · lògica",
+      "Operador que indica a quants elements s’aplica una afirmació."
+    ]
+  ],
+  "comunicatiu": [
+    [
+      "adjectiu",
+      "Relatiu a la comunicació."
+    ],
+    [
+      "adjectiu",
+      "Dit d’algú que comparteix fàcilment pensaments o sentiments amb els altres."
+    ]
+  ],
+  "cursiva": [
+    [
+      "nom femení · tipografia",
+      "Lletra inclinada que es fa servir, entre altres usos, per destacar exemples, títols o mots citats."
+    ]
+  ],
+  "cafeteria": [
+    [
+      "nom femení",
+      "Establiment on se serveixen cafè, altres begudes i menjars senzills."
+    ]
+  ],
+  "casset": [
+    [
+      "nom masculí",
+      "Capsa que conté una cinta magnètica per enregistrar i reproduir so."
+    ],
+    [
+      "nom masculí",
+      "Aparell que reprodueix o enregistra aquestes cintes."
+    ]
+  ],
+  "encarregar": [
+    [
+      "verb transitiu",
+      "Demanar a algú que faci una feina o que proporcioni una cosa."
+    ],
+    [
+      "verb pronominal",
+      "Assumir la responsabilitat d’una tasca o d’una persona."
+    ]
+  ],
+  "assegurança": [
+    [
+      "nom femení",
+      "Contracte pel qual una entitat cobreix determinats riscos a canvi d’una prima."
+    ],
+    [
+      "nom femení",
+      "Protecció o garantia davant un risc."
+    ]
+  ],
+  "tècnic": [
+    [
+      "adjectiu",
+      "Relatiu als procediments o coneixements especialitzats d’una activitat."
+    ],
+    [
+      "nom masculí",
+      "Persona especialitzada en una tècnica o activitat professional."
+    ]
+  ],
+  "tramitació": [
+    [
+      "nom femení",
+      "Conjunt de passos que cal seguir per gestionar o resoldre un assumpte."
+    ]
+  ],
+  "fitxatge": [
+    [
+      "nom masculí",
+      "Acció d’incorporar una persona a un equip o una organització."
+    ],
+    [
+      "nom masculí",
+      "Registre de l’entrada o la sortida d’un lloc de treball."
+    ]
+  ],
+  "acarament": [
+    [
+      "nom masculí",
+      "Acció de posar persones o coses cara a cara, o de comparar-les per observar-ne les coincidències i les diferències."
+    ],
+    [
+      "nom masculí · dret processal",
+      "Actuació en què es contrasten les versions de les parts o dels testimonis per aclarir punts en què discrepen."
+    ]
+  ],
+  "equivaler": [
+    [
+      "verb",
+      "Tenir el mateix valor, significat o efecte que una altra cosa."
+    ]
+  ],
+  "ria": [
+    [
+      "nom femení",
+      "Entrada del mar en una vall fluvial que ha quedat submergida."
+    ]
+  ],
+  "sms": [
+    [
+      "nom masculí",
+      "Missatge breu de text enviat per la xarxa de telefonia mòbil."
+    ]
+  ],
+  "ament": [
+    [
+      "nom masculí · botànica",
+      "Inflorescència allargada, sovint penjant, formada per petites flors poc vistoses."
+    ]
+  ],
+  "anti": [
+    [
+      "prefix",
+      "Indica oposició, prevenció o protecció respecte d’allò que expressa la base."
+    ]
+  ],
+  "atlàntic": [
+    [
+      "adjectiu",
+      "Relatiu a l’oceà Atlàntic o als territoris que hi estan vinculats."
+    ]
+  ],
+  "pin": [
+    [
+      "nom masculí",
+      "Codi personal que permet identificar-se o desbloquejar un dispositiu o un servei."
+    ],
+    [
+      "nom masculí",
+      "Insígnia petita que es fixa a la roba."
+    ]
+  ],
+  "cartell": [
+    [
+      "nom masculí",
+      "Full o làmina que s’exposa en un lloc visible per anunciar o informar."
+    ],
+    [
+      "nom masculí",
+      "Conjunt d’artistes o participants anunciats per a un espectacle."
+    ],
+    [
+      "nom masculí",
+      "Acord entre empreses per limitar la competència."
+    ]
+  ],
+  "mantenidor": [
+    [
+      "nom masculí",
+      "Persona encarregada de conservar o mantenir alguna cosa."
+    ],
+    [
+      "nom masculí",
+      "Persona que pronuncia el discurs principal en determinats certàmens literaris."
+    ]
+  ],
+  "selectiu": [
+    [
+      "adjectiu",
+      "Que implica triar entre diverses possibilitats o que actua només sobre alguns elements."
+    ]
+  ],
+  "innegable": [
+    [
+      "adjectiu",
+      "Que no es pot negar raonablement perquè resulta evident o està provat."
+    ]
+  ],
+  "urbanitzable": [
+    [
+      "adjectiu",
+      "Dit d’un terreny que pot ser objecte d’urbanització d’acord amb el planejament."
+    ]
+  ],
+  "excés": [
+    [
+      "nom masculí",
+      "Quantitat que supera allò que és necessari, habitual o permès."
+    ],
+    [
+      "nom masculí",
+      "Comportament que ultrapassa els límits considerats acceptables."
+    ]
+  ],
+  "accessori": [
+    [
+      "adjectiu",
+      "Que acompanya una cosa principal sense ser-ne la part essencial."
+    ],
+    [
+      "nom masculí",
+      "Objecte que complementa un vestit, un aparell o un equip."
+    ]
+  ],
+  "reparar": [
+    [
+      "verb",
+      "Restablir el bon estat o funcionament d’una cosa espatllada."
+    ],
+    [
+      "verb",
+      "Compensar o corregir un dany o una injustícia."
+    ],
+    [
+      "verb",
+      "Fixar l’atenció en una cosa, especialment en la construcció «reparar en»."
+    ]
+  ],
+  "aparcament": [
+    [
+      "nom masculí",
+      "Acció de deixar un vehicle estacionat."
+    ],
+    [
+      "nom masculí",
+      "Espai destinat a estacionar vehicles."
+    ]
+  ],
+  "sica": [
+    [
+      "nom femení",
+      "Daga curta i corba utilitzada a l’antiguitat."
+    ]
+  ],
+  "etc": [
+    [
+      "abreviatura",
+      "Abreviatura d’«etcètera», que indica que una enumeració podria continuar amb altres elements semblants."
+    ]
+  ],
+  "nacionalitat": [
+    [
+      "nom femení",
+      "Vincle jurídic d’una persona amb un estat."
+    ],
+    [
+      "nom femení",
+      "Condició o caràcter propi d’una comunitat nacional."
+    ]
+  ],
+  "mutable": [
+    [
+      "adjectiu",
+      "Que pot canviar o transformar-se."
+    ]
+  ],
+  "recaptació": [
+    [
+      "nom femení",
+      "Acció de cobrar o reunir diners."
+    ],
+    [
+      "nom femení",
+      "Quantitat de diners reunida, especialment per impostos, entrades o donatius."
+    ]
+  ],
+  "clientela": [
+    [
+      "nom femení",
+      "Conjunt de clients d’un establiment o d’un professional."
+    ],
+    [
+      "nom femení",
+      "Conjunt de persones vinculades a algú per favors o dependència."
+    ]
+  ],
+  "directiva": [
+    [
+      "nom femení",
+      "Conjunt de persones que dirigeixen una entitat."
+    ],
+    [
+      "nom femení",
+      "Instrucció o orientació que s’ha de seguir."
+    ],
+    [
+      "nom femení",
+      "Acte de la Unió Europea que obliga els estats destinataris pel que fa als resultats que cal assolir."
+    ]
+  ],
+  "sida": [
+    [
+      "nom femení",
+      "Síndrome d’immunodeficiència adquirida: fase avançada de la infecció pel VIH que comporta una disminució important de les defenses immunitàries."
+    ]
+  ],
+  "insistent": [
+    [
+      "adjectiu",
+      "Que persisteix a demanar, afirmar o fer una cosa."
+    ],
+    [
+      "adjectiu",
+      "Que es repeteix de manera continuada."
+    ]
+  ],
+  "perspectiva": [
+    [
+      "nom femení",
+      "Manera de representar la profunditat en una superfície plana."
+    ],
+    [
+      "nom femení",
+      "Punt de vista des del qual es considera una qüestió."
+    ],
+    [
+      "nom femení",
+      "Possibilitat o expectativa de futur."
+    ],
+    [
+      "nom femení",
+      "Vista d’un espai des d’un lloc determinat."
+    ]
+  ],
+  "veïnal": [
+    [
+      "adjectiu",
+      "Relatiu als veïns o a les relacions i activitats d’un barri."
+    ]
+  ],
+  "equivocar": [
+    [
+      "verb",
+      "Confondre una cosa amb una altra."
+    ],
+    [
+      "verb",
+      "Cometre un error, en ús pronominal: «equivocar-se»."
+    ]
+  ],
+  "saludar": [
+    [
+      "verb",
+      "Adreçar paraules o gestos de cortesia a algú."
+    ],
+    [
+      "verb",
+      "Expressar respecte, reconeixement o benvinguda."
+    ]
+  ],
+  "aspirina": [
+    [
+      "nom femení",
+      "Medicament que conté àcid acetilsalicílic, o comprimit d’aquest medicament."
+    ]
+  ],
+  "subdirector": [
+    [
+      "nom masculí",
+      "Persona que ocupa un càrrec de direcció immediatament inferior al de director."
+    ]
+  ],
+  "interrogatori": [
+    [
+      "nom masculí",
+      "Conjunt de preguntes dirigides a algú per obtenir informació."
+    ],
+    [
+      "nom masculí",
+      "Acte de formular aquestes preguntes, especialment en una investigació o un procediment judicial."
+    ]
+  ],
+  "compensació": [
+    [
+      "nom femení",
+      "Acció de contrarestar un perjudici, una pèrdua o un desequilibri."
+    ],
+    [
+      "nom femení",
+      "Allò que es dona per reparar un dany o retribuir una prestació."
+    ],
+    [
+      "nom femení",
+      "Extinció recíproca de deutes fins a l’import concurrent."
+    ]
+  ],
+  "temporalitat": [
+    [
+      "nom femení",
+      "Condició d’allò que dura un temps limitat."
+    ],
+    [
+      "nom femení",
+      "Relació d’un fet o d’una expressió amb el temps."
+    ],
+    [
+      "nom femení",
+      "Caràcter temporal d’un contracte de treball."
+    ]
+  ],
+  "formalitat": [
+    [
+      "nom femení",
+      "Compliment de les convencions o normes d’una situació."
+    ],
+    [
+      "nom femení",
+      "Tràmit o requisit que s’ha de complir."
+    ],
+    [
+      "nom femení",
+      "Serietat i responsabilitat en la conducta."
+    ]
+  ],
+  "orientatiu": [
+    [
+      "adjectiu",
+      "Que serveix de guia o referència, sense fixar necessàriament una regla obligatòria."
+    ]
+  ],
+  "coproducció": [
+    [
+      "nom femení",
+      "Producció feta conjuntament per dues o més persones o entitats."
+    ],
+    [
+      "nom femení",
+      "Obra resultant d’aquesta col·laboració."
+    ]
+  ],
+  "enregistrament": [
+    [
+      "nom masculí",
+      "Acció de fixar sons, imatges o dades en un suport."
+    ],
+    [
+      "nom masculí",
+      "Contingut que ha quedat fixat en aquest suport."
+    ]
+  ],
+  "palatal": [
+    [
+      "adjectiu",
+      "Relatiu al paladar."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un so articulat acostant la llengua al paladar dur."
+    ]
+  ],
+  "formular": [
+    [
+      "verb",
+      "Expressar una idea, una pregunta o una proposta de manera precisa."
+    ],
+    [
+      "verb",
+      "Establir una fórmula o donar forma explícita a una regla."
+    ]
+  ],
+  "ressò": [
+    [
+      "nom masculí",
+      "Repetició o prolongació d’un so per reflexió."
+    ],
+    [
+      "nom masculí",
+      "Difusió o repercussió pública d’un fet o d’una notícia."
+    ]
+  ],
+  "pròleg": [
+    [
+      "nom masculí",
+      "Text preliminar que presenta una obra."
+    ],
+    [
+      "nom masculí",
+      "Fet que precedeix i anuncia una situació posterior."
+    ]
+  ],
+  "esportista": [
+    [
+      "nom",
+      "Persona que practica un esport, especialment de manera habitual o professional."
+    ]
+  ],
+  "retolador": [
+    [
+      "nom masculí",
+      "Instrument d’escriptura o dibuix amb una punta porosa impregnada de tinta."
+    ]
+  ],
+  "iot": [
+    [
+      "nom masculí",
+      "Embarcació d’esbarjo, de vela o de motor."
+    ]
+  ],
+  "guardar": [
+    [
+      "verb",
+      "Posar una cosa en un lloc per conservar-la."
+    ],
+    [
+      "verb",
+      "Vigilar o protegir algú o alguna cosa."
+    ],
+    [
+      "verb",
+      "Reservar una cosa per a més endavant."
+    ],
+    [
+      "verb",
+      "Respectar una norma o mantenir un secret."
+    ],
+    [
+      "verb",
+      "Desar informació en un suport digital."
+    ]
+  ],
+  "rellotgeria": [
+    [
+      "nom femení",
+      "Ofici o tècnica de fabricar i reparar rellotges."
+    ],
+    [
+      "nom femení",
+      "Establiment on es venen o es reparen rellotges."
+    ]
+  ],
+  "adjudicatari": [
+    [
+      "nom",
+      "Persona o entitat a qui s’atorga un contracte, un bé o un dret en una adjudicació."
+    ]
+  ],
+  "degustació": [
+    [
+      "nom femení",
+      "Acció de tastar un aliment o una beguda per apreciar-ne les qualitats."
+    ]
+  ],
+  "rebel": [
+    [
+      "adjectiu",
+      "Que s’oposa a una autoritat o es resisteix a obeir."
+    ],
+    [
+      "adjectiu",
+      "Que resulta difícil de dominar o corregir."
+    ]
+  ],
+  "tic": [
+    [
+      "nom masculí",
+      "Moviment breu i involuntari que es repeteix."
+    ],
+    [
+      "nom masculí",
+      "Hàbit repetitiu de gest, expressió o estil."
+    ]
+  ],
+  "rebedor": [
+    [
+      "nom masculí",
+      "Espai d’entrada d’un habitatge o edifici destinat a rebre les persones que hi arriben."
+    ]
+  ],
+  "burleta": [
+    [
+      "adjectiu",
+      "Que té costum de fer burla o expressa burla."
+    ]
+  ],
+  "incertesa": [
+    [
+      "nom femení",
+      "Manca de certesa o de coneixement segur sobre una cosa."
+    ]
+  ],
+  "col·leccionista": [
+    [
+      "nom",
+      "Persona que reuneix i conserva objectes d’una mateixa classe per interès o afició."
+    ]
+  ],
+  "infracció": [
+    [
+      "nom femení",
+      "Incompliment d’una norma, una llei o un reglament."
+    ]
+  ],
+  "prevenir": [
+    [
+      "verb",
+      "Prendre mesures per evitar un dany o un problema."
+    ],
+    [
+      "verb",
+      "Advertir algú d’un risc o d’un fet que pot passar."
+    ],
+    [
+      "verb",
+      "Predisposar algú a favor o en contra d’una persona o una cosa."
+    ]
+  ],
+  "notariat": [
+    [
+      "nom masculí",
+      "Professió o funció dels notaris."
+    ],
+    [
+      "nom masculí",
+      "Conjunt dels notaris d’un territori."
+    ]
+  ],
+  "desplegament": [
+    [
+      "nom masculí",
+      "Acció d’estendre o obrir una cosa plegada."
+    ],
+    [
+      "nom masculí",
+      "Distribució de persones o mitjans per dur a terme una operació."
+    ],
+    [
+      "nom masculí",
+      "Posada en pràctica d’un pla o d’un sistema."
+    ]
+  ],
+  "afirmatiu": [
+    [
+      "adjectiu",
+      "Que expressa assentiment o confirmació."
+    ],
+    [
+      "adjectiu",
+      "Dit d’una oració que afirma un contingut sense negar-lo."
+    ]
+  ],
+  "mixt": [
+    [
+      "adjectiu",
+      "Format per elements de tipus diferents."
+    ],
+    [
+      "adjectiu",
+      "En què participen persones de sexes diferents."
+    ]
+  ],
+  "reincorporar": [
+    [
+      "verb",
+      "Tornar a integrar algú o alguna cosa en un conjunt o una activitat."
+    ],
+    [
+      "verb",
+      "Tornar a la feina o a una activitat interrompuda, en ús pronominal."
+    ]
+  ],
+  "indispensable": [
+    [
+      "adjectiu",
+      "Que és absolutament necessari."
+    ]
+  ],
+  "arxivador": [
+    [
+      "nom masculí",
+      "Carpeta, moble o dispositiu destinat a classificar i guardar documents."
+    ]
+  ],
+  "adverbial": [
+    [
+      "adjectiu",
+      "Relatiu a l’adverbi o que exerceix una funció semblant a la d’un adverbi."
+    ]
+  ],
+  "etiqueta": [
+    [
+      "nom femení",
+      "Rètol que identifica un objecte o n’indica característiques."
+    ],
+    [
+      "nom femení",
+      "Conjunt de normes de comportament formal."
+    ],
+    [
+      "nom femení",
+      "Classificació simplificadora que s’aplica a algú."
+    ],
+    [
+      "nom femení",
+      "Marca que permet classificar continguts digitals."
+    ]
+  ],
+  "etiquetar": [
+    [
+      "verb",
+      "Posar una etiqueta a una cosa."
+    ],
+    [
+      "verb",
+      "Classificar algú o alguna cosa amb una denominació determinada."
+    ]
+  ],
+  "reforçar": [
+    [
+      "verb",
+      "Fer més fort, resistent o intens."
+    ],
+    [
+      "verb",
+      "Afegir recursos o suport a una activitat o a un grup."
+    ]
+  ],
+  "reducte": [
+    [
+      "nom masculí",
+      "Recinte fortificat de dimensions reduïdes."
+    ],
+    [
+      "nom masculí",
+      "Lloc o grup en què es conserva una realitat que ha desaparegut d’altres indrets."
+    ]
+  ],
+  "cardiòleg": [
+    [
+      "nom masculí",
+      "Metge especialista en el cor i en les seves malalties."
+    ]
+  ],
+  "tràfic": [
+    [
+      "nom masculí",
+      "Comerç o intercanvi de mercaderies."
+    ],
+    [
+      "nom masculí",
+      "Comerç il·lícit de productes o persones."
+    ],
+    [
+      "nom masculí",
+      "Volum de comunicacions o de dades que circulen per una xarxa."
+    ]
+  ],
+  "amuntegament": [
+    [
+      "nom masculí",
+      "Acció d’apilar o acumular coses sense gaire ordre."
+    ],
+    [
+      "nom masculí",
+      "Acumulació excessiva de persones o coses en un espai."
+    ]
+  ],
+  "dicció": [
+    [
+      "nom femení",
+      "Manera de pronunciar i articular les paraules."
+    ],
+    [
+      "nom femení",
+      "Manera d’expressar-se amb paraules."
+    ]
+  ],
+  "entonació": [
+    [
+      "nom femení",
+      "Variació del to de la veu que organitza una expressió oral i n’indica la intenció."
+    ],
+    [
+      "nom femení",
+      "Acció de cantar o tocar amb el to adequat."
+    ]
+  ],
+  "dialectal": [
+    [
+      "adjectiu",
+      "Relatiu a un dialecte o propi d’una varietat territorial d’una llengua."
+    ]
+  ],
+  "vinil": [
+    [
+      "nom masculí",
+      "Material plàstic utilitzat en recobriments i altres productes."
+    ],
+    [
+      "nom masculí",
+      "Disc de música fabricat amb aquest material."
+    ]
+  ],
+  "reproductor": [
+    [
+      "adjectiu",
+      "Que reprodueix o permet reproduir alguna cosa."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a la reproducció dels éssers vius."
+    ],
+    [
+      "nom masculí",
+      "Aparell que permet escoltar o veure continguts enregistrats."
+    ]
+  ],
+  "ètnic": [
+    [
+      "adjectiu",
+      "Relatiu a una comunitat humana definida per trets culturals, històrics o lingüístics compartits."
+    ]
+  ],
+  "vellositat": [
+    [
+      "nom femení",
+      "Conjunt de pèls fins d’una superfície."
+    ],
+    [
+      "nom femení",
+      "Petita prolongació semblant a un pèl en un teixit biològic."
+    ]
+  ],
+  "encantador": [
+    [
+      "adjectiu",
+      "Que resulta molt agradable, amable o atractiu."
+    ],
+    [
+      "adjectiu",
+      "Que exerceix un encantament."
+    ]
+  ],
+  "desorganitzar": [
+    [
+      "verb",
+      "Alterar o destruir l’ordre d’un conjunt o d’una activitat."
+    ]
+  ],
+  "loció": [
+    [
+      "nom femení",
+      "Preparat líquid que s’aplica a la pell o als cabells amb finalitat higiènica, cosmètica o terapèutica."
+    ]
+  ],
+  "adhesió": [
+    [
+      "nom femení",
+      "Acció d’unir-se o quedar enganxat a una superfície."
+    ],
+    [
+      "nom femení",
+      "Suport o incorporació a una idea, una proposta o una organització."
+    ]
+  ],
+  "electricista": [
+    [
+      "nom",
+      "Professional que instal·la, manté o repara instal·lacions elèctriques."
+    ]
+  ],
+  "retreure": [
+    [
+      "verb",
+      "Recordar a algú una acció que es considera censurable."
+    ],
+    [
+      "verb",
+      "Fer retrocedir o retirar una part del cos o un mecanisme."
+    ],
+    [
+      "verb",
+      "Apartar-se o inhibir-se, en ús pronominal."
+    ]
+  ],
+  "reedició": [
+    [
+      "nom femení",
+      "Nova edició d’una obra ja publicada."
+    ]
+  ],
+  "fluorescent": [
+    [
+      "adjectiu",
+      "Que emet llum per fluorescència."
+    ],
+    [
+      "adjectiu",
+      "Dit del llum que funciona mitjançant aquest fenomen."
+    ]
+  ],
+  "carnisseria": [
+    [
+      "nom femení",
+      "Establiment on es ven carn."
+    ],
+    [
+      "nom femení",
+      "Matança especialment cruel o nombrosa, en sentit figurat."
+    ]
+  ],
+  "verduleria": [
+    [
+      "nom femení",
+      "Establiment on es venen verdures i altres productes de l’horta."
+    ]
+  ],
+  "ferotge": [
+    [
+      "adjectiu",
+      "Molt cruel o agressiu."
+    ],
+    [
+      "adjectiu",
+      "Molt intens o implacable."
+    ]
+  ],
+  "anarquista": [
+    [
+      "adjectiu",
+      "Relatiu a l’anarquisme o partidari d’aquesta doctrina política."
+    ]
+  ],
+  "roser": [
+    [
+      "nom masculí",
+      "Arbust del gènere Rosa que produeix roses."
+    ]
+  ],
+  "duració": [
+    [
+      "nom femení",
+      "Temps durant el qual existeix o es desenvolupa una cosa."
+    ]
+  ],
+  "emmagatzematge": [
+    [
+      "nom masculí",
+      "Acció de guardar i acumular productes o dades en un lloc o suport adequat."
+    ]
+  ],
+  "arrendatari": [
+    [
+      "nom",
+      "Persona que rep l’ús d’un bé mitjançant un contracte d’arrendament i el pagament d’una renda."
+    ]
+  ],
+  "materialista": [
+    [
+      "adjectiu",
+      "Que considera la matèria com a realitat fonamental."
+    ],
+    [
+      "adjectiu",
+      "Que dona molta importància als béns materials."
+    ]
+  ],
+  "potenciar": [
+    [
+      "verb",
+      "Augmentar la força, la capacitat o la influència d’algú o d’alguna cosa."
+    ]
+  ],
+  "infinitat": [
+    [
+      "nom femení",
+      "Quantitat molt gran, considerada impossible de comptar."
+    ],
+    [
+      "nom femení",
+      "Qualitat d’allò que no té límit."
+    ]
+  ],
+  "liquadora": [
+    [
+      "nom femení",
+      "Aparell que extreu el suc de fruites o verdures separant-ne part dels residus sòlids."
+    ]
+  ],
+  "quocient": [
+    [
+      "nom masculí",
+      "Resultat d’una divisió."
+    ],
+    [
+      "nom masculí",
+      "Relació numèrica obtinguda comparant dues magnituds."
+    ]
+  ],
+  "pidolaire": [
+    [
+      "nom",
+      "Persona que demana almoina o que acostuma a demanar coses als altres."
+    ]
+  ],
+  "peüc": [
+    [
+      "nom masculí",
+      "Peça de roba o de punt que cobreix el peu, especialment d’un nadó."
+    ],
+    [
+      "nom masculí",
+      "Cobertura lleugera que es posa sobre el calçat per motius d’higiene."
+    ]
+  ],
+  "reumàtic": [
+    [
+      "adjectiu",
+      "Relatiu al reumatisme."
+    ],
+    [
+      "adjectiu",
+      "Que pateix reumatisme."
+    ]
+  ],
+  "certamen": [
+    [
+      "nom masculí",
+      "Concurs en què es valoren i es premien obres, habilitats o treballs."
+    ]
+  ],
+  "gomós": [
+    [
+      "adjectiu",
+      "Que conté goma o en té la consistència enganxosa i elàstica."
+    ]
+  ],
+  "desgastar": [
+    [
+      "verb",
+      "Deteriorar progressivament una cosa per l’ús o el fregament."
+    ],
+    [
+      "verb",
+      "Consumir les forces, la credibilitat o els recursos d’algú."
+    ]
+  ],
+  "vivència": [
+    [
+      "nom femení",
+      "Experiència viscuda per una persona i percebuda de manera subjectiva."
+    ]
+  ],
+  "taverna": [
+    [
+      "nom femení",
+      "Establiment popular on se serveixen begudes i, sovint, menjar."
+    ]
+  ],
+  "dispositiu": [
+    [
+      "nom masculí",
+      "Mecanisme o aparell preparat per complir una funció."
+    ],
+    [
+      "nom masculí",
+      "Organització de persones i mitjans per dur a terme una actuació."
+    ]
+  ],
+  "electromagnètic": [
+    [
+      "adjectiu",
+      "Relatiu a la relació entre els fenòmens elèctrics i magnètics."
+    ]
+  ],
+  "avellaner": [
+    [
+      "nom masculí",
+      "Arbust o arbre petit que produeix avellanes."
+    ]
+  ],
+  "aràbic": [
+    [
+      "adjectiu",
+      "Relatiu als àrabs, a la seva llengua o a la seva cultura."
+    ],
+    [
+      "adjectiu",
+      "Dit del sistema de xifres habitual, del zero al nou."
+    ]
+  ],
+  "finançar": [
+    [
+      "verb",
+      "Proporcionar els diners necessaris per a una activitat o una despesa."
+    ]
+  ],
+  "consumidor": [
+    [
+      "nom masculí",
+      "Persona que adquireix o utilitza béns o serveis."
+    ],
+    [
+      "nom masculí",
+      "Organisme que obté energia alimentant-se d’altres éssers vius."
+    ]
+  ],
+  "susceptible": [
+    [
+      "adjectiu",
+      "Que es pot sotmetre a una acció o experimentar un canvi."
+    ],
+    [
+      "adjectiu",
+      "Que s’ofèn amb facilitat."
+    ]
+  ],
+  "reglamentari": [
+    [
+      "adjectiu",
+      "Establert per un reglament o ajustat a les seves normes."
+    ]
+  ],
+  "aplicable": [
+    [
+      "adjectiu",
+      "Que es pot posar en pràctica o utilitzar en un cas determinat."
+    ]
+  ],
+  "rectilini": [
+    [
+      "adjectiu",
+      "Que segueix una línia recta o està format per línies rectes."
+    ]
+  ],
+  "quilometratge": [
+    [
+      "nom masculí",
+      "Distància recorreguda expressada en quilòmetres."
+    ],
+    [
+      "nom masculí",
+      "Quantitat que es paga per cada quilòmetre recorregut."
+    ]
+  ],
+  "premonitori": [
+    [
+      "adjectiu",
+      "Que sembla anunciar o pressentir un fet futur."
+    ]
+  ],
+  "pairal": [
+    [
+      "adjectiu",
+      "Relatiu als avantpassats o a la casa d’origen d’una família."
+    ]
+  ],
+  "siamès": [
+    [
+      "adjectiu",
+      "Relatiu a Siam, nom històric de Tailàndia."
+    ],
+    [
+      "adjectiu",
+      "Dit d’una raça de gats de cos clar i extrems foscos."
+    ],
+    [
+      "adjectiu",
+      "Dit de cadascun dels bessons que neixen units per alguna part del cos."
+    ]
+  ],
+  "transgressió": [
+    [
+      "nom femení",
+      "Acció d’ultrapassar o vulnerar una norma, un límit o una convenció."
+    ]
+  ],
+  "nazisme": [
+    [
+      "nom masculí",
+      "Ideologia i moviment polític totalitari, racista i antisemita dirigit per Adolf Hitler a Alemanya."
+    ]
+  ],
+  "presumpte": [
+    [
+      "adjectiu",
+      "Que se suposa que té una condició o que ha fet una acció, sense que s’hagi demostrat."
+    ]
+  ],
+  "dinamita": [
+    [
+      "nom femení",
+      "Explosiu basat en nitroglicerina absorbida en un material estabilitzador."
+    ]
+  ],
+  "falsejar": [
+    [
+      "verb",
+      "Modificar o presentar una cosa de manera que no s’ajusti a la veritat."
+    ],
+    [
+      "verb",
+      "Alterar dades o resultats."
+    ]
+  ],
+  "projecció": [
+    [
+      "nom femení",
+      "Acció de llançar o dirigir una cosa cap a fora."
+    ],
+    [
+      "nom femení",
+      "Representació d’una imatge sobre una pantalla."
+    ],
+    [
+      "nom femení",
+      "Estimació de l’evolució futura d’una magnitud."
+    ],
+    [
+      "nom femení",
+      "Influència o difusió que una persona o activitat arriba a tenir."
+    ]
+  ],
+  "commoció": [
+    [
+      "nom femení",
+      "Alteració intensa de l’estat emocional o de la vida col·lectiva."
+    ],
+    [
+      "nom femení",
+      "Trastorn produït per un cop o una sacsejada, especialment al cervell."
+    ]
+  ],
+  "constrenyiment": [
+    [
+      "nom masculí",
+      "Acció d’obligar algú a actuar limitant-ne la llibertat."
+    ],
+    [
+      "nom masculí",
+      "Procediment d’execució forçosa per obtenir el compliment d’una obligació, especialment d’un pagament."
+    ]
+  ],
+  "il·limitat": [
+    [
+      "adjectiu",
+      "Que no té límits establerts."
+    ]
+  ],
+  "cancel·lació": [
+    [
+      "nom femení",
+      "Acció d’anul·lar una reserva, una activitat, una obligació o una inscripció."
+    ]
+  ],
+  "pol·lució": [
+    [
+      "nom femení",
+      "Contaminació del medi per substàncies nocives."
+    ],
+    [
+      "nom femení",
+      "Emissió involuntària de semen."
+    ]
+  ],
+  "catar": [
+    [
+      "verb",
+      "Tastar un aliment o una beguda per examinar-ne les qualitats."
+    ]
+  ],
+  "contenciós": [
+    [
+      "adjectiu",
+      "Que és objecte de disputa o litigi."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a la resolució judicial de controvèrsies, especialment amb l’Administració."
+    ]
+  ],
+  "sancionador": [
+    [
+      "adjectiu",
+      "Que imposa sancions o regula la manera d’imposar-les."
+    ]
+  ],
+  "notificació": [
+    [
+      "nom femení",
+      "Comunicació formal d’una decisió o d’un acte a la persona interessada."
+    ],
+    [
+      "nom femení",
+      "Avís que emet un sistema o una aplicació."
+    ]
+  ],
+  "distar": [
+    [
+      "verb",
+      "Estar separat per una determinada distància."
+    ],
+    [
+      "verb",
+      "Diferir o estar lluny d’una situació o qualitat."
+    ]
+  ],
+  "tètic": [
+    [
+      "adjectiu",
+      "Que estableix o afirma una tesi."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un enunciat que presenta globalment un fet, sense separar-lo en tema i comentari."
+    ]
+  ],
+  "turgent": [
+    [
+      "adjectiu",
+      "Que està inflat, tibant o ple de líquid."
+    ]
+  ],
+  "perfeccionista": [
+    [
+      "adjectiu",
+      "Que busca un grau molt alt de perfecció en allò que fa."
+    ]
+  ],
+  "aïllament": [
+    [
+      "nom masculí",
+      "Separació respecte d’altres persones, elements o influències."
+    ],
+    [
+      "nom masculí",
+      "Protecció que impedeix o dificulta el pas de calor, so, electricitat o humitat."
+    ]
+  ],
+  "restringir": [
+    [
+      "verb",
+      "Reduir els límits, l’abast o les possibilitats d’una cosa."
+    ]
+  ],
+  "globalitzat": [
+    [
+      "adjectiu",
+      "Integrat en un sistema d’intercanvis i relacions d’abast mundial."
+    ]
+  ],
+  "financer": [
+    [
+      "adjectiu",
+      "Relatiu a la gestió dels diners, el crèdit o les inversions."
+    ]
+  ],
+  "sordina": [
+    [
+      "nom femení",
+      "Dispositiu que modifica o redueix el so d’un instrument."
+    ],
+    [
+      "nom femení",
+      "Mitjà per disminuir la intensitat o la difusió d’una cosa, en sentit figurat."
+    ]
+  ],
+  "voluntarisme": [
+    [
+      "nom masculí",
+      "Actitud que atribueix a la voluntat una capacitat decisiva, de vegades sense valorar prou les dificultats reals."
+    ],
+    [
+      "nom masculí",
+      "Doctrina que dona primacia a la voluntat."
+    ]
+  ],
+  "fugisser": [
+    [
+      "adjectiu",
+      "Que dura molt poc o desapareix ràpidament."
+    ],
+    [
+      "adjectiu",
+      "Que fuig o resulta difícil de retenir."
+    ]
+  ],
+  "reconfigurar": [
+    [
+      "verb",
+      "Establir una configuració o organització diferent de la que hi havia."
+    ]
+  ],
+  "reinventar": [
+    [
+      "verb",
+      "Crear de nou una cosa amb una forma diferent."
+    ],
+    [
+      "verb",
+      "Transformar profundament la manera d’actuar o de presentar-se."
+    ]
+  ],
+  "vegetarià": [
+    [
+      "adjectiu",
+      "Que exclou la carn i el peix de l’alimentació."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a aquest tipus d’alimentació."
+    ]
+  ],
+  "prematur": [
+    [
+      "adjectiu",
+      "Que es produeix abans del moment habitual o adequat."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un nadó nascut abans de completar el període normal de gestació."
+    ]
+  ],
+  "grandiositat": [
+    [
+      "nom femení",
+      "Qualitat d’allò que impressiona per la seva magnitud o magnificència."
+    ]
+  ],
+  "topazi": [
+    [
+      "nom masculí",
+      "Mineral dur, de colors diversos, que pot ser utilitzat com a pedra preciosa."
+    ]
+  ],
+  "semblança": [
+    [
+      "nom femení",
+      "Relació entre coses que comparteixen característiques."
+    ],
+    [
+      "nom femení",
+      "Descripció breu dels trets i la trajectòria d’una persona."
+    ]
+  ],
+  "fanfàrria": [
+    [
+      "nom femení",
+      "Conjunt musical format principalment per instruments de metall i percussió."
+    ],
+    [
+      "nom femení",
+      "Peça breu i solemne interpretada per aquests instruments."
+    ],
+    [
+      "nom femení",
+      "Ostentació sorollosa o exagerada."
+    ]
+  ],
+  "freqüentar": [
+    [
+      "verb",
+      "Anar sovint a un lloc."
+    ],
+    [
+      "verb",
+      "Tractar habitualment una persona o un grup."
+    ]
+  ],
+  "sorprenentment": [
+    [
+      "adverbi",
+      "D’una manera que causa sorpresa o que no s’esperava."
+    ]
+  ],
+  "polivalent": [
+    [
+      "adjectiu",
+      "Que pot servir per a diverses funcions o activitats."
+    ]
+  ],
+  "tintura": [
+    [
+      "nom femení",
+      "Substància o preparat utilitzat per tenyir."
+    ],
+    [
+      "nom femení",
+      "Preparat obtingut dissolent o extraient substàncies en alcohol."
+    ]
+  ],
+  "interlocutor": [
+    [
+      "nom masculí",
+      "Persona que participa en una conversa o un intercanvi comunicatiu."
+    ],
+    [
+      "nom masculí",
+      "Representant amb qui es manté una negociació."
+    ]
+  ],
+  "fotocòpia": [
+    [
+      "nom femení",
+      "Còpia d’un document obtinguda amb una fotocopiadora."
+    ]
+  ],
+  "enquadernador": [
+    [
+      "nom masculí",
+      "Professional que uneix els fulls d’un llibre i hi posa cobertes."
+    ]
+  ],
+  "accionista": [
+    [
+      "nom",
+      "Persona o entitat que posseeix accions d’una societat."
+    ]
+  ],
+  "tertulià": [
+    [
+      "nom masculí",
+      "Persona que participa habitualment en una tertúlia."
+    ]
+  ],
+  "rondinaire": [
+    [
+      "adjectiu",
+      "Que es queixa sovint o manifesta descontentament de manera habitual."
+    ]
+  ],
+  "prioritat": [
+    [
+      "nom femení",
+      "Preferència que es dona a una cosa abans que a una altra."
+    ],
+    [
+      "nom femení",
+      "Assumpte considerat més urgent o important."
+    ]
+  ],
+  "resplendor": [
+    [
+      "nom femení",
+      "Llum intensa que emet o reflecteix un cos."
+    ],
+    [
+      "nom femení",
+      "Brillantor o esplendor, en sentit figurat."
+    ]
+  ],
+  "batalleta": [
+    [
+      "nom femení",
+      "Relat d’una experiència passada que algú explica amb detall, sovint repetidament."
+    ]
+  ],
+  "equipatge": [
+    [
+      "nom masculí",
+      "Conjunt de maletes, bosses i objectes personals que es porten en un viatge."
+    ]
+  ],
+  "tríptic": [
+    [
+      "nom masculí",
+      "Full informatiu plegat en tres parts."
+    ],
+    [
+      "nom masculí",
+      "Obra artística formada per tres plafons o peces relacionades."
+    ]
+  ],
+  "apòstrof": [
+    [
+      "nom masculí",
+      "Signe gràfic que indica l’elisió d’una vocal en determinats contactes entre mots."
+    ]
+  ],
+  "immobiliària": [
+    [
+      "nom femení",
+      "Empresa dedicada a la compravenda o al lloguer de béns immobles."
+    ]
+  ],
+  "convicció": [
+    [
+      "nom femení",
+      "Creença ferma que una cosa és certa o correcta."
+    ]
+  ],
+  "ambientador": [
+    [
+      "nom masculí",
+      "Producte o aparell que modifica l’olor d’un espai."
+    ]
+  ],
+  "subordinació": [
+    [
+      "nom femení",
+      "Dependència respecte d’una autoritat o d’un element superior."
+    ],
+    [
+      "nom femení",
+      "Relació gramatical per la qual una construcció depèn d’una altra."
+    ]
+  ],
+  "insuficiència": [
+    [
+      "nom femení",
+      "Manca de quantitat, capacitat o qualitat necessària."
+    ],
+    [
+      "nom femení",
+      "Funcionament inadequat d’un òrgan per satisfer les necessitats del cos."
+    ]
+  ],
+  "empori": [
+    [
+      "nom masculí",
+      "Centre important d’activitat comercial."
+    ],
+    [
+      "nom masculí",
+      "Lloc que concentra riquesa o abundància d’una cosa."
+    ]
+  ],
+  "bulliciós": [
+    [
+      "adjectiu",
+      "Ple de moviment, activitat i soroll."
+    ]
+  ],
+  "catamarà": [
+    [
+      "nom masculí",
+      "Embarcació formada per dos bucs paral·lels units per una estructura."
+    ]
+  ],
+  "residual": [
+    [
+      "adjectiu",
+      "Que queda com a resta després d’un procés."
+    ],
+    [
+      "adjectiu",
+      "Que té una presència molt reduïda."
+    ]
+  ],
+  "plantació": [
+    [
+      "nom femení",
+      "Acció de plantar vegetals."
+    ],
+    [
+      "nom femení",
+      "Terreny extens dedicat al cultiu d’una espècie."
+    ]
+  ],
+  "emotiu": [
+    [
+      "adjectiu",
+      "Que provoca emoció o que està relacionat amb les emocions."
+    ]
+  ],
+  "pericial": [
+    [
+      "adjectiu",
+      "Relatiu a l’examen o al dictamen d’un especialista que actua com a pèrit."
+    ]
+  ],
+  "escrupolós": [
+    [
+      "adjectiu",
+      "Que actua amb molta cura i atenció als detalls."
+    ],
+    [
+      "adjectiu",
+      "Que té escrúpols o repugnància amb facilitat."
+    ]
+  ],
+  "vertigen": [
+    [
+      "nom masculí",
+      "Sensació de moviment o de gir que pot alterar l’equilibri."
+    ],
+    [
+      "nom masculí",
+      "Impressió de por o d’inseguretat davant una altura o una situació intensa."
+    ]
+  ],
+  "concordança": [
+    [
+      "nom femení",
+      "Correspondència o coincidència entre elements."
+    ],
+    [
+      "nom femení",
+      "Relació gramatical que fa compatibles les marques de gènere, nombre o persona."
+    ]
+  ],
+  "injustícia": [
+    [
+      "nom femení",
+      "Acció o situació contrària a la justícia."
+    ],
+    [
+      "nom femení",
+      "Manca d’equitat en el tracte o en el repartiment."
+    ]
+  ],
+  "precedent": [
+    [
+      "adjectiu",
+      "Que va abans en el temps o en l’ordre."
+    ],
+    [
+      "nom masculí",
+      "Fet anterior que serveix de referència per valorar un cas posterior."
+    ]
+  ],
+  "fallar": [
+    [
+      "verb",
+      "No funcionar o no obtenir el resultat esperat."
+    ],
+    [
+      "verb",
+      "No encertar un objectiu."
+    ],
+    [
+      "verb",
+      "Resoldre una qüestió judicial mitjançant una decisió."
+    ]
+  ],
+  "malgastador": [
+    [
+      "adjectiu",
+      "Que gasta diners o recursos de manera excessiva o poc útil."
+    ]
+  ],
+  "incoació": [
+    [
+      "nom femení",
+      "Inici formal d’un expedient o d’un procediment."
+    ]
+  ],
+  "inadequat": [
+    [
+      "adjectiu",
+      "Que no és apropiat per a una finalitat o una situació."
+    ]
+  ],
+  "creditor": [
+    [
+      "nom masculí",
+      "Persona o entitat que té dret a exigir el compliment d’una obligació, especialment el pagament d’un deute."
+    ]
+  ],
+  "sequera": [
+    [
+      "nom femení",
+      "Període prolongat amb precipitacions insuficients."
+    ],
+    [
+      "nom femení",
+      "Manca persistent d’una cosa necessària, en sentit figurat."
+    ]
+  ],
+  "institucional": [
+    [
+      "adjectiu",
+      "Relatiu a una institució o que emana oficialment d’aquesta."
+    ]
+  ],
+  "anuari": [
+    [
+      "nom masculí",
+      "Publicació que recull dades o esdeveniments d’un any."
+    ]
+  ],
+  "preventiu": [
+    [
+      "adjectiu",
+      "Destinat a evitar que es produeixi un problema o un dany."
+    ]
+  ],
+  "sobreesforç": [
+    [
+      "nom masculí",
+      "Esforç superior a l’habitual o a la capacitat que es pot assumir còmodament."
+    ]
+  ],
+  "fibrosi": [
+    [
+      "nom femení",
+      "Formació excessiva de teixit fibrós en un òrgan o teixit."
+    ]
+  ],
+  "familiaritat": [
+    [
+      "nom femení",
+      "Tracte proper i de confiança."
+    ],
+    [
+      "nom femení",
+      "Coneixement adquirit per un contacte habitual amb una cosa."
+    ]
+  ],
+  "datació": [
+    [
+      "nom femení",
+      "Determinació o indicació de la data d’un fet o d’un objecte."
+    ]
+  ],
+  "connector": [
+    [
+      "nom masculí",
+      "Element que uneix parts d’un circuit o d’un aparell."
+    ],
+    [
+      "nom masculí",
+      "Mot o expressió que relaciona parts d’un text i n’explicita la relació lògica."
+    ]
+  ],
+  "comunitari": [
+    [
+      "adjectiu",
+      "Relatiu a una comunitat o compartit pels seus membres."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a les institucions o normes de la Unió Europea."
+    ]
+  ],
+  "reparació": [
+    [
+      "nom femení",
+      "Acció de restablir el bon estat d’una cosa."
+    ],
+    [
+      "nom femení",
+      "Compensació o correcció d’un perjudici."
+    ]
+  ],
+  "immediatesa": [
+    [
+      "nom femení",
+      "Qualitat d’allò que es produeix sense demora o sense intermediaris."
+    ]
+  ],
+  "diputació": [
+    [
+      "nom femení",
+      "Corporació que administra els interessos d’una província."
+    ],
+    [
+      "nom femení",
+      "Conjunt de representants encarregats d’una missió."
+    ],
+    [
+      "nom femení",
+      "Edifici on té la seu una diputació."
+    ]
+  ],
+  "regidoria": [
+    [
+      "nom femení",
+      "Càrrec i funcions d’un regidor."
+    ],
+    [
+      "nom femení",
+      "Àrea de govern municipal dirigida per un regidor."
+    ]
+  ],
+  "insatisfacció": [
+    [
+      "nom femení",
+      "Sentiment de no tenir satisfetes les necessitats o les expectatives."
+    ]
+  ],
+  "dificultar": [
+    [
+      "verb",
+      "Fer que una cosa sigui més difícil de realitzar o d’aconseguir."
+    ]
+  ],
+  "col·loquial": [
+    [
+      "adjectiu",
+      "Propi de la conversa quotidiana i de situacions de confiança."
+    ]
+  ],
+  "opcional": [
+    [
+      "adjectiu",
+      "Que es pot triar lliurement i no és obligatori."
+    ]
+  ],
+  "postdata": [
+    [
+      "nom femení",
+      "Afegit que es posa al final d’una carta, després de la signatura."
+    ]
+  ],
+  "desperfecte": [
+    [
+      "nom masculí",
+      "Dany que altera l’estat o el funcionament d’una cosa."
+    ]
+  ],
+  "requisit": [
+    [
+      "nom masculí",
+      "Condició necessària per accedir a una cosa o perquè un acte sigui vàlid."
+    ]
+  ],
+  "reclamació": [
+    [
+      "nom femení",
+      "Petició de reconeixement d’un dret o de correcció d’un perjudici."
+    ],
+    [
+      "nom femení",
+      "Queixa formal sobre un servei o una actuació."
+    ]
+  ],
+  "confirmació": [
+    [
+      "nom femení",
+      "Acció de verificar o ratificar que una cosa és certa o es manté."
+    ],
+    [
+      "nom femení",
+      "Sagrament cristià relacionat amb la consolidació de la fe."
+    ]
+  ],
+  "ecumènic": [
+    [
+      "adjectiu",
+      "Relatiu al conjunt de les esglésies cristianes o als esforços per afavorir-ne la unitat."
+    ],
+    [
+      "adjectiu",
+      "D’abast universal."
+    ]
+  ],
+  "secularisme": [
+    [
+      "nom masculí",
+      "Posició favorable a organitzar la vida pública amb independència de les creences o institucions religioses."
+    ]
+  ],
+  "latent": [
+    [
+      "adjectiu",
+      "Que existeix però encara no es manifesta o no és perceptible."
+    ]
+  ],
+  "adoptiu": [
+    [
+      "adjectiu",
+      "Que resulta d’una adopció."
+    ],
+    [
+      "adjectiu",
+      "Dit d’una vinculació adquirida per elecció o reconeixement, com «fill adoptiu d’una ciutat»."
+    ]
+  ],
+  "commemoratiu": [
+    [
+      "adjectiu",
+      "Destinat a recordar públicament una persona o un esdeveniment."
+    ]
+  ],
+  "viver": [
+    [
+      "nom masculí",
+      "Lloc on es crien plantes per trasplantar-les."
+    ],
+    [
+      "nom masculí",
+      "Instal·lació on es mantenen o es crien animals aquàtics."
+    ],
+    [
+      "nom masculí",
+      "Espai que afavoreix el naixement de projectes o activitats."
+    ]
+  ],
+  "vertebrador": [
+    [
+      "adjectiu",
+      "Que dona estructura i cohesió a un conjunt."
+    ]
+  ],
+  "bonança": [
+    [
+      "nom femení",
+      "Estat de temps tranquil, especialment al mar."
+    ],
+    [
+      "nom femení",
+      "Període de prosperitat o de bones condicions."
+    ]
+  ],
+  "rosassa": [
+    [
+      "nom femení",
+      "Obertura circular d’un edifici, especialment d’una església, decorada amb traceria i sovint amb vitralls."
+    ]
+  ],
+  "inèdit": [
+    [
+      "adjectiu",
+      "Que encara no s’ha publicat."
+    ],
+    [
+      "adjectiu",
+      "Que no s’havia produït o conegut abans."
+    ]
+  ],
+  "sorgiment": [
+    [
+      "nom masculí",
+      "Aparició o naixement d’una realitat, una idea o un fenomen."
+    ]
+  ],
+  "acurat": [
+    [
+      "adjectiu",
+      "Fet amb cura, precisió i atenció als detalls."
+    ]
+  ],
+  "postguerra": [
+    [
+      "nom femení",
+      "Període posterior a una guerra, marcat per les seves conseqüències."
+    ]
+  ],
+  "melodrama": [
+    [
+      "nom masculí",
+      "Obra dramàtica que accentua les emocions i els conflictes sentimentals."
+    ],
+    [
+      "nom masculí",
+      "Situació presentada amb una emotivitat exagerada."
+    ]
+  ],
+  "thriller": [
+    [
+      "nom masculí",
+      "Obra narrativa o audiovisual que busca mantenir la tensió, la intriga i el suspens."
+    ]
+  ],
+  "cartellera": [
+    [
+      "nom femení",
+      "Espai on s’exposen cartells."
+    ],
+    [
+      "nom femení",
+      "Relació d’espectacles que s’ofereixen en un lloc i un moment determinats."
+    ]
+  ],
+  "prescriptor": [
+    [
+      "nom masculí",
+      "Persona que recomana o indica un producte, un tractament o una conducta."
+    ]
+  ],
+  "obertament": [
+    [
+      "adverbi",
+      "De manera clara, franca i sense dissimular."
+    ]
+  ],
+  "redactor": [
+    [
+      "nom masculí",
+      "Persona que escriu o prepara textos, especialment per a una publicació."
+    ]
+  ],
+  "ponència": [
+    [
+      "nom femení",
+      "Exposició o treball presentat en una reunió o un congrés."
+    ],
+    [
+      "nom femení",
+      "Informe o proposta elaborat per una persona o comissió designada."
+    ]
+  ],
+  "fajol": [
+    [
+      "nom masculí",
+      "Planta de llavors comestibles emprades com a pseudocereal."
+    ],
+    [
+      "nom masculí",
+      "Gra d’aquesta planta."
+    ]
+  ],
+  "preservar": [
+    [
+      "verb",
+      "Protegir una cosa perquè no es deteriori o desaparegui."
+    ],
+    [
+      "verb",
+      "Mantenir algú o alguna cosa fora d’un risc."
+    ]
+  ],
+  "malabarisme": [
+    [
+      "nom masculí",
+      "Exercici d’habilitat que consisteix a llançar, rebre o equilibrar objectes."
+    ],
+    [
+      "nom masculí",
+      "Maniobra enginyosa per resoldre una situació difícil."
+    ]
+  ],
+  "resguardar": [
+    [
+      "verb",
+      "Protegir de la intempèrie o d’un perill."
+    ],
+    [
+      "verb",
+      "Posar-se a cobert, en ús pronominal."
+    ]
+  ],
+  "constatable": [
+    [
+      "adjectiu",
+      "Que es pot comprovar mitjançant l’observació o proves."
+    ]
+  ],
+  "consergeria": [
+    [
+      "nom femení",
+      "Dependència on treballa el conserge."
+    ],
+    [
+      "nom femení",
+      "Servei o funció del conserge."
+    ]
+  ],
+  "comercialització": [
+    [
+      "nom femení",
+      "Conjunt d’actuacions per posar un producte o servei al mercat i vendre’l."
+    ]
+  ],
+  "radiocasset": [
+    [
+      "nom masculí",
+      "Aparell que combina un receptor de ràdio i un reproductor o enregistrador de cassets."
+    ]
+  ],
+  "qualitatiu": [
+    [
+      "adjectiu",
+      "Relatiu a les qualitats o característiques d’una cosa, més que a la seva quantitat."
+    ]
+  ],
+  "beneficiós": [
+    [
+      "adjectiu",
+      "Que produeix un benefici o un efecte favorable."
+    ]
+  ],
+  "gastronòmic": [
+    [
+      "adjectiu",
+      "Relatiu a la cuina i a l’art de preparar i apreciar els aliments."
+    ]
+  ],
+  "depredador": [
+    [
+      "nom masculí",
+      "Animal que caça altres animals per alimentar-se."
+    ],
+    [
+      "nom masculí",
+      "Persona o agent que explota destructivament altres persones o recursos."
+    ]
+  ],
+  "radiooient": [
+    [
+      "nom",
+      "Persona que escolta una emissió de ràdio."
+    ]
+  ],
+  "hipertensió": [
+    [
+      "nom femení",
+      "Pressió superior a la normal, especialment la pressió de la sang a les artèries."
+    ]
+  ],
+  "exclamatiu": [
+    [
+      "adjectiu",
+      "Que expressa una emoció intensa o una exclamació."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a les construccions gramaticals d’exclamació."
+    ]
+  ],
+  "pulsació": [
+    [
+      "nom femení",
+      "Batec o moviment rítmic."
+    ],
+    [
+      "nom femení",
+      "Acció de prémer una tecla o un botó."
+    ]
+  ],
+  "condensació": [
+    [
+      "nom femení",
+      "Pas d’una substància de l’estat gasós al líquid."
+    ],
+    [
+      "nom femení",
+      "Reducció d’un contingut a una forma més breu o concentrada."
+    ]
+  ],
+  "concís": [
+    [
+      "adjectiu",
+      "Que expressa el que cal amb poques paraules i sense informació sobrera."
+    ]
+  ],
+  "zoològic": [
+    [
+      "adjectiu",
+      "Relatiu a l’estudi dels animals."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un parc on es mantenen animals vius per a exhibició, conservació o estudi."
+    ],
+    [
+      "nom masculí",
+      "Parc on es mantenen animals vius per a exhibició, conservació o estudi."
+    ]
+  ],
+  "prudència": [
+    [
+      "nom femení",
+      "Actitud de valorar les conseqüències abans d’actuar per evitar riscos innecessaris."
+    ]
+  ],
+  "regularitat": [
+    [
+      "nom femení",
+      "Qualitat d’allò que segueix una pauta o una norma."
+    ],
+    [
+      "nom femení",
+      "Continuïtat o freqüència estable d’una activitat."
+    ]
+  ],
+  "inconsistent": [
+    [
+      "adjectiu",
+      "Que no té prou solidesa o coherència."
+    ],
+    [
+      "adjectiu",
+      "Que presenta contradiccions."
+    ]
+  ],
+  "encreuar": [
+    [
+      "verb",
+      "Fer que dues línies, trajectòries o coses es tallin o es creuin."
+    ],
+    [
+      "verb",
+      "Combinar individus de varietats diferents per obtenir descendència."
+    ],
+    [
+      "verb",
+      "Passar-se dues persones o vehicles en direccions diferents, en ús pronominal."
+    ]
+  ],
+  "grassonet": [
+    [
+      "adjectiu",
+      "Una mica gras; de formes arrodonides."
+    ]
+  ],
+  "introvertit": [
+    [
+      "adjectiu",
+      "Que tendeix a centrar-se en el món interior i a expressar poc els sentiments als altres."
+    ]
+  ],
+  "expressiu": [
+    [
+      "adjectiu",
+      "Que comunica de manera clara o intensa idees o sentiments."
+    ]
+  ],
+  "carismàtic": [
+    [
+      "adjectiu",
+      "Que té una capacitat especial d’atreure i influir en els altres."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a un carisma religiós."
+    ]
+  ],
+  "energètic": [
+    [
+      "adjectiu",
+      "Relatiu a l’energia, a la seva producció o al seu consum."
+    ],
+    [
+      "adjectiu",
+      "Que proporciona energia a l’organisme."
+    ]
+  ],
+  "baixet": [
+    [
+      "adjectiu",
+      "De poca alçada, sovint dit amb valor afectiu."
+    ]
+  ],
+  "modernitat": [
+    [
+      "nom femení",
+      "Qualitat d’allò que és modern."
+    ],
+    [
+      "nom femení",
+      "Conjunt de transformacions socials i culturals associades al món modern."
+    ]
+  ],
+  "quantia": [
+    [
+      "nom femení",
+      "Quantitat o valor d’una cosa, especialment d’una suma de diners."
+    ]
+  ],
+  "vilatà": [
+    [
+      "nom masculí",
+      "Habitant d’una vila."
+    ]
+  ],
+  "fonoll": [
+    [
+      "nom masculí",
+      "Planta aromàtica de fulles molt dividides i flors grogues, utilitzada com a condiment."
+    ]
+  ],
+  "triftong": [
+    [
+      "nom masculí",
+      "Conjunt de tres sons vocàlics pronunciats en una mateixa síl·laba, amb una vocal que fa de nucli."
+    ]
+  ],
+  "rada": [
+    [
+      "nom femení",
+      "Zona de mar pròxima a la costa on els vaixells poden fondejar a recer."
+    ]
+  ],
+  "sacseig": [
+    [
+      "nom masculí",
+      "Moviment brusc o repetit d’una cosa d’un costat a l’altre."
+    ],
+    [
+      "nom masculí",
+      "Alteració intensa que afecta una persona o una situació."
+    ]
+  ],
+  "desemparat": [
+    [
+      "adjectiu",
+      "Que es troba sense protecció, ajuda o recursos."
+    ]
+  ],
+  "estacionar": [
+    [
+      "verb",
+      "Deixar un vehicle aturat en un lloc durant un temps."
+    ],
+    [
+      "verb",
+      "Situar persones o mitjans temporalment en un indret."
+    ]
+  ],
+  "insecticida": [
+    [
+      "nom masculí",
+      "Substància o producte destinat a matar insectes."
+    ]
+  ],
+  "escandalós": [
+    [
+      "adjectiu",
+      "Que provoca escàndol o indignació."
+    ],
+    [
+      "adjectiu",
+      "Molt sorollós o excessiu."
+    ]
+  ],
+  "mutu": [
+    [
+      "adjectiu",
+      "Que es dona recíprocament entre dues o més persones o parts."
+    ]
+  ],
+  "irat": [
+    [
+      "adjectiu",
+      "Ple d’ira o que manifesta un enuig intens."
+    ]
+  ],
+  "sorral": [
+    [
+      "nom masculí",
+      "Terreny o espai cobert de sorra."
+    ],
+    [
+      "nom masculí",
+      "Espai amb sorra preparat perquè hi juguin els infants."
+    ]
+  ],
+  "tovalloleta": [
+    [
+      "nom femení",
+      "Peça petita de tela, paper o material similar per netejar o eixugar."
+    ]
+  ],
+  "portalada": [
+    [
+      "nom femení",
+      "Portal gran o conjunt arquitectònic que emmarca una entrada principal."
+    ]
+  ],
+  "encartonar": [
+    [
+      "verb",
+      "Cobrir o reforçar amb cartó."
+    ],
+    [
+      "verb",
+      "Tornar una cosa rígida com el cartó."
+    ]
+  ],
+  "cuquet": [
+    [
+      "nom masculí",
+      "Cuc petit."
+    ],
+    [
+      "nom masculí",
+      "Inquietud, curiositat o desig persistent, en sentit figurat."
+    ]
+  ],
+  "carboner": [
+    [
+      "nom masculí",
+      "Persona que fabrica o ven carbó."
+    ],
+    [
+      "nom masculí",
+      "Ocell petit de la família dels pàrids, com la mallerenga carbonera."
+    ]
+  ],
+  "podrir": [
+    [
+      "verb",
+      "Descompondre una matèria orgànica per l’acció de microorganismes."
+    ],
+    [
+      "verb",
+      "Corrompre o deteriorar profundament una situació."
+    ]
+  ],
+  "solvència": [
+    [
+      "nom femení",
+      "Capacitat per pagar els deutes."
+    ],
+    [
+      "nom femení",
+      "Competència i fiabilitat per dur a terme una tasca."
+    ]
+  ],
+  "góndola": [
+    [
+      "nom femení",
+      "Embarcació llarga i estreta característica de Venècia."
+    ],
+    [
+      "nom femení",
+      "Plataforma o estructura destinada a transportar o exposar càrregues o productes."
+    ]
+  ],
+  "vivenciar": [
+    [
+      "verb",
+      "Experimentar personalment una situació i incorporar-la a la pròpia experiència."
+    ]
+  ],
+  "bilingüe": [
+    [
+      "adjectiu",
+      "Que utilitza o coneix dues llengües."
+    ],
+    [
+      "adjectiu",
+      "Redactat o expressat en dues llengües."
+    ]
+  ],
+  "reüll": [
+    [
+      "nom masculí",
+      "Mirada de costat; s’usa sobretot en la locució «de reüll»."
+    ]
+  ],
+  "antiinflamatori": [
+    [
+      "adjectiu",
+      "Que redueix o combat la inflamació."
+    ]
+  ],
+  "antioxidant": [
+    [
+      "adjectiu",
+      "Que impedeix o retarda l’oxidació d’altres substàncies."
+    ]
+  ],
+  "coautor": [
+    [
+      "nom masculí",
+      "Persona que crea una obra conjuntament amb una altra o unes altres."
+    ]
+  ],
+  "coincidència": [
+    [
+      "nom femení",
+      "Fet de coincidir en el temps, l’espai o una característica."
+    ],
+    [
+      "nom femení",
+      "Concurrència de fets que sembla casual."
+    ]
+  ],
+  "contraindicació": [
+    [
+      "nom femení",
+      "Circumstància que fa desaconsellable un tractament o una actuació determinada."
+    ]
+  ],
+  "heroisme": [
+    [
+      "nom masculí",
+      "Coratge extraordinari mostrat en una acció difícil o arriscada."
+    ]
+  ],
+  "estrep": [
+    [
+      "nom masculí",
+      "Peça on el genet recolza el peu per muntar o sostenir-se a cavall."
+    ],
+    [
+      "nom masculí",
+      "Os petit de l’orella mitjana."
+    ],
+    [
+      "nom masculí",
+      "Element de suport d’una estructura."
+    ]
+  ],
+  "estrebar": [
+    [
+      "verb",
+      "Estirar bruscament una cosa fent força."
+    ],
+    [
+      "verb",
+      "Fer un moviment de tracció per superar una resistència."
+    ]
+  ],
+  "embenar": [
+    [
+      "verb",
+      "Cobrir o subjectar una part del cos amb una bena."
+    ]
+  ],
+  "gavardina": [
+    [
+      "nom femení",
+      "Peça exterior de vestir, generalment llarga i resistent a la pluja."
+    ],
+    [
+      "nom femení",
+      "Teixit resistent amb què es pot confeccionar aquesta peça."
+    ]
+  ],
+  "aridesa": [
+    [
+      "nom femení",
+      "Manca d’humitat d’un terreny o d’un clima."
+    ],
+    [
+      "nom femení",
+      "Manca d’atractiu o de vivacitat en un assumpte o una exposició."
+    ]
+  ],
+  "òxid": [
+    [
+      "nom masculí",
+      "Compost químic format per oxigen i un altre element."
+    ],
+    [
+      "nom masculí",
+      "Capa de productes d’oxidació que es forma sobre alguns metalls."
+    ]
+  ],
+  "catàleg": [
+    [
+      "nom masculí",
+      "Relació ordenada d’objectes, obres o productes amb informació que permet identificar-los."
+    ]
+  ],
+  "epíleg": [
+    [
+      "nom masculí",
+      "Part final d’una obra que en tanca o comenta el contingut."
+    ],
+    [
+      "nom masculí",
+      "Fet final que conclou una sèrie d’esdeveniments."
+    ]
+  ],
+  "frescor": [
+    [
+      "nom femení",
+      "Sensació de fred lleu i agradable."
+    ],
+    [
+      "nom femení",
+      "Qualitat d’un producte recent o ben conservat."
+    ],
+    [
+      "nom femení",
+      "Espontaneïtat i vivacitat d’una expressió."
+    ]
+  ],
+  "sacríleg": [
+    [
+      "adjectiu",
+      "Que profana una cosa considerada sagrada."
+    ],
+    [
+      "adjectiu",
+      "Persona que comet una profanació."
+    ]
+  ],
+  "puntet": [
+    [
+      "nom masculí",
+      "Punt petit."
+    ],
+    [
+      "nom masculí",
+      "Petita quantitat o tret lleu d’una qualitat."
+    ]
+  ],
+  "falsificar": [
+    [
+      "verb",
+      "Produir una imitació amb la intenció de fer-la passar per autèntica."
+    ],
+    [
+      "verb",
+      "Alterar un document, una dada o un producte de manera fraudulenta."
+    ]
+  ],
+  "processal": [
+    [
+      "adjectiu",
+      "Relatiu a les normes i als actes d’un procés judicial."
+    ]
+  ],
+  "inhabilitació": [
+    [
+      "nom femení",
+      "Privació de la capacitat legal d’exercir determinades funcions o drets."
+    ],
+    [
+      "nom femení",
+      "Acció de deixar algú o alguna cosa sense aptitud per a una funció."
+    ]
+  ],
+  "senyalar": [
+    [
+      "verb",
+      "Posar un senyal en una cosa."
+    ],
+    [
+      "verb",
+      "Marcar o fer visible una indicació."
+    ]
+  ],
+  "premissa": [
+    [
+      "nom femení",
+      "Afirmació de partida d’un raonament."
+    ],
+    [
+      "nom femení",
+      "Condició que es considera prèvia per abordar una qüestió."
+    ]
+  ],
+  "assentiment": [
+    [
+      "nom masculí",
+      "Acceptació o aprovació del que algú diu o proposa."
+    ]
+  ],
+  "precursor": [
+    [
+      "nom masculí",
+      "Persona que anticipa idees o activitats desenvolupades posteriorment."
+    ],
+    [
+      "nom masculí",
+      "Substància o fenomen que precedeix i dona lloc a un altre."
+    ]
+  ],
+  "polsim": [
+    [
+      "nom masculí",
+      "Pols molt fina."
+    ],
+    [
+      "nom masculí",
+      "Petita quantitat d’una substància en pols."
+    ]
+  ],
+  "adversitat": [
+    [
+      "nom femení",
+      "Situació desfavorable que comporta dificultats o desgràcies."
+    ]
+  ],
+  "naixença": [
+    [
+      "nom femení",
+      "Naixement d’una persona, un ésser viu o una realitat."
+    ]
+  ],
+  "tinença": [
+    [
+      "nom femení",
+      "Fet de tenir o posseir una cosa."
+    ],
+    [
+      "nom femení",
+      "Càrrec o jurisdicció exercit per un tinent."
+    ]
+  ],
+  "gentussa": [
+    [
+      "nom femení",
+      "Conjunt de persones a qui s’atribueix mala conducta; denominació despectiva."
+    ]
+  ],
+  "pelussa": [
+    [
+      "nom femení",
+      "Conjunt de pèls o fibres molt fins."
+    ],
+    [
+      "nom femení",
+      "Pèl suau que apareix inicialment en una part del cos."
+    ]
+  ],
+  "transgressor": [
+    [
+      "adjectiu",
+      "Que vulnera normes o desafia convencions establertes."
+    ]
+  ],
+  "transmissor": [
+    [
+      "adjectiu",
+      "Que transporta o comunica una cosa d’un lloc o d’un ésser a un altre."
+    ]
+  ],
+  "compressor": [
+    [
+      "nom masculí",
+      "Aparell que augmenta la pressió d’un gas."
+    ],
+    [
+      "nom masculí",
+      "Dispositiu que redueix la diferència entre els nivells forts i febles d’un senyal sonor."
+    ]
+  ],
+  "agutzil": [
+    [
+      "nom masculí",
+      "Agent que executa ordres d’una autoritat judicial o municipal."
+    ]
+  ],
+  "endinsar": [
+    [
+      "verb",
+      "Fer entrar cap a la part interior."
+    ],
+    [
+      "verb",
+      "Entrar progressivament en un lloc o en el coneixement d’una qüestió, en ús pronominal."
+    ]
+  ],
+  "pesador": [
+    [
+      "nom masculí",
+      "Persona encarregada de pesar mercaderies o altres materials."
+    ]
+  ],
+  "engrossir": [
+    [
+      "verb",
+      "Fer més gros, abundant o nombrós."
+    ],
+    [
+      "verb",
+      "Augmentar de volum o de quantitat."
+    ]
+  ],
+  "casino": [
+    [
+      "nom masculí",
+      "Establiment dedicat als jocs d’atzar."
+    ],
+    [
+      "nom masculí",
+      "Local d’una societat recreativa o cultural."
+    ]
+  ],
+  "carrossa": [
+    [
+      "nom femení",
+      "Carruatge gran i ornamentat."
+    ],
+    [
+      "nom femení",
+      "Vehicle decorat que participa en una desfilada."
+    ]
+  ],
+  "massapà": [
+    [
+      "nom masculí",
+      "Dolç elaborat principalment amb ametlla molta i sucre."
+    ]
+  ],
+  "saquejar": [
+    [
+      "verb",
+      "Robar i devastar un lloc de manera violenta o generalitzada."
+    ]
+  ],
+  "encapritxar": [
+    [
+      "verb",
+      "Fer que algú senti un desig intens i poc raonat."
+    ],
+    [
+      "verb",
+      "Agafar un caprici per algú o alguna cosa, en ús pronominal."
+    ]
+  ],
+  "espaiós": [
+    [
+      "adjectiu",
+      "Que disposa de molt espai o amplitud."
+    ]
+  ],
+  "gerani": [
+    [
+      "nom masculí",
+      "Planta ornamental cultivada habitualment per les seves flors vistoses."
+    ]
+  ],
+  "gessamí": [
+    [
+      "nom masculí",
+      "Planta enfiladissa de flors molt perfumades."
+    ],
+    [
+      "nom masculí",
+      "Flor d’aquesta planta."
+    ]
+  ],
+  "gelatina": [
+    [
+      "nom femení",
+      "Substància que forma un gel en refredar-se, obtinguda tradicionalment del col·lagen."
+    ],
+    [
+      "nom femení",
+      "Preparació alimentària de consistència tremolosa."
+    ]
+  ],
+  "lletjor": [
+    [
+      "nom femení",
+      "Qualitat d’allò que es considera lleig."
+    ]
+  ],
+  "escabetxada": [
+    [
+      "nom femení",
+      "Preparació o conservació d’un aliment en escabetx."
+    ],
+    [
+      "nom femení",
+      "Eliminació o destitució de moltes persones alhora, en ús figurat."
+    ]
+  ],
+  "panxut": [
+    [
+      "adjectiu",
+      "Que té una panxa grossa."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un objecte de forma arrodonida i bombada."
+    ]
+  ],
+  "mutar": [
+    [
+      "verb",
+      "Experimentar una mutació o canvi."
+    ],
+    [
+      "verb",
+      "Canviar de naturalesa o de forma."
+    ]
+  ],
+  "binació": [
+    [
+      "nom femení",
+      "Acció de celebrar dues misses en un mateix dia un mateix sacerdot."
+    ]
+  ],
+  "complidor": [
+    [
+      "adjectiu",
+      "Que compleix els compromisos i els deures."
+    ]
+  ],
+  "empresarial": [
+    [
+      "adjectiu",
+      "Relatiu a una empresa o al conjunt de les empreses."
+    ]
+  ],
+  "conveni": [
+    [
+      "nom masculí",
+      "Acord entre parts que estableix condicions, compromisos o normes."
+    ],
+    [
+      "nom masculí",
+      "Acord col·lectiu que regula condicions laborals."
+    ]
+  ],
+  "enverinar": [
+    [
+      "verb",
+      "Introduir verí en un organisme o una substància."
+    ],
+    [
+      "verb",
+      "Empitjorar una relació o una situació fent-hi créixer el conflicte."
+    ]
+  ],
+  "redemptor": [
+    [
+      "nom masculí",
+      "Persona que allibera algú d’una situació de submissió o patiment."
+    ],
+    [
+      "nom masculí",
+      "En el cristianisme, denominació de Jesucrist com a salvador."
+    ]
+  ],
+  "supra": [
+    [
+      "adverbi",
+      "Més amunt en un text; s’utilitza per remetre a un passatge anterior."
+    ]
+  ],
+  "suprarenal": [
+    [
+      "adjectiu",
+      "Situat damunt del ronyó, especialment dit de les glàndules suprarenals."
+    ]
+  ],
+  "estrangeria": [
+    [
+      "nom femení",
+      "Àmbit administratiu i jurídic relatiu a les persones estrangeres."
+    ],
+    [
+      "nom femení",
+      "Condició de persona estrangera."
+    ]
+  ],
+  "finor": [
+    [
+      "nom femení",
+      "Qualitat d’allò que és fi, delicat o subtil."
+    ],
+    [
+      "nom femení",
+      "Elegància o delicadesa en el tracte."
+    ]
+  ],
+  "primeria": [
+    [
+      "nom femení",
+      "Primera etapa o començament d’un període; sovint s’usa en plural."
+    ]
+  ],
+  "balconada": [
+    [
+      "nom femení",
+      "Balcó llarg o conjunt de balcons d’una façana."
+    ]
+  ],
+  "buidor": [
+    [
+      "nom femení",
+      "Qualitat o sensació d’estar buit."
+    ],
+    [
+      "nom femení",
+      "Manca de contingut, sentit o satisfacció."
+    ]
+  ],
+  "aviador": [
+    [
+      "nom masculí",
+      "Persona que pilota una aeronau."
+    ]
+  ],
+  "perruquer": [
+    [
+      "nom masculí",
+      "Professional que talla, pentina i tracta els cabells."
+    ]
+  ],
+  "butà": [
+    [
+      "nom masculí",
+      "Gas combustible que s’utilitza, entre altres usos, en aparells domèstics."
+    ]
+  ],
+  "revenda": [
+    [
+      "nom femení",
+      "Venda d’una cosa que s’havia comprat abans, sovint amb la intenció d’obtenir-ne un benefici."
+    ]
+  ],
+  "femer": [
+    [
+      "nom masculí",
+      "Lloc on s’acumulen fems."
+    ],
+    [
+      "nom masculí",
+      "Lloc molt brut o ple de deixalles."
+    ]
+  ],
+  "parador": [
+    [
+      "nom masculí",
+      "Lloc on es troba algú o alguna cosa."
+    ],
+    [
+      "nom masculí",
+      "Establiment d’allotjament per a viatgers."
+    ]
+  ],
+  "eliminatòria": [
+    [
+      "nom femení",
+      "Fase d’una competició en què els participants que perden queden exclosos."
+    ]
+  ],
+  "oscil·lació": [
+    [
+      "nom femení",
+      "Moviment repetit al voltant d’una posició d’equilibri."
+    ],
+    [
+      "nom femení",
+      "Variació entre valors o estats diferents."
+    ]
+  ],
+  "instal·lador": [
+    [
+      "nom masculí",
+      "Professional que munta i posa en funcionament instal·lacions o equips."
+    ]
+  ],
+  "mil·ligram": [
+    [
+      "nom masculí",
+      "Unitat de massa equivalent a una mil·lèsima part d’un gram."
+    ]
+  ],
+  "hippy": [
+    [
+      "nom",
+      "Persona vinculada al moviment contracultural que defensa una vida lliure de convencions, el pacifisme i altres ideals sorgits als anys seixanta."
+    ]
+  ],
+  "discrepància": [
+    [
+      "nom femení",
+      "Diferència entre opinions, dades o versions que haurien de coincidir."
+    ]
+  ],
+  "mercantil": [
+    [
+      "adjectiu",
+      "Relatiu al comerç o a les activitats comercials."
+    ]
+  ],
+  "inequívoc": [
+    [
+      "adjectiu",
+      "Que no admet dubte o interpretacions diferents."
+    ]
+  ],
+  "oferiment": [
+    [
+      "nom masculí",
+      "Acció de posar una cosa o un servei a disposició d’algú."
+    ]
+  ],
+  "exempció": [
+    [
+      "nom femení",
+      "Dispensa de complir una obligació o de pagar una quantitat."
+    ]
+  ],
+  "imprudència": [
+    [
+      "nom femení",
+      "Actuació sense la precaució necessària."
+    ],
+    [
+      "nom femení",
+      "Conducta que crea un risc per manca de cura."
+    ]
+  ],
+  "milè": [
+    [
+      "adjectiu numeral",
+      "Que ocupa el lloc número mil en una sèrie."
+    ],
+    [
+      "adjectiu numeral",
+      "Cadascuna de les mil parts iguals en què es divideix una unitat."
+    ]
+  ],
+  "flexió": [
+    [
+      "nom femení",
+      "Acció de doblegar una part del cos o un material."
+    ],
+    [
+      "nom femení",
+      "Variació de la forma d’un mot per expressar trets gramaticals com nombre, gènere, persona o temps."
+    ]
+  ],
+  "biòleg": [
+    [
+      "nom masculí",
+      "Especialista en l’estudi dels éssers vius."
+    ]
+  ],
+  "punxegut": [
+    [
+      "adjectiu",
+      "Acabat en punta o que presenta puntes."
+    ]
+  ],
+  "sociòleg": [
+    [
+      "nom masculí",
+      "Especialista en l’estudi de les societats humanes i de les relacions socials."
+    ]
+  ],
+  "radiòleg": [
+    [
+      "nom masculí",
+      "Metge especialista en tècniques de diagnòstic i tractament que utilitzen imatges o radiacions."
+    ]
+  ],
+  "gimnasta": [
+    [
+      "nom",
+      "Persona que practica gimnàstica."
+    ]
+  ],
+  "socarrim": [
+    [
+      "nom masculí",
+      "Part superficial d’una cosa que s’ha cremat."
+    ],
+    [
+      "nom masculí",
+      "Olor o gust característic d’aquesta cremada superficial."
+    ]
+  ],
+  "efusiu": [
+    [
+      "adjectiu",
+      "Que expressa afecte o entusiasme de manera intensa i oberta."
+    ]
+  ],
+  "qualificatiu": [
+    [
+      "adjectiu",
+      "Que atribueix una qualitat."
+    ],
+    [
+      "adjectiu",
+      "Dit de l’adjectiu que expressa una característica del nom."
+    ]
+  ],
+  "incolor": [
+    [
+      "adjectiu",
+      "Que no té color."
+    ],
+    [
+      "adjectiu",
+      "Que manca de personalitat o expressivitat, en sentit figurat."
+    ]
+  ],
+  "empleat": [
+    [
+      "nom masculí",
+      "Persona que treballa per compte d’una empresa o d’una altra persona."
+    ]
+  ],
+  "perplex": [
+    [
+      "adjectiu",
+      "Sorprès i desconcertat perquè no sap com interpretar una situació o com actuar."
+    ]
+  ],
+  "bisturí": [
+    [
+      "nom masculí",
+      "Instrument de tall molt precís utilitzat en cirurgia i en altres treballs delicats."
+    ]
+  ],
+  "pretèrit": [
+    [
+      "adjectiu",
+      "Passat o anterior al present."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un temps verbal que situa l’acció en el passat."
+    ]
+  ],
+  "perfectiu": [
+    [
+      "adjectiu · gramàtica",
+      "Dit de l’aspecte que presenta un esdeveniment com un conjunt delimitat, sense centrar-se en el seu desenvolupament intern."
+    ]
+  ],
+  "incoatiu": [
+    [
+      "adjectiu · gramàtica",
+      "Que expressa l’inici d’una acció o d’un estat."
+    ],
+    [
+      "adjectiu · gramàtica",
+      "Dit dels verbs que incorporen un increment com «-eix-» en determinades formes de la conjugació."
+    ]
+  ],
+  "irregularitat": [
+    [
+      "nom femení",
+      "Desviació d’una norma, una pauta o una forma habitual."
+    ],
+    [
+      "nom femení",
+      "Actuació incorrecta o contrària a un procediment establert."
+    ]
+  ],
+  "rètol": [
+    [
+      "nom masculí",
+      "Inscripció que identifica o informa sobre un lloc, un objecte o una activitat."
+    ]
+  ],
+  "brioix": [
+    [
+      "nom masculí",
+      "Peça de pastisseria de massa esponjosa elaborada amb farina, ous i greix."
+    ]
+  ],
+  "particularitat": [
+    [
+      "nom femení",
+      "Característica que distingeix una persona o una cosa de les altres."
+    ]
+  ],
+  "elisió": [
+    [
+      "nom femení",
+      "Supressió d’un so en la pronunciació, sovint pel contacte entre paraules."
+    ]
+  ],
+  "atributiu": [
+    [
+      "adjectiu · gramàtica",
+      "Relatiu a l’atribut o que exerceix una funció d’atribució d’una propietat."
+    ]
+  ],
+  "calabós": [
+    [
+      "nom masculí",
+      "Dependència de seguretat destinada a retenir persones detingudes."
+    ]
+  ],
+  "poblet": [
+    [
+      "nom masculí",
+      "Poble petit."
+    ]
+  ],
+  "prepositiu": [
+    [
+      "adjectiu · gramàtica",
+      "Relatiu a una preposició o que en té la funció."
+    ]
+  ],
+  "interrogació": [
+    [
+      "nom femení",
+      "Acció de formular una pregunta."
+    ],
+    [
+      "nom femení",
+      "Construcció lingüística que planteja una pregunta."
+    ],
+    [
+      "nom femení",
+      "Signe gràfic que marca una pregunta."
+    ]
+  ],
+  "adversatiu": [
+    [
+      "adjectiu · gramàtica",
+      "Que expressa oposició o contrast entre dues idees, com la conjunció «però»."
+    ]
+  ],
+  "renovar": [
+    [
+      "verb",
+      "Substituir una cosa vella per una de nova o donar-li un estat nou."
+    ],
+    [
+      "verb",
+      "Prorrogar la validesa d’un document o un contracte."
+    ],
+    [
+      "verb",
+      "Recuperar forces o canviar la manera de fer."
+    ]
+  ],
+  "exquisit": [
+    [
+      "adjectiu",
+      "De qualitat especialment fina i agradable."
+    ],
+    [
+      "adjectiu",
+      "Molt delicat i atent en el tracte."
+    ]
+  ],
+  "granger": [
+    [
+      "nom masculí",
+      "Persona que treballa en una granja o n’és responsable."
+    ]
+  ],
+  "àloe": [
+    [
+      "nom masculí",
+      "Planta de fulles carnoses que contenen un gel utilitzat en productes cosmètics i altres preparats."
+    ]
+  ],
+  "regenerador": [
+    [
+      "adjectiu",
+      "Que contribueix a recuperar o renovar un teixit, un material o una situació."
+    ]
+  ],
+  "astringent": [
+    [
+      "adjectiu",
+      "Que contreu els teixits."
+    ],
+    [
+      "adjectiu",
+      "Que produeix una sensació de sequedat i aspror a la boca."
+    ]
+  ],
+  "inexpugnable": [
+    [
+      "adjectiu",
+      "Que no es pot conquerir o vèncer."
+    ],
+    [
+      "adjectiu",
+      "Molt difícil de rebatre o superar."
+    ]
+  ],
+  "hospitalari": [
+    [
+      "adjectiu",
+      "Que acull amablement els visitants."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a un hospital."
+    ]
+  ],
+  "caseta": [
+    [
+      "nom femení",
+      "Casa o construcció petita."
+    ],
+    [
+      "nom femení",
+      "Compartiment o instal·lació petita destinada a una funció concreta."
+    ]
+  ],
+  "desvalgut": [
+    [
+      "adjectiu",
+      "Que necessita ajuda o protecció perquè no es pot valer prou per si mateix."
+    ]
+  ],
+  "transbordador": [
+    [
+      "nom masculí",
+      "Vaixell que transporta persones o vehicles entre dos punts."
+    ],
+    [
+      "nom masculí",
+      "Vehicle espacial dissenyat per efectuar trajectes d’anada i tornada."
+    ]
+  ],
+  "admissibilitat": [
+    [
+      "nom femení",
+      "Qualitat d’allò que compleix les condicions per ser admès."
+    ]
+  ],
+  "justificació": [
+    [
+      "nom femení",
+      "Raó o explicació amb què es defensa una actuació o una afirmació."
+    ],
+    [
+      "nom femení",
+      "Documentació que acredita una despesa o un fet."
+    ],
+    [
+      "nom femení",
+      "Alineació d’un text respecte dels marges."
+    ]
+  ],
+  "utilitat": [
+    [
+      "nom femení",
+      "Capacitat de servir per a una finalitat."
+    ],
+    [
+      "nom femení",
+      "Avantatge o profit que s’obté d’una cosa."
+    ]
+  ],
+  "regulador": [
+    [
+      "adjectiu",
+      "Que estableix normes o manté una magnitud dins uns límits."
+    ],
+    [
+      "adjectiu",
+      "Dit del dispositiu que controla el funcionament d’un sistema."
+    ]
+  ],
+  "fascicle": [
+    [
+      "nom masculí",
+      "Cadascuna de les parts d’una obra que es publiquen successivament."
+    ],
+    [
+      "nom masculí",
+      "Petit feix de fibres o estructures allargades."
+    ]
+  ],
+  "requadre": [
+    [
+      "nom masculí",
+      "Espai delimitat per línies que destaca o reserva una part d’una pàgina o d’una superfície."
+    ]
+  ],
+  "esmunyedís": [
+    [
+      "adjectiu",
+      "Que s’escapa fàcilment de les mans o del control."
+    ],
+    [
+      "adjectiu",
+      "Difícil d’atrapar, precisar o retenir."
+    ]
+  ],
+  "guepard": [
+    [
+      "nom masculí",
+      "Felí africà i asiàtic de cos esvelt, pelatge tacat i gran velocitat de cursa."
+    ]
+  ],
+  "transitori": [
+    [
+      "adjectiu",
+      "Que dura un temps limitat o serveix de pas entre dues situacions."
+    ]
+  ],
+  "indigestió": [
+    [
+      "nom femení",
+      "Trastorn de la digestió que provoca malestar."
+    ],
+    [
+      "nom femení",
+      "Saturació causada per un excés d’alguna cosa, en sentit figurat."
+    ]
+  ],
+  "directriu": [
+    [
+      "nom femení",
+      "Orientació o norma que guia una actuació."
+    ],
+    [
+      "nom femení",
+      "Línia o figura que determina les propietats d’una construcció geomètrica."
+    ]
+  ],
+  "trabuquet": [
+    [
+      "nom masculí",
+      "Màquina de setge que llança projectils amb un braç i un contrapès."
+    ],
+    [
+      "nom masculí",
+      "Petit parany o mecanisme que funciona basculant."
+    ]
+  ],
+  "forjador": [
+    [
+      "nom masculí",
+      "Persona que dona forma als metalls escalfant-los i colpejant-los."
+    ],
+    [
+      "nom masculí",
+      "Persona que contribueix decisivament a crear una realitat."
+    ]
+  ],
+  "desgrat": [
+    [
+      "nom masculí",
+      "Desplaer o manca de gust envers una cosa."
+    ],
+    [
+      "nom masculí",
+      "En la locució «a desgrat de», indica que una cosa es produeix malgrat una circumstància contrària."
+    ]
+  ],
+  "minvament": [
+    [
+      "nom masculí",
+      "Disminució de quantitat, intensitat o importància."
+    ]
+  ],
+  "elogi": [
+    [
+      "nom masculí",
+      "Expressió de reconeixement de les qualitats o els mèrits d’algú o d’alguna cosa."
+    ]
+  ],
+  "crostó": [
+    [
+      "nom masculí",
+      "Tros de pa en què hi ha molta crosta, especialment d’un extrem."
+    ],
+    [
+      "nom masculí",
+      "Tros de pa torrat o fregit que acompanya un plat."
+    ]
+  ],
+  "rotunditat": [
+    [
+      "nom femení",
+      "Qualitat d’allò que és contundent, clar i sense vacil·lacions."
+    ],
+    [
+      "nom femení",
+      "Forma plena i arrodonida."
+    ]
+  ],
+  "eufòric": [
+    [
+      "adjectiu",
+      "Que sent o manifesta una alegria i un benestar molt intensos."
+    ]
+  ],
+  "desprevingut": [
+    [
+      "adjectiu",
+      "Que no està preparat ni advertit d’allò que pot passar."
+    ]
+  ],
+  "sobredimensionar": [
+    [
+      "verb",
+      "Donar a una cosa dimensions o importància superiors a les necessàries o reals."
+    ]
+  ],
+  "inaudit": [
+    [
+      "adjectiu",
+      "Extraordinari o sorprenent perquè no se n’havia sentit a parlar."
+    ],
+    [
+      "adjectiu",
+      "Que resulta difícil de creure o d’acceptar."
+    ]
+  ],
+  "desastrós": [
+    [
+      "adjectiu",
+      "Que provoca un desastre o té resultats molt dolents."
+    ],
+    [
+      "adjectiu",
+      "Molt deficient o desordenat."
+    ]
+  ],
+  "metafòric": [
+    [
+      "adjectiu",
+      "Que utilitza una metàfora o un sentit figurat basat en una semblança."
+    ]
+  ],
+  "expressivitat": [
+    [
+      "nom femení",
+      "Capacitat de comunicar amb força i claredat sentiments o idees."
+    ]
+  ],
+  "crispació": [
+    [
+      "nom femení",
+      "Contracció o tensió muscular."
+    ],
+    [
+      "nom femení",
+      "Estat de tensió, irritació o enfrontament."
+    ]
+  ],
+  "credulitat": [
+    [
+      "nom femení",
+      "Tendència a creure amb facilitat allò que es diu, sense comprovar-ho prou."
+    ]
+  ],
+  "inconnex": [
+    [
+      "adjectiu",
+      "Que no té una relació clara o coherent amb els altres elements."
+    ]
+  ],
+  "enteresa": [
+    [
+      "nom femení",
+      "Fortalesa i fermesa per afrontar les dificultats."
+    ],
+    [
+      "nom femení",
+      "Integritat moral."
+    ]
+  ],
+  "entenedor": [
+    [
+      "adjectiu",
+      "Que es pot comprendre amb facilitat."
+    ]
+  ],
+  "irritació": [
+    [
+      "nom femení",
+      "Enuig o impaciència."
+    ],
+    [
+      "nom femení",
+      "Reacció d’un teixit davant un estímul que li causa molèstia o inflamació."
+    ]
+  ],
+  "entreveure": [
+    [
+      "verb",
+      "Veure una cosa de manera incompleta o poc clara."
+    ],
+    [
+      "verb",
+      "Intuir una possibilitat o començar a comprendre-la."
+    ]
+  ],
+  "desaprovació": [
+    [
+      "nom femení",
+      "Manifestació de desacord o de rebuig envers una conducta o una proposta."
+    ]
+  ],
+  "atreviment": [
+    [
+      "nom masculí",
+      "Decisió de fer una cosa arriscada o poc habitual."
+    ],
+    [
+      "nom masculí",
+      "Falta de respecte o excés de confiança en actuar."
+    ]
+  ],
+  "enredar": [
+    [
+      "verb",
+      "Embolicar fils o altres elements de manera que costi separar-los."
+    ],
+    [
+      "verb",
+      "Complicar una situació."
+    ],
+    [
+      "verb",
+      "Enganyar o fer perdre el temps a algú."
+    ],
+    [
+      "verb",
+      "Entretenir-se sense avançar, en ús pronominal."
+    ]
+  ],
+  "irrealitzable": [
+    [
+      "adjectiu",
+      "Que no es pot dur a terme."
+    ]
+  ],
+  "poquíssim": [
+    [
+      "quantificador",
+      "Una quantitat extremament petita."
+    ],
+    [
+      "quantificador",
+      "En grau molt baix."
+    ]
+  ],
+  "quadrienni": [
+    [
+      "nom masculí",
+      "Període de quatre anys."
+    ]
+  ],
+  "conciliació": [
+    [
+      "nom femení",
+      "Acció d’acostar posicions enfrontades per arribar a un acord."
+    ],
+    [
+      "nom femení",
+      "Compatibilització de responsabilitats personals, familiars i laborals."
+    ]
+  ],
+  "emblemàtic": [
+    [
+      "adjectiu",
+      "Que representa de manera destacada una idea, una època o un lloc."
+    ]
+  ],
+  "diamantat": [
+    [
+      "adjectiu",
+      "Que conté diamant o presenta un aspecte semblant al diamant."
+    ],
+    [
+      "adjectiu",
+      "Dit d’una eina recoberta de partícules de diamant per tallar o polir."
+    ]
+  ],
+  "dissenyador": [
+    [
+      "nom masculí",
+      "Persona que concep i projecta la forma o el funcionament d’objectes, espais o comunicacions."
+    ]
+  ],
+  "restaurador": [
+    [
+      "nom masculí",
+      "Professional que recupera o conserva obres i objectes deteriorats."
+    ],
+    [
+      "nom masculí",
+      "Persona que es dedica a l’activitat dels restaurants."
+    ]
+  ],
+  "rescindir": [
+    [
+      "verb",
+      "Deixar sense efecte un contracte o una relació jurídica en els supòsits previstos."
+    ]
+  ],
+  "aeroespacial": [
+    [
+      "adjectiu",
+      "Relatiu a l’aviació i a les activitats que es desenvolupen a l’espai exterior."
+    ]
+  ],
+  "pioner": [
+    [
+      "nom masculí",
+      "Persona que inicia una activitat o obre un camí que altres seguiran."
+    ]
+  ],
+  "sindical": [
+    [
+      "adjectiu",
+      "Relatiu a un sindicat o a l’activitat de representació dels treballadors."
+    ]
+  ],
+  "preinscripció": [
+    [
+      "nom femení",
+      "Inscripció prèvia que manifesta la voluntat d’accedir a una activitat o un estudi abans de l’admissió definitiva."
+    ]
+  ],
+  "formalitzar": [
+    [
+      "verb",
+      "Donar forma precisa, oficial o jurídica a una actuació."
+    ],
+    [
+      "verb",
+      "Complir els tràmits necessaris per deixar constància d’un acord."
+    ]
+  ],
+  "evadir": [
+    [
+      "verb",
+      "Evitar una obligació o una dificultat."
+    ],
+    [
+      "verb",
+      "Escapar d’un lloc de reclusió, en ús pronominal."
+    ],
+    [
+      "verb",
+      "Apartar temporalment el pensament de les preocupacions."
+    ]
+  ],
+  "resistent": [
+    [
+      "adjectiu",
+      "Que suporta esforços o condicions adverses sense deteriorar-se fàcilment."
+    ],
+    [
+      "adjectiu",
+      "Que s’oposa a una acció o no hi respon de la manera esperada."
+    ]
+  ],
+  "gestionar": [
+    [
+      "verb",
+      "Organitzar recursos i actuacions per assolir una finalitat."
+    ],
+    [
+      "verb",
+      "Fer els tràmits necessaris per resoldre un assumpte."
+    ]
+  ],
+  "degeneració": [
+    [
+      "nom femení",
+      "Pèrdua progressiva de qualitats o de bon funcionament."
+    ],
+    [
+      "nom femení",
+      "Alteració d’un teixit o òrgan que en deteriora l’estructura o la funció."
+    ]
+  ],
+  "anomalia": [
+    [
+      "nom femení",
+      "Desviació respecte d’allò que es considera habitual o esperat."
+    ]
+  ],
+  "intencionalitat": [
+    [
+      "nom femení",
+      "Caràcter deliberat d’una acció."
+    ],
+    [
+      "nom femení",
+      "Orientació d’un acte cap a una finalitat."
+    ]
+  ],
+  "fragmentació": [
+    [
+      "nom femení",
+      "Divisió d’un conjunt en parts més petites."
+    ]
+  ],
+  "dni": [
+    [
+      "sigla",
+      "Document nacional d’identitat: document oficial que identifica una persona de nacionalitat espanyola."
+    ]
+  ],
+  "figurar": [
+    [
+      "verb",
+      "Aparèixer en una llista, un document o un conjunt."
+    ],
+    [
+      "verb",
+      "Representar una cosa mitjançant una figura."
+    ],
+    [
+      "verb",
+      "Imaginar o suposar, en ús pronominal."
+    ]
+  ],
+  "cobertura": [
+    [
+      "nom femení",
+      "Protecció o abast d’un servei, una assegurança o una actuació."
+    ],
+    [
+      "nom femení",
+      "Zona on arriba un senyal de comunicació."
+    ],
+    [
+      "nom femení",
+      "Seguiment informatiu d’un esdeveniment."
+    ]
+  ],
+  "rentaplats": [
+    [
+      "nom masculí",
+      "Aparell que renta automàticament plats i altres estris de cuina."
+    ],
+    [
+      "nom masculí",
+      "Persona encarregada de rentar la vaixella."
+    ]
+  ],
+  "domiciliació": [
+    [
+      "nom femení",
+      "Autorització perquè un cobrament o un pagament es faci a través d’un compte bancari."
+    ],
+    [
+      "nom femení",
+      "Fixació d’un domicili per a determinats efectes."
+    ]
+  ],
+  "imprevist": [
+    [
+      "adjectiu",
+      "Que no s’havia previst."
+    ],
+    [
+      "adjectiu",
+      "Fet inesperat que altera els plans, usat com a nom."
+    ]
+  ],
+  "encapçalament": [
+    [
+      "nom masculí",
+      "Part inicial d’un escrit que conté el títol o les dades de presentació."
+    ],
+    [
+      "nom masculí",
+      "Text situat a la part superior d’una pàgina."
+    ]
+  ],
+  "adjunt": [
+    [
+      "adjectiu",
+      "Que acompanya un document o un enviament."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un càrrec auxiliar vinculat a un de principal."
+    ]
+  ],
+  "demostració": [
+    [
+      "nom femení",
+      "Raonament o prova que estableix la veritat d’una afirmació."
+    ],
+    [
+      "nom femení",
+      "Exhibició pràctica del funcionament o de les qualitats d’una cosa."
+    ],
+    [
+      "nom femení",
+      "Manifestació visible d’un sentiment."
+    ]
+  ],
+  "fraccionar": [
+    [
+      "verb",
+      "Dividir una cosa en parts o distribuir-la en diversos terminis."
+    ]
+  ],
+  "reorganitzar": [
+    [
+      "verb",
+      "Organitzar de nou canviant l’estructura o la distribució existent."
+    ]
+  ],
+  "remitent": [
+    [
+      "nom",
+      "Persona o entitat que envia una carta, un paquet o una comunicació."
+    ]
+  ],
+  "reactivar": [
+    [
+      "verb",
+      "Fer que una activitat o un procés torni a funcionar o recuperi intensitat."
+    ]
+  ],
+  "facturació": [
+    [
+      "nom femení",
+      "Emissió de factures."
+    ],
+    [
+      "nom femení",
+      "Import total de les vendes d’una empresa en un període."
+    ],
+    [
+      "nom femení",
+      "Tramitació de l’equipatge abans d’un viatge."
+    ]
+  ],
+  "acústic": [
+    [
+      "adjectiu",
+      "Relatiu al so i a la seva percepció."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un instrument que produeix so sense amplificació electrònica."
+    ]
+  ],
+  "revestiment": [
+    [
+      "nom masculí",
+      "Capa o material que cobreix una superfície per protegir-la o decorar-la."
+    ]
+  ],
+  "decoratiu": [
+    [
+      "adjectiu",
+      "Destinat a embellir o ornamentar."
+    ],
+    [
+      "adjectiu",
+      "Que té una funció principalment d’aparença."
+    ]
+  ],
+  "concisió": [
+    [
+      "nom femení",
+      "Qualitat d’expressar un contingut amb brevetat i precisió."
+    ]
+  ],
+  "naturalitat": [
+    [
+      "nom femení",
+      "Manera d’actuar espontània, sense afectació ni artifici."
+    ],
+    [
+      "nom femení",
+      "Caràcter normal o esperable d’una cosa."
+    ]
+  ],
+  "reproduir": [
+    [
+      "verb",
+      "Fer una còpia o representació d’una cosa."
+    ],
+    [
+      "verb",
+      "Tornar a emetre un so o una imatge enregistrats."
+    ],
+    [
+      "verb",
+      "Generar nous individus de la mateixa espècie, en ús pronominal."
+    ],
+    [
+      "verb",
+      "Tornar-se a produir una situació."
+    ]
+  ],
+  "neutralització": [
+    [
+      "nom femení",
+      "Acció d’anul·lar o contrarestar un efecte."
+    ],
+    [
+      "nom femení",
+      "Pèrdua d’una oposició entre unitats lingüístiques en un context determinat."
+    ],
+    [
+      "nom femení",
+      "Reacció entre un àcid i una base."
+    ]
+  ],
+  "repartició": [
+    [
+      "nom femení",
+      "Acció de distribuir una cosa entre diversos destinataris."
+    ],
+    [
+      "nom femení",
+      "Distribució de persones o elements en un espai."
+    ]
+  ],
+  "sensibilitzar": [
+    [
+      "verb",
+      "Fer que algú prengui consciència d’un problema."
+    ],
+    [
+      "verb",
+      "Augmentar la capacitat de resposta davant un estímul."
+    ]
+  ],
+  "disparar": [
+    [
+      "verb",
+      "Fer sortir un projectil d’una arma."
+    ],
+    [
+      "verb",
+      "Activar un mecanisme que actua sobtadament."
+    ],
+    [
+      "verb",
+      "Augmentar molt ràpidament, en ús pronominal."
+    ]
+  ],
+  "preservació": [
+    [
+      "nom femení",
+      "Protecció d’una cosa per evitar que es deteriori, s’alteri o desaparegui."
+    ]
+  ],
+  "penombra": [
+    [
+      "nom femení",
+      "Il·luminació feble entre la llum plena i la foscor."
+    ],
+    [
+      "nom femení",
+      "Zona parcialment ombrejada."
+    ]
+  ],
+  "maquinista": [
+    [
+      "nom",
+      "Persona que condueix o maneja una màquina, especialment una locomotora."
+    ],
+    [
+      "nom",
+      "Tècnic encarregat dels mecanismes d’un escenari."
+    ]
+  ],
+  "mobilització": [
+    [
+      "nom femení",
+      "Posada en moviment de persones o recursos per a una finalitat."
+    ],
+    [
+      "nom femení",
+      "Participació col·lectiva en una protesta o campanya."
+    ],
+    [
+      "nom femení",
+      "Convocatòria de forces militars."
+    ]
+  ],
+  "confessional": [
+    [
+      "adjectiu",
+      "Vinculat a una confessió religiosa."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un estat o una institució que adopta oficialment una religió."
+    ]
+  ],
+  "religiositat": [
+    [
+      "nom femení",
+      "Conjunt de creences, sentiments i pràctiques relacionats amb la religió."
+    ]
+  ],
+  "acostament": [
+    [
+      "nom masculí",
+      "Acció de reduir una distància física."
+    ],
+    [
+      "nom masculí",
+      "Aproximació de posicions o millora de la relació entre parts."
+    ]
+  ],
+  "filantròpic": [
+    [
+      "adjectiu",
+      "Orientat a ajudar altres persones i a millorar-ne les condicions de vida."
+    ]
+  ],
+  "mobilitzador": [
+    [
+      "adjectiu",
+      "Que impulsa persones o recursos a actuar per una causa."
+    ]
+  ],
+  "assumible": [
+    [
+      "adjectiu",
+      "Que es pot acceptar o afrontar amb els recursos disponibles."
+    ]
+  ],
+  "infranquejable": [
+    [
+      "adjectiu",
+      "Que no es pot travessar o superar."
+    ]
+  ],
+  "difondre": [
+    [
+      "verb",
+      "Fer arribar una informació, una idea o una obra a moltes persones."
+    ],
+    [
+      "verb",
+      "Escampar una substància o una energia en un medi."
+    ]
+  ],
+  "demografia": [
+    [
+      "nom femení",
+      "Estudi estadístic de les poblacions humanes i de la seva evolució."
+    ]
+  ],
+  "dramatitzar": [
+    [
+      "verb",
+      "Adaptar un relat per representar-lo teatralment."
+    ],
+    [
+      "verb",
+      "Presentar una situació de manera exageradament greu o emotiva."
+    ]
+  ],
+  "viticultor": [
+    [
+      "nom masculí",
+      "Persona dedicada al cultiu de la vinya."
+    ]
+  ],
+  "cartoixà": [
+    [
+      "nom masculí",
+      "Religiós de l’orde de la Cartoixa."
+    ]
+  ],
+  "dèria": [
+    [
+      "nom femení",
+      "Idea, preocupació o afició que ocupa persistentment el pensament."
+    ]
+  ],
+  "rosetó": [
+    [
+      "nom masculí",
+      "Element ornamental de forma circular semblant a una rosa."
+    ],
+    [
+      "nom masculí",
+      "Obertura circular decorada d’un edifici."
+    ]
+  ],
+  "animaló": [
+    [
+      "nom masculí",
+      "Animal petit; denominació sovint afectiva."
+    ]
+  ],
+  "espectacular": [
+    [
+      "adjectiu",
+      "Que crida molt l’atenció per la seva aparença, magnitud o intensitat."
+    ]
+  ],
+  "poblador": [
+    [
+      "nom masculí",
+      "Persona que habita o s’estableix en un territori."
+    ]
+  ],
+  "adn": [
+    [
+      "sigla",
+      "Àcid desoxiribonucleic: molècula que conté la informació genètica de la majoria dels éssers vius."
+    ]
+  ],
+  "indomesticable": [
+    [
+      "adjectiu",
+      "Que no es pot domesticar o sotmetre a control."
+    ]
+  ],
+  "encant": [
+    [
+      "nom masculí",
+      "Qualitat que atrau o captiva."
+    ],
+    [
+      "nom masculí",
+      "Efecte atribuït a un encanteri."
+    ],
+    [
+      "nom masculí",
+      "Venda pública en què els compradors fan ofertes, sovint en plural: «els encants»."
+    ]
+  ],
+  "corsari": [
+    [
+      "nom masculí",
+      "Persona o vaixell autoritzat per un estat a atacar naus enemigues en una guerra marítima."
+    ]
+  ],
+  "banyista": [
+    [
+      "nom",
+      "Persona que es banya al mar, en una piscina o en un altre lloc d’esbarjo."
+    ]
+  ],
+  "inesborrable": [
+    [
+      "adjectiu",
+      "Que no es pot esborrar."
+    ],
+    [
+      "adjectiu",
+      "Que es conserva intensament en la memòria."
+    ]
+  ],
+  "complementari": [
+    [
+      "adjectiu",
+      "Que completa una altra cosa o hi aporta allò que falta."
+    ]
+  ],
+  "inservible": [
+    [
+      "adjectiu",
+      "Que no es pot utilitzar o no serveix per a la seva funció."
+    ]
+  ],
+  "commemoració": [
+    [
+      "nom femení",
+      "Acte de recordar i celebrar públicament una persona o un esdeveniment del passat."
+    ]
+  ],
+  "reivindicatiu": [
+    [
+      "adjectiu",
+      "Que reclama un dret, un reconeixement o una millora."
+    ]
+  ],
+  "drenatge": [
+    [
+      "nom masculí",
+      "Extracció o evacuació de líquids d’un terreny, una instal·lació o una part del cos."
+    ]
+  ],
+  "km²": [
+    [
+      "símbol",
+      "Quilòmetre quadrat: unitat de superfície equivalent a un milió de metres quadrats."
+    ]
+  ],
+  "distint": [
+    [
+      "adjectiu",
+      "Que no és igual o que es diferencia d’un altre."
+    ],
+    [
+      "adjectiu",
+      "Que es percep clarament separat dels altres."
+    ]
+  ],
+  "desembocadura": [
+    [
+      "nom femení",
+      "Lloc on un riu o un curs d’aigua aboca les seves aigües en un altre riu, un llac o el mar."
+    ]
+  ],
+  "predominar": [
+    [
+      "verb",
+      "Tenir més presència, força o influència que els altres elements."
+    ]
+  ],
+  "sedimentació": [
+    [
+      "nom femení",
+      "Procés pel qual partícules transportades es dipositen i s’acumulen."
+    ]
+  ],
+  "regulació": [
+    [
+      "nom femení",
+      "Establiment de normes per ordenar una activitat."
+    ],
+    [
+      "nom femení",
+      "Ajust del funcionament d’un sistema per mantenir unes condicions."
+    ]
+  ],
+  "aprofitament": [
+    [
+      "nom masculí",
+      "Ús útil d’un recurs o d’una oportunitat."
+    ],
+    [
+      "nom masculí",
+      "Resultat o progrés obtingut en l’estudi o en una activitat."
+    ]
+  ],
+  "fluctuació": [
+    [
+      "nom femení",
+      "Variació repetida d’una magnitud entre valors diferents."
+    ]
+  ],
+  "promotor": [
+    [
+      "nom masculí",
+      "Persona o entitat que impulsa una activitat o un projecte."
+    ],
+    [
+      "nom masculí",
+      "Persona o empresa que promou una construcció immobiliària."
+    ]
+  ],
+  "candor": [
+    [
+      "nom masculí",
+      "Sinceritat i innocència sense malícia."
+    ],
+    [
+      "nom masculí",
+      "Simplicitat confiada en el judici o el comportament."
+    ]
+  ],
+  "reiniciar": [
+    [
+      "verb",
+      "Començar de nou una activitat."
+    ],
+    [
+      "verb",
+      "Aturar i tornar a posar en funcionament un sistema informàtic."
+    ]
+  ],
+  "esbudellador": [
+    [
+      "nom masculí",
+      "Persona o instrument que esbudella, és a dir, obre el ventre i en treu les entranyes."
+    ]
+  ],
+  "massatge": [
+    [
+      "nom masculí",
+      "Manipulació dels teixits del cos mitjançant pressions i moviments amb finalitats de relaxació o tractament."
+    ]
+  ],
+  "culinari": [
+    [
+      "adjectiu",
+      "Relatiu a la preparació i cocció dels aliments."
+    ]
+  ],
+  "antelació": [
+    [
+      "nom femení",
+      "Temps que separa una actuació del moment previst per a un fet posterior."
+    ]
+  ],
+  "preeminència": [
+    [
+      "nom femení",
+      "Superioritat de rang, importància o prestigi respecte d’altres."
+    ]
+  ],
+  "concessionari": [
+    [
+      "nom masculí",
+      "Persona o empresa que rep una concessió per explotar un servei o comercialitzar productes."
+    ],
+    [
+      "nom masculí",
+      "Establiment autoritzat a vendre vehicles d’una marca."
+    ]
+  ],
+  "rebobinar": [
+    [
+      "verb",
+      "Tornar a enrotllar una cinta o fer-la retrocedir cap al començament."
+    ]
+  ],
+  "discogràfica": [
+    [
+      "nom femení",
+      "Empresa dedicada a produir i comercialitzar enregistraments musicals."
+    ]
+  ],
+  "gravació": [
+    [
+      "nom femení",
+      "Acció de fixar sons o imatges en un suport."
+    ],
+    [
+      "nom femení",
+      "Enregistrament resultant."
+    ],
+    [
+      "nom femení",
+      "Acció de fer una marca o un dibuix sobre un material."
+    ]
+  ],
+  "modalitat": [
+    [
+      "nom femení",
+      "Cadascuna de les formes o variants en què es presenta una activitat o una realitat."
+    ]
+  ],
+  "expenedor": [
+    [
+      "adjectiu",
+      "Que lliura o ven un producte, especialment de manera automàtica."
+    ]
+  ],
+  "destapar": [
+    [
+      "verb",
+      "Treure la tapa o allò que cobreix una cosa."
+    ],
+    [
+      "verb",
+      "Fer conèixer un fet que s’havia mantingut ocult."
+    ]
+  ],
+  "dermatòleg": [
+    [
+      "nom masculí",
+      "Metge especialista en la pell i en les seves malalties."
+    ]
+  ],
+  "refrigeració": [
+    [
+      "nom femení",
+      "Procés d’abaixar o mantenir baixa la temperatura d’una cosa."
+    ]
+  ],
+  "congelació": [
+    [
+      "nom femení",
+      "Pas d’un líquid a l’estat sòlid per refredament."
+    ],
+    [
+      "nom femení",
+      "Conservació d’aliments a temperatures inferiors al seu punt de congelació."
+    ],
+    [
+      "nom femení",
+      "Suspensió temporal de canvis o d’activitats."
+    ]
+  ],
+  "enfeinat": [
+    [
+      "adjectiu",
+      "Que està ocupat fent feina o té moltes tasques pendents."
+    ]
+  ],
+  "tomaquera": [
+    [
+      "nom femení",
+      "Planta que produeix tomàquets."
+    ]
+  ],
+  "perspectiu": [
+    [
+      "adjectiu",
+      "Relatiu a la perspectiva o a la representació de la profunditat."
+    ]
+  ],
+  "revulsiu": [
+    [
+      "nom masculí",
+      "Estímul que provoca una reacció o un canvi intens."
+    ],
+    [
+      "nom masculí",
+      "Agent que causa una reacció local per produir un efecte terapèutic en una altra zona."
+    ]
+  ],
+  "exitós": [
+    [
+      "adjectiu",
+      "Que té èxit o obté bons resultats."
+    ]
+  ],
+  "diversificació": [
+    [
+      "nom femení",
+      "Ampliació de la varietat d’activitats, productes o opcions."
+    ]
+  ],
+  "reimpressió": [
+    [
+      "nom femení",
+      "Nova impressió d’una obra sense canvis substancials en el contingut."
+    ]
+  ],
+  "didàctic": [
+    [
+      "adjectiu",
+      "Relatiu a l’ensenyament."
+    ],
+    [
+      "adjectiu",
+      "Concebut per facilitar l’aprenentatge."
+    ]
+  ],
+  "sumeri": [
+    [
+      "adjectiu",
+      "Relatiu a l’antiga civilització de Sumer."
+    ],
+    [
+      "adjectiu",
+      "Persona d’aquesta civilització o llengua que s’hi parlava, usat com a nom."
+    ]
+  ],
+  "saturnal": [
+    [
+      "adjectiu",
+      "Relatiu al déu Saturn."
+    ],
+    [
+      "adjectiu",
+      "En plural, festes romanes celebrades en honor de Saturn."
+    ]
+  ],
+  "surfista": [
+    [
+      "nom",
+      "Persona que practica surf."
+    ]
+  ],
+  "immoderat": [
+    [
+      "adjectiu",
+      "Que ultrapassa la mesura adequada o actua sense moderació."
+    ]
+  ],
+  "irreflexiu": [
+    [
+      "adjectiu",
+      "Que actua o es fa sense pensar prou en les conseqüències."
+    ]
+  ],
+  "estimulador": [
+    [
+      "adjectiu",
+      "Que activa, anima o afavoreix una resposta o una activitat."
+    ]
+  ],
+  "eixelebrat": [
+    [
+      "adjectiu",
+      "Que actua precipitadament i amb poc seny."
+    ]
+  ],
+  "microbi": [
+    [
+      "nom masculí",
+      "Organisme microscòpic, especialment un bacteri o un altre ésser unicel·lular."
+    ]
+  ],
+  "geògraf": [
+    [
+      "nom masculí",
+      "Especialista en l’estudi de la superfície terrestre i de les relacions entre els territoris i les societats."
+    ]
+  ],
+  "despreniment": [
+    [
+      "nom masculí",
+      "Separació d’una part respecte del conjunt."
+    ],
+    [
+      "nom masculí",
+      "Caiguda de materials d’un vessant."
+    ],
+    [
+      "nom masculí",
+      "Generositat o poca inclinació a retenir béns."
+    ]
+  ],
+  "insular": [
+    [
+      "adjectiu",
+      "Relatiu a una illa o propi d’una illa."
+    ]
+  ],
+  "recol·lecció": [
+    [
+      "nom femení",
+      "Acció de recollir fruits, productes o materials."
+    ],
+    [
+      "nom femení",
+      "Reunió ordenada de dades o d’elements."
+    ]
+  ],
+  "fòssil": [
+    [
+      "nom masculí",
+      "Resta o senyal d’un organisme antic conservat en materials geològics."
+    ],
+    [
+      "nom masculí",
+      "Persona o costum que es considera antiquat, en ús figurat."
+    ]
+  ],
+  "fragmentar": [
+    [
+      "verb",
+      "Dividir o trencar una cosa en fragments."
+    ]
+  ],
+  "requisar": [
+    [
+      "verb",
+      "Prendre temporalment béns per ordre d’una autoritat per satisfer una necessitat pública."
+    ],
+    [
+      "verb",
+      "Retirar objectes en una inspecció o control."
+    ]
+  ],
+  "requisa": [
+    [
+      "nom femení",
+      "Actuació d’una autoritat per obtenir béns necessaris per a un servei."
+    ],
+    [
+      "nom femení",
+      "Escorcoll destinat a trobar i retirar objectes."
+    ]
+  ],
+  "nidificació": [
+    [
+      "nom femení",
+      "Construcció del niu i activitats associades a la cria dels ocells."
+    ]
+  ],
+  "sensibilitat": [
+    [
+      "nom femení",
+      "Capacitat de percebre estímuls."
+    ],
+    [
+      "nom femení",
+      "Capacitat de sentir emocions o d’apreciar matisos."
+    ],
+    [
+      "nom femení",
+      "Grau de resposta d’un aparell o sistema davant un canvi."
+    ]
+  ],
+  "prefabricar": [
+    [
+      "verb",
+      "Fabricar peces o mòduls abans de traslladar-los al lloc on es muntaran."
+    ]
+  ],
+  "translúcid": [
+    [
+      "adjectiu",
+      "Que deixa passar la llum però no permet veure amb nitidesa els objectes a través seu."
+    ]
+  ],
+  "projectista": [
+    [
+      "nom",
+      "Professional que elabora projectes tècnics o arquitectònics."
+    ]
+  ],
+  "recreació": [
+    [
+      "nom femení",
+      "Acció de tornar a crear o representar una realitat."
+    ],
+    [
+      "nom femení",
+      "Activitat de lleure o d’esbargiment."
+    ]
+  ],
+  "darrerament": [
+    [
+      "adverbi",
+      "En un període recent."
+    ],
+    [
+      "adverbi",
+      "En darrer lloc, segons el context."
+    ]
+  ],
+  "imparable": [
+    [
+      "adjectiu",
+      "Que no es pot aturar o sembla avançar sense obstacles."
+    ]
+  ],
+  "ganga": [
+    [
+      "nom femení",
+      "Cosa que es compra a un preu molt avantatjós."
+    ],
+    [
+      "nom femení",
+      "Material sense interès econòmic que acompanya un mineral útil."
+    ],
+    [
+      "nom femení",
+      "Ocell terrestre de zones seques de la família dels pteròclids."
+    ]
+  ],
+  "tabú": [
+    [
+      "nom masculí",
+      "Prohibició social o cultural que impedeix fer, dir o tractar alguna cosa."
+    ],
+    [
+      "nom masculí",
+      "Assumpte que s’evita per convenció o temor."
+    ]
+  ],
+  "locutor": [
+    [
+      "nom masculí",
+      "Persona que presenta o llegeix continguts en un mitjà audiovisual."
+    ],
+    [
+      "nom masculí",
+      "Persona que emet un missatge verbal."
+    ]
+  ],
+  "defecació": [
+    [
+      "nom femení",
+      "Expulsió dels excrements de l’intestí."
+    ]
+  ],
+  "fictici": [
+    [
+      "adjectiu",
+      "Inventat o que no correspon a una realitat efectiva."
+    ]
+  ],
+  "reprogramar": [
+    [
+      "verb",
+      "Modificar un programa o una planificació ja establerts."
+    ]
+  ],
+  "rutinari": [
+    [
+      "adjectiu",
+      "Que es fa habitualment seguint una pauta repetida."
+    ],
+    [
+      "adjectiu",
+      "Que es caracteritza per la manca de novetat."
+    ]
+  ],
+  "medicació": [
+    [
+      "nom femení",
+      "Administració de medicaments."
+    ],
+    [
+      "nom femení",
+      "Conjunt de medicaments que pren una persona."
+    ]
+  ],
+  "ingesta": [
+    [
+      "nom femení",
+      "Acció d’introduir aliments o begudes a l’organisme."
+    ],
+    [
+      "nom femení",
+      "Quantitat que s’ingereix."
+    ]
+  ],
+  "acumulatiu": [
+    [
+      "adjectiu",
+      "Que s’afegeix progressivament al que ja hi havia."
+    ]
+  ],
+  "cítric": [
+    [
+      "adjectiu",
+      "Relatiu als cítrics o a l’àcid cítric."
+    ],
+    [
+      "adjectiu",
+      "Fruit com la taronja o la llimona, usat com a nom."
+    ]
+  ],
+  "precuinat": [
+    [
+      "adjectiu",
+      "Preparat culinàriament en part o del tot abans de posar-lo a la venda."
+    ]
+  ],
+  "envasat": [
+    [
+      "adjectiu",
+      "Introduït en un recipient per conservar-lo o comercialitzar-lo."
+    ]
+  ],
+  "envasar": [
+    [
+      "verb",
+      "Posar un producte dins un envàs adequat."
+    ]
+  ],
+  "mineralització": [
+    [
+      "nom femení",
+      "Incorporació o formació de minerals en una substància."
+    ],
+    [
+      "nom femení",
+      "Transformació de matèria orgànica en substàncies inorgàniques."
+    ]
+  ],
+  "caloria": [
+    [
+      "nom femení",
+      "Unitat d’energia definida a partir de l’escalfament de l’aigua."
+    ],
+    [
+      "nom femení",
+      "En nutrició, denominació habitual de la quilocaloria utilitzada per expressar l’energia dels aliments."
+    ]
+  ],
+  "moderació": [
+    [
+      "nom femení",
+      "Actitud d’evitar els excessos."
+    ],
+    [
+      "nom femení",
+      "Acció de dirigir un debat regulant les intervencions."
+    ]
+  ],
+  "soledat": [
+    [
+      "nom femení",
+      "Situació d’estar sol o sense companyia."
+    ],
+    [
+      "nom femení",
+      "Sentiment de manca de relacions o de suport."
+    ],
+    [
+      "nom femení",
+      "Caràcter solitari d’un lloc."
+    ]
+  ],
+  "selectivament": [
+    [
+      "adverbi",
+      "Triant només alguns elements segons un criteri."
+    ]
+  ],
+  "orientativament": [
+    [
+      "adverbi",
+      "Com a guia aproximada, sense valor necessàriament definitiu."
+    ]
+  ],
+  "íntimament": [
+    [
+      "adverbi",
+      "De manera molt propera o estreta."
+    ],
+    [
+      "adverbi",
+      "En l’àmbit més personal o reservat."
+    ]
+  ],
+  "territorialment": [
+    [
+      "adverbi",
+      "Pel que fa al territori o a la seva distribució."
+    ]
+  ],
+  "inequívocament": [
+    [
+      "adverbi",
+      "De manera clara i sense possibilitat de confusió."
+    ]
+  ],
+  "injustament": [
+    [
+      "adverbi",
+      "D’una manera contrària a la justícia o sense una raó justa."
+    ]
+  ],
+  "ingènuament": [
+    [
+      "adverbi",
+      "Amb innocència o sense advertir una possible mala intenció."
+    ]
+  ],
+  "intel·ligentment": [
+    [
+      "adverbi",
+      "Amb capacitat de comprendre i d’escollir una solució adequada."
+    ]
+  ],
+  "educadament": [
+    [
+      "adverbi",
+      "Amb cortesia i respecte envers els altres."
+    ]
+  ],
+  "violentament": [
+    [
+      "adverbi",
+      "Amb força intensa, brusquedat o violència."
+    ]
+  ],
+  "verbalment": [
+    [
+      "adverbi",
+      "Mitjançant paraules, especialment de manera oral."
+    ]
+  ],
+  "individualment": [
+    [
+      "adverbi",
+      "Considerant o actuant cada persona o element per separat."
+    ]
+  ],
+  "innecessàriament": [
+    [
+      "adverbi",
+      "Sense que sigui necessari."
+    ]
+  ],
+  "despreocupadament": [
+    [
+      "adverbi",
+      "Sense mostrar inquietud o preocupació."
+    ],
+    [
+      "adverbi",
+      "Sense prendre prou precaucions, segons el context."
+    ]
+  ],
+  "evolutivament": [
+    [
+      "adverbi",
+      "Des del punt de vista de l’evolució o al llarg d’un procés de canvi."
+    ]
+  ],
+  "comunitàriament": [
+    [
+      "adverbi",
+      "D’una manera compartida pel conjunt d’una comunitat."
+    ]
+  ],
+  "fònicament": [
+    [
+      "adverbi",
+      "Pel que fa als sons de la parla."
+    ]
+  ],
+  "hídricament": [
+    [
+      "adverbi",
+      "Pel que fa a l’aigua o als recursos d’aigua."
+    ]
+  ],
+  "reforçadament": [
+    [
+      "adverbi",
+      "Amb un reforç o una intensitat afegits."
+    ]
+  ],
+  "commemorativament": [
+    [
+      "adverbi",
+      "Amb la finalitat de recordar o commemorar un fet."
+    ]
+  ],
+  "energèticament": [
+    [
+      "adverbi",
+      "Pel que fa a l’energia o al seu consum."
+    ]
+  ],
+  "simfònicament": [
+    [
+      "adverbi",
+      "D’acord amb les característiques de la música simfònica."
+    ]
+  ],
+  "inauditament": [
+    [
+      "adverbi",
+      "D’una manera extraordinària o insòlita."
+    ]
+  ],
+  "entenedorament": [
+    [
+      "adverbi",
+      "D’una manera fàcil de comprendre."
+    ]
+  ],
+  "carismàticament": [
+    [
+      "adverbi",
+      "Amb capacitat d’atreure i influir personalment en els altres."
+    ]
+  ],
+  "mixtament": [
+    [
+      "adverbi",
+      "Combinant elements de classes diferents."
+    ]
+  ],
+  "realistament": [
+    [
+      "adverbi",
+      "Tenint en compte les condicions reals i les possibilitats efectives."
+    ]
+  ],
+  "mit": [
+    [
+      "nom masculí",
+      "Guant que deixa descoberts els dits o una part dels dits."
+    ]
+  ],
+  "nasa": [
+    [
+      "sigla",
+      "Agència federal dels Estats Units dedicada a l’aeronàutica i a l’exploració espacial."
+    ]
+  ],
+  "ceoe": [
+    [
+      "sigla",
+      "Confederació Espanyola d’Organitzacions Empresarials."
+    ]
+  ],
+  "racc": [
+    [
+      "sigla",
+      "Reial Automòbil Club de Catalunya."
+    ]
+  ],
+  "ats": [
+    [
+      "sigla",
+      "Ajudant tècnic sanitari, denominació històrica d’una titulació sanitària."
+    ]
+  ],
+  "aqu": [
+    [
+      "sigla",
+      "Agència per a la Qualitat del Sistema Universitari de Catalunya."
+    ]
+  ],
+  "coca-cola": [
+    [
+      "nom propi",
+      "Marca d’una beguda refrescant de cola."
+    ]
+  ],
+  "imperfectiu": [
+    [
+      "adjectiu · gramàtica",
+      "Dit de l’aspecte que presenta una acció des del seu desenvolupament intern, sense considerar-la com un conjunt acabat."
+    ]
+  ],
+  "morfosintaxi": [
+    [
+      "nom femení",
+      "Estudi conjunt de la forma de les paraules i de les relacions que estableixen dins l’oració."
+    ]
+  ],
+  "semivocal": [
+    [
+      "nom femení · fonètica",
+      "So vocàlic que no constitueix el nucli d’una síl·laba i segueix una vocal dins un diftong decreixent."
+    ]
+  ],
+  "semiconsonant": [
+    [
+      "nom femení · fonètica",
+      "So semblant a una vocal que precedeix el nucli vocàlic dins un diftong creixent."
+    ]
+  ],
+  "ecocardiograma": [
+    [
+      "nom masculí",
+      "Exploració del cor amb ultrasons, o imatge obtinguda amb aquesta tècnica."
+    ]
+  ],
+  "iogurtera": [
+    [
+      "nom femení",
+      "Aparell que manté la temperatura adequada per elaborar iogurt."
+    ]
+  ],
+  "tramitador": [
+    [
+      "nom i adjectiu",
+      "Persona que gestiona els tràmits d’un procediment."
+    ]
+  ],
+  "accessible": [
+    [
+      "adjectiu",
+      "Al qual es pot arribar o accedir."
+    ],
+    [
+      "adjectiu",
+      "Que es pot comprendre o utilitzar amb facilitat."
+    ],
+    [
+      "adjectiu",
+      "Que permet l’ús per persones amb necessitats diverses."
+    ]
+  ],
+  "patidor": [
+    [
+      "adjectiu",
+      "Que es preocupa o pateix fàcilment per les coses."
+    ],
+    [
+      "adjectiu",
+      "Que suporta sofriment o dificultats."
+    ]
+  ],
+  "sinistrat": [
+    [
+      "adjectiu",
+      "Que ha sofert els efectes d’un accident o d’una catàstrofe."
+    ]
+  ],
+  "triumvir": [
+    [
+      "nom masculí",
+      "Cadascun dels tres membres d’un govern o d’un càrrec compartit per tres persones."
+    ]
+  ],
+  "capdamunt": [
+    [
+      "nom masculí",
+      "Part més alta d’una cosa; s’usa habitualment amb «al» o «de»."
+    ]
+  ],
+  "pol·luir": [
+    [
+      "verb",
+      "Contaminar un medi introduint-hi elements perjudicials."
+    ]
+  ],
+  "lletgesa": [
+    [
+      "nom femení",
+      "Qualitat d’allò que és lleig."
+    ],
+    [
+      "nom femení",
+      "Acció considerada indigna o ofensiva."
+    ]
+  ],
+  "codonyat": [
+    [
+      "nom masculí",
+      "Pasta dolça feta amb codonys cuits i sucre."
+    ]
+  ],
+  "mousse": [
+    [
+      "nom femení",
+      "Preparació de textura lleugera i escumosa obtinguda incorporant-hi aire."
+    ],
+    [
+      "nom femení",
+      "Producte cosmètic de consistència escumosa."
+    ]
+  ],
+  "saxo": [
+    [
+      "nom masculí",
+      "Denominació abreujada de saxòfon, instrument de vent amb llengüeta i cos metàl·lic."
+    ]
+  ],
+  "maquinalment": [
+    [
+      "adverbi",
+      "De manera automàtica o sense parar-hi atenció conscient."
+    ]
+  ],
+  "apilonament": [
+    [
+      "nom masculí",
+      "Acció d’acumular coses formant piles."
+    ],
+    [
+      "nom masculí",
+      "Acumulació estreta de persones o objectes."
+    ]
+  ],
+  "gara-gara": [
+    [
+      "nom femení",
+      "Afalac o demostració exagerada d’afecte; s’utilitza sobretot en plural, «fer gara-gares»."
+    ]
+  ],
+  "insidiós": [
+    [
+      "adjectiu",
+      "Que actua de manera dissimulada amb la intenció de perjudicar."
+    ],
+    [
+      "adjectiu",
+      "Que comença o avança sense manifestacions gaire evidents."
+    ]
+  ],
+  "arquitectònic": [
+    [
+      "adjectiu",
+      "Relatiu a l’arquitectura o a l’estructura dels edificis."
+    ]
+  ],
+  "cooperatiu": [
+    [
+      "adjectiu",
+      "Basat en la col·laboració."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a una cooperativa."
+    ]
+  ],
+  "sociològic": [
+    [
+      "adjectiu",
+      "Relatiu a l’estudi de la societat i de les relacions socials."
+    ]
+  ],
+  "teològic": [
+    [
+      "adjectiu",
+      "Relatiu a l’estudi de les creences i doctrines religioses."
+    ]
+  ],
+  "sanguini": [
+    [
+      "adjectiu",
+      "Relatiu a la sang o que en conté."
+    ]
+  ],
+  "reputat": [
+    [
+      "adjectiu",
+      "Que gaudeix d’una bona reputació o és reconegut per la seva competència."
+    ]
+  ],
+  "sonoritzar": [
+    [
+      "verb",
+      "Dotar un espai o una obra d’un sistema o contingut sonor."
+    ],
+    [
+      "verb",
+      "Convertir un so sord en sonor."
+    ]
+  ],
+  "municipalista": [
+    [
+      "adjectiu",
+      "Partidari de reforçar l’autonomia o la importància dels municipis."
+    ]
+  ],
+  "cercapromeses": [
+    [
+      "nom",
+      "Persona que busca talents emergents, especialment en l’esport o en les arts."
+    ]
+  ],
+  "camàlic": [
+    [
+      "nom masculí",
+      "Persona que transporta equipatges o altres càrregues a canvi d’un pagament."
+    ]
+  ],
+  "musicasset": [
+    [
+      "nom masculí",
+      "Casset que conté música enregistrada."
+    ]
+  ],
+  "calissaia": [
+    [
+      "nom femení",
+      "Arbre del gènere Cinchona."
+    ],
+    [
+      "nom femení",
+      "Escorça d’aquest arbre, emprada com a font de quinina."
+    ]
+  ],
+  "esllanguit": [
+    [
+      "adjectiu",
+      "Que ha perdut vigor, força o vivacitat."
+    ]
+  ],
+  "intergalàctic": [
+    [
+      "adjectiu",
+      "Situat entre galàxies o relatiu a l’espai que les separa."
+    ]
+  ],
+  "terapèutic": [
+    [
+      "adjectiu",
+      "Relatiu al tractament de malalties o a la millora de la salut."
+    ]
+  ],
+  "microfauna": [
+    [
+      "nom femení",
+      "Conjunt dels animals de dimensions microscòpiques d’un medi."
+    ]
+  ],
+  "tròfic": [
+    [
+      "adjectiu",
+      "Relatiu a l’alimentació o a les relacions alimentàries entre organismes."
+    ]
+  ],
+  "erroni": [
+    [
+      "adjectiu",
+      "Que conté un error o no s’ajusta a la realitat o a una regla."
+    ]
+  ],
+  "realista": [
+    [
+      "adjectiu",
+      "Que té en compte les condicions reals."
+    ],
+    [
+      "adjectiu",
+      "Que representa la realitat de manera versemblant."
+    ],
+    [
+      "adjectiu",
+      "Partidari d’una doctrina o moviment anomenat realisme."
+    ]
+  ],
+  "sobte": [
+    [
+      "nom masculí",
+      "En «de sobte», expressa que una cosa passa de manera inesperada i ràpida."
+    ]
+  ],
+  "correcuita": [
+    [
+      "nom femení",
+      "En «a correcuita», indica que una cosa es fa amb molta pressa."
+    ]
+  ],
+  "bracet": [
+    [
+      "nom masculí",
+      "Braç petit."
+    ],
+    [
+      "nom masculí",
+      "En «de bracet», indica que dues persones caminen agafades pel braç."
+    ]
+  ],
+  "distesament": [
+    [
+      "adverbi",
+      "D’una manera relaxada, sense tensió ni solemnitat."
+    ]
+  ],
+  "vincladís": [
+    [
+      "adjectiu",
+      "Que es deixa doblegar o torçar amb facilitat."
+    ],
+    [
+      "adjectiu",
+      "Que cedeix fàcilment a una influència."
+    ]
+  ],
+  "ginestera": [
+    [
+      "nom femení",
+      "Arbust que produeix ginesta o nom aplicat a diverses plantes semblants de flors grogues."
+    ]
+  ],
+  "manganell": [
+    [
+      "nom masculí",
+      "Màquina de guerra antiga emprada per llançar pedres o altres projectils."
+    ]
+  ],
+  "farola": [
+    [
+      "nom femení",
+      "Fanal alt que il·lumina un carrer o un espai públic."
+    ]
+  ],
+  "rodoló": [
+    [
+      "nom masculí",
+      "Volta que fa un cos en rodolar. En l’expressió «a rodolons», rodolant."
+    ]
+  ],
+  "planiol": [
+    [
+      "nom masculí",
+      "Tros de terreny planer situat enmig d’un terreny accidentat."
+    ]
+  ],
+  "planell": [
+    [
+      "nom masculí",
+      "Extensió petita de terreny pla, especialment en una zona muntanyosa."
+    ]
+  ],
+  "conreria": [
+    [
+      "nom femení",
+      "Conjunt de terres destinades al conreu."
+    ],
+    [
+      "nom femení",
+      "Dependència o administració vinculada a la gestió agrícola d’un monestir."
+    ]
+  ],
+  "arenyenc": [
+    [
+      "adjectiu",
+      "Relatiu a Arenys de Mar o a Arenys de Munt, o als seus habitants."
+    ]
+  ],
+  "verduní": [
+    [
+      "adjectiu",
+      "Relatiu a Verdú o als seus habitants."
+    ]
+  ],
+  "bocassa": [
+    [
+      "nom femení",
+      "Boca grossa."
+    ],
+    [
+      "nom femení",
+      "Persona que parla massa o diu coses que hauria de callar, en ús figurat."
+    ]
+  ],
+  "boïc": [
+    [
+      "nom masculí",
+      "Bolet comestible de color fosc, conegut també com a trompeta de la mort."
+    ]
+  ],
+  "tsj": [
+    [
+      "sigla",
+      "Tribunal superior de justícia; la sigla habitual és TSJ."
+    ]
+  ],
+  "circumstancial": [
+    [
+      "adjectiu",
+      "Relatiu a les circumstàncies que envolten un fet."
+    ],
+    [
+      "adjectiu",
+      "En gramàtica, dit del complement que indica condicions com el temps, el lloc o la manera d’una acció."
+    ]
+  ],
+  "veïnatge": [
+    [
+      "nom masculí",
+      "Proximitat entre llocs o persones que són veïns."
+    ],
+    [
+      "nom masculí",
+      "Conjunt de veïns d’un indret."
+    ],
+    [
+      "nom masculí",
+      "Relació o condició de veí."
+    ]
+  ],
+  "competent": [
+    [
+      "adjectiu",
+      "Que té capacitat i coneixements suficients per a una tasca."
+    ],
+    [
+      "adjectiu",
+      "Que té atribuïda legalment la facultat d’intervenir en un assumpte."
+    ]
+  ],
+  "decreixent": [
+    [
+      "adjectiu",
+      "Que disminueix progressivament."
+    ],
+    [
+      "adjectiu",
+      "Dit del diftong en què la vocal que fa de nucli va seguida d’una semivocal."
+    ]
+  ],
+  "embarcar": [
+    [
+      "verb",
+      "Fer entrar persones o mercaderies en una embarcació o un altre vehicle de transport."
+    ],
+    [
+      "verb",
+      "Entrar en un vaixell o un avió."
+    ],
+    [
+      "verb",
+      "Implicar-se en una empresa o una activitat, en ús pronominal."
+    ]
+  ],
+  "laxant": [
+    [
+      "adjectiu",
+      "Que facilita l’evacuació intestinal."
+    ]
+  ],
+  "equipament": [
+    [
+      "nom masculí",
+      "Conjunt de mitjans o objectes necessaris per a una activitat."
+    ],
+    [
+      "nom masculí",
+      "Edifici o instal·lació que presta un servei a la comunitat."
+    ]
+  ],
+  "hospitalitat": [
+    [
+      "nom femení",
+      "Acolliment amable i generós que s’ofereix a qui visita un lloc."
+    ]
+  ],
+  "instància": [
+    [
+      "nom femení",
+      "Petició escrita dirigida a una autoritat."
+    ],
+    [
+      "nom femení",
+      "Cadascun dels graus jurisdiccionals en què es pot examinar un assumpte."
+    ],
+    [
+      "nom femení",
+      "Organisme o nivell de decisió al qual es recorre."
+    ]
+  ],
+  "infractor": [
+    [
+      "nom masculí",
+      "Persona que incompleix una norma o comet una infracció."
+    ]
+  ],
+  "apostrofació": [
+    [
+      "nom femení",
+      "Ús de l’apòstrof en l’escriptura d’acord amb les regles ortogràfiques."
+    ]
+  ],
+  "embargament": [
+    [
+      "nom masculí",
+      "Mesura que afecta béns o drets per assegurar o executar el compliment d’una obligació."
+    ],
+    [
+      "nom masculí",
+      "Prohibició o restricció de determinats intercanvis comercials."
+    ]
+  ],
+  "esquadra": [
+    [
+      "nom femení",
+      "Instrument de dibuix o comprovació d’angles."
+    ],
+    [
+      "nom femení",
+      "Grup organitzat de persones que duen a terme una funció."
+    ],
+    [
+      "nom femení",
+      "Conjunt de vaixells militars que actuen coordinadament."
+    ]
+  ],
+  "exalumne": [
+    [
+      "nom masculí",
+      "Persona que havia estat alumna d’un centre o d’un professor."
+    ]
+  ],
+  "office": [
+    [
+      "nom masculí",
+      "Espai de suport a la cuina destinat a preparar el servei o guardar estris."
+    ],
+    [
+      "nom masculí",
+      "Zona auxiliar de cuina en una oficina o establiment."
+    ]
+  ],
+  "ullet": [
+    [
+      "nom masculí",
+      "Ull petit; forma afectiva."
+    ],
+    [
+      "nom masculí",
+      "En «fer l’ullet», tancar momentàniament un ull per transmetre complicitat o un senyal."
+    ]
+  ],
+  "austeritat": [
+    [
+      "nom femení",
+      "Simplicitat i absència de luxes."
+    ],
+    [
+      "nom femení",
+      "Contenció de la despesa o de l’ús de recursos."
+    ]
+  ],
+  "iniciació": [
+    [
+      "nom femení",
+      "Introducció als coneixements o a la pràctica d’una activitat."
+    ],
+    [
+      "nom femení",
+      "Ritual d’ingrés en un grup."
+    ]
+  ],
+  "aerogenerador": [
+    [
+      "nom masculí",
+      "Màquina que transforma l’energia del vent en energia elèctrica."
+    ]
+  ],
+  "arrendament": [
+    [
+      "nom masculí",
+      "Contracte pel qual se cedeix l’ús d’un bé durant un temps a canvi d’una renda."
+    ]
+  ],
+  "acumulació": [
+    [
+      "nom femení",
+      "Reunió progressiva de coses o quantitats."
+    ],
+    [
+      "nom femení",
+      "Unió de procediments o pretensions perquè es tramitin conjuntament, en dret."
+    ]
+  ],
+  "elegància": [
+    [
+      "nom femení",
+      "Qualitat d’allò que mostra bon gust, harmonia o distinció."
+    ],
+    [
+      "nom femení",
+      "Simplicitat i precisió d’una solució o un raonament."
+    ]
+  ],
+  "operatiu": [
+    [
+      "adjectiu",
+      "Que està en condicions de funcionar."
+    ],
+    [
+      "adjectiu",
+      "Relatiu a l’execució pràctica d’una activitat."
+    ],
+    [
+      "nom masculí",
+      "Conjunt organitzat de persones i mitjans per dur a terme una actuació."
+    ]
+  ],
+  "enterrament": [
+    [
+      "nom masculí",
+      "Acció de posar sota terra, especialment un cadàver."
+    ],
+    [
+      "nom masculí",
+      "Cerimònia i actes associats a donar sepultura a una persona."
+    ]
+  ],
+  "enterrar": [
+    [
+      "verb",
+      "Posar una cosa sota terra."
+    ],
+    [
+      "verb",
+      "Donar sepultura a un cadàver."
+    ],
+    [
+      "verb",
+      "Deixar de banda o fer oblidar un assumpte."
+    ]
+  ],
+  "espectacularitat": [
+    [
+      "nom femení",
+      "Capacitat d’impressionar o cridar l’atenció per la forma o la magnitud."
+    ]
+  ],
+  "acròpoli": [
+    [
+      "nom femení",
+      "Part alta i fortificada d’una ciutat grega antiga."
+    ]
+  ],
+  "odissea": [
+    [
+      "nom femení",
+      "Viatge o experiència llarga plena de dificultats i peripècies."
+    ]
+  ],
+  "arxiver": [
+    [
+      "nom masculí",
+      "Professional que organitza, conserva i facilita la consulta dels documents d’un arxiu."
+    ]
+  ],
+  "hostatgeria": [
+    [
+      "nom femení",
+      "Establiment que ofereix allotjament."
+    ],
+    [
+      "nom femení",
+      "Activitat o servei d’acollir hostes."
+    ]
+  ],
+  "especificació": [
+    [
+      "nom femení",
+      "Indicació precisa de les característiques o condicions d’una cosa."
+    ]
+  ],
+  "bullent": [
+    [
+      "adjectiu",
+      "Que bull o és molt calent."
+    ],
+    [
+      "adjectiu",
+      "Ple d’activitat o agitació."
+    ]
+  ],
+  "enardidor": [
+    [
+      "adjectiu",
+      "Que excita l’ànim, l’entusiasme o l’ardor."
+    ]
+  ],
+  "platgeta": [
+    [
+      "nom femení",
+      "Platja petita."
+    ]
+  ],
+  "pardalet": [
+    [
+      "nom masculí",
+      "Pardal petit; també s’usa afectuosament per referir-se a un ocell."
+    ]
+  ],
+  "popet": [
+    [
+      "nom masculí",
+      "Pop petit."
+    ]
+  ],
+  "suquet": [
+    [
+      "nom masculí",
+      "Suc o salsa en una quantitat petita."
+    ],
+    [
+      "nom masculí",
+      "Guisat de peix amb salsa, sovint amb patates."
+    ]
+  ],
+  "grumollós": [
+    [
+      "adjectiu",
+      "Que conté grumolls o petites masses compactes."
+    ]
+  ],
+  "contrapèl": [
+    [
+      "nom masculí",
+      "Direcció contrària a la disposició natural del pèl; habitualment en la locució «a contrapèl»."
+    ],
+    [
+      "nom masculí",
+      "Manera contrària a la inclinació o voluntat d’algú."
+    ]
+  ],
+  "geniüt": [
+    [
+      "adjectiu",
+      "Que té un geni fort i s’enfada fàcilment."
+    ]
+  ],
+  "rabiüt": [
+    [
+      "adjectiu",
+      "Que mostra ràbia o mal geni amb facilitat."
+    ]
+  ],
+  "aiguota": [
+    [
+      "nom femení",
+      "Aigua bruta o de mala qualitat."
+    ],
+    [
+      "nom femení",
+      "Beguda excessivament aigualida."
+    ]
+  ],
+  "europeista": [
+    [
+      "adjectiu",
+      "Partidari de la cooperació o la integració entre els països europeus."
+    ]
+  ],
+  "maoista": [
+    [
+      "adjectiu",
+      "Relatiu al maoisme o partidari d’aquesta doctrina política."
+    ]
+  ],
+  "saberut": [
+    [
+      "adjectiu",
+      "Que sap moltes coses."
+    ],
+    [
+      "adjectiu",
+      "Que presumeix de saber-ne, amb valor despectiu segons el context."
+    ]
+  ],
+  "reembors": [
+    [
+      "nom masculí",
+      "Devolució d’una quantitat pagada."
+    ],
+    [
+      "nom masculí",
+      "Modalitat d’enviament en què el destinatari paga en rebre el paquet."
+    ]
+  ],
+  "fangueig": [
+    [
+      "nom masculí",
+      "Acció de treballar o moure’s en el fang."
+    ],
+    [
+      "nom masculí",
+      "Treball del terreny en condicions molt humides."
+    ]
+  ],
+  "pulcre": [
+    [
+      "adjectiu",
+      "Molt net i endreçat."
+    ],
+    [
+      "adjectiu",
+      "Fet amb correcció i cura."
+    ]
+  ],
+  "esparreguer": [
+    [
+      "nom masculí",
+      "Planta que produeix espàrrecs."
+    ]
+  ],
+  "enyoradís": [
+    [
+      "adjectiu",
+      "Que tendeix a enyorar persones, llocs o temps passats."
+    ]
+  ],
+  "temença": [
+    [
+      "nom femení",
+      "Por o inquietud davant la possibilitat d’un mal."
+    ]
+  ],
+  "bonàs": [
+    [
+      "adjectiu",
+      "De caràcter molt bo, amable i poc maliciós."
+    ]
+  ],
+  "pressor": [
+    [
+      "adjectiu",
+      "Que exerceix pressió o tendeix a augmentar-la."
+    ]
+  ],
+  "rajolí": [
+    [
+      "nom masculí",
+      "Raig petit i prim d’un líquid."
+    ],
+    [
+      "nom masculí",
+      "Petita quantitat que surt en forma de raig."
+    ]
+  ],
+  "platjola": [
+    [
+      "nom femení",
+      "Platja petita."
+    ]
+  ],
+  "comissionista": [
+    [
+      "nom",
+      "Persona que fa operacions comercials per compte d’altri i cobra una comissió."
+    ]
+  ],
+  "cigronet": [
+    [
+      "nom masculí",
+      "Cigró petit."
+    ],
+    [
+      "nom masculí",
+      "Varietat de cigró de gra petit."
+    ]
+  ],
+  "grisor": [
+    [
+      "nom femení",
+      "Qualitat d’allò que és gris."
+    ],
+    [
+      "nom femení",
+      "Monotonia o manca de vivacitat."
+    ]
+  ],
+  "platanar": [
+    [
+      "nom masculí",
+      "Conjunt de plàtans o terreny plantat amb aquests arbres o plantes."
+    ]
+  ],
+  "ehem": [
+    [
+      "interjecció",
+      "So convencional que imita una petita tos per cridar l’atenció o expressar una reserva."
+    ]
+  ],
+  "iogui": [
+    [
+      "nom",
+      "Persona que practica ioga, especialment com a disciplina espiritual."
+    ]
+  ],
+  "uacari": [
+    [
+      "nom masculí",
+      "Primat sud-americà del gènere Cacajao, de cua curta."
+    ]
+  ],
+  "eficaç": [
+    [
+      "adjectiu",
+      "Que aconsegueix l’efecte o el resultat que es busca."
+    ]
+  ],
+  "guixar": [
+    [
+      "verb",
+      "Fer traços o gargots en una superfície."
+    ],
+    [
+      "verb",
+      "Cobrir o marcar amb guix."
+    ],
+    [
+      "verb",
+      "Ratllar un escrit per anul·lar-lo."
+    ]
+  ],
+  "distraure": [
+    [
+      "verb",
+      "Desviar l’atenció d’una cosa."
+    ],
+    [
+      "verb",
+      "Entretenir o fer passar agradablement el temps."
+    ],
+    [
+      "verb",
+      "Separar o destinar recursos a una finalitat diferent."
+    ]
+  ],
+  "entestar": [
+    [
+      "verb",
+      "Insistir obstinadament en una idea o una acció, especialment en ús pronominal."
+    ],
+    [
+      "verb",
+      "Fer que una cosa topi o s’uneixi amb una altra per l’extrem."
+    ]
+  ],
+  "erosionar": [
+    [
+      "verb",
+      "Desgastar materials per l’acció de l’aigua, el vent o altres agents."
+    ],
+    [
+      "verb",
+      "Deteriorar progressivament una situació, un suport o un prestigi."
+    ]
+  ],
+  "esporgar": [
+    [
+      "verb",
+      "Treure branques o parts sobreres d’una planta."
+    ],
+    [
+      "verb",
+      "Eliminar elements innecessaris d’un conjunt o d’un text."
+    ]
+  ],
+  "revinguda": [
+    [
+      "nom femení",
+      "Augment sobtat i important del cabal d’un curs d’aigua."
+    ]
+  ],
+  "perifèria": [
+    [
+      "nom femení",
+      "Part exterior d’un espai, especialment les zones que envolten el centre d’una ciutat."
+    ]
+  ],
+  "imprecisió": [
+    [
+      "nom femení",
+      "Manca d’exactitud o de concreció."
+    ]
+  ],
+  "íntim": [
+    [
+      "adjectiu",
+      "Que pertany a la vida privada o als sentiments més personals."
+    ],
+    [
+      "adjectiu",
+      "Dit d’una relació de molta confiança."
+    ]
+  ],
+  "cocaïnòman": [
+    [
+      "nom i adjectiu",
+      "Persona que té dependència de la cocaïna."
+    ]
+  ],
+  "ruïnós": [
+    [
+      "adjectiu",
+      "Que es troba en estat de ruïna."
+    ],
+    [
+      "adjectiu",
+      "Que causa pèrdues econòmiques importants."
+    ]
+  ],
+  "gratuïtat": [
+    [
+      "nom femení",
+      "Qualitat d’allò que es dona sense cobrar."
+    ],
+    [
+      "nom femení",
+      "Manca de fonament o justificació d’una afirmació."
+    ]
+  ],
+  "legislació": [
+    [
+      "nom femení",
+      "Conjunt de lleis aplicables en un territori o en una matèria."
+    ]
+  ],
+  "operativitat": [
+    [
+      "nom femení",
+      "Capacitat de funcionar o d’actuar eficaçment."
+    ]
+  ],
+  "quantificar": [
+    [
+      "verb",
+      "Expressar o determinar una quantitat numèricament."
+    ]
+  ],
+  "renaixença": [
+    [
+      "nom femení",
+      "Acció de tornar a néixer o de recuperar vitalitat."
+    ],
+    [
+      "nom femení",
+      "Amb majúscula, moviment de recuperació de la llengua i la cultura catalanes durant el segle XIX."
+    ]
+  ],
+  "transatlàntic": [
+    [
+      "adjectiu i nom masculí",
+      "Que travessa l’oceà Atlàntic o es troba a l’altra banda."
+    ],
+    [
+      "adjectiu i nom masculí",
+      "Vaixell de passatgers destinat tradicionalment a travessies oceàniques."
+    ]
+  ],
+  "dinamitzar": [
+    [
+      "verb",
+      "Donar activitat, energia o impuls a alguna cosa."
+    ]
+  ],
+  "majestàtic": [
+    [
+      "adjectiu",
+      "Que té majestat o una grandesa solemne."
+    ]
+  ],
+  "peixera": [
+    [
+      "nom femení",
+      "Recipient amb aigua per mantenir-hi peixos vius."
+    ]
+  ],
+  "xarranca": [
+    [
+      "nom femení",
+      "Joc en què es recorren a peu coix unes caselles dibuixades a terra."
+    ]
+  ],
+  "suggeridor": [
+    [
+      "adjectiu",
+      "Que fa venir idees, sensacions o possibilitats a la ment."
+    ]
+  ],
+  "emmudir": [
+    [
+      "verb",
+      "Deixar de parlar o fer que algú calli."
+    ]
+  ],
+  "enfarfegar": [
+    [
+      "verb",
+      "Carregar excessivament de coses o de detalls."
+    ],
+    [
+      "verb",
+      "Atipar o embafar amb menjar."
+    ]
+  ],
+  "imbatut": [
+    [
+      "adjectiu",
+      "Que encara no ha estat derrotat."
+    ]
+  ],
+  "impotència": [
+    [
+      "nom femení",
+      "Manca de poder o de capacitat per aconseguir una cosa."
+    ],
+    [
+      "nom femení",
+      "En medicina, incapacitat per dur a terme una funció, especialment la funció erèctil."
+    ]
+  ],
+  "intolerància": [
+    [
+      "nom femení",
+      "Actitud de qui no accepta idees o conductes diferents de les seves."
+    ],
+    [
+      "nom femení",
+      "Reacció adversa de l’organisme a una substància o un aliment."
+    ]
+  ],
+  "enfosquir": [
+    [
+      "verb",
+      "Fer més fosc o tornar-se més fosc."
+    ],
+    [
+      "verb",
+      "Fer menys clar o entenedor."
+    ]
+  ],
+  "emmordassar": [
+    [
+      "verb",
+      "Posar una mordassa a algú."
+    ],
+    [
+      "verb",
+      "Impedir que algú expressi les seves opinions."
+    ]
+  ],
+  "imbevible": [
+    [
+      "adjectiu",
+      "Que no es pot beure, especialment pel seu gust desagradable."
+    ]
+  ],
+  "multiracial": [
+    [
+      "adjectiu",
+      "Que inclou persones de diferents grups racials."
+    ]
+  ],
+  "antireligiós": [
+    [
+      "adjectiu",
+      "Contrari a la religió."
+    ]
+  ],
+  "hidrofòbia": [
+    [
+      "nom femení",
+      "Por intensa o aversió a l’aigua."
+    ],
+    [
+      "nom femení",
+      "Símptoma associat a la ràbia que provoca espasmes dolorosos en intentar empassar líquids."
+    ]
+  ],
+  "filharmònic": [
+    [
+      "adjectiu",
+      "Relacionat amb l’afició per la música, especialment amb societats i orquestres musicals."
+    ]
+  ],
+  "modista": [
+    [
+      "nom",
+      "Persona que confecciona peces de vestir, especialment a mida."
+    ]
+  ],
+  "resplendent": [
+    [
+      "adjectiu",
+      "Que brilla intensament."
+    ],
+    [
+      "adjectiu",
+      "Que destaca per la seva bellesa o esplendor."
+    ]
+  ],
+  "buròcrata": [
+    [
+      "nom",
+      "Persona que treballa en l’administració."
+    ],
+    [
+      "nom",
+      "Persona que dona una importància excessiva als tràmits i a les formalitats."
+    ]
+  ],
+  "turbulència": [
+    [
+      "nom femení",
+      "Moviment irregular i agitat d’un fluid."
+    ],
+    [
+      "nom femení",
+      "Situació d’agitació o d’inestabilitat."
+    ]
+  ],
+  "fabulós": [
+    [
+      "adjectiu",
+      "Que pertany a les faules o als relats imaginaris."
+    ],
+    [
+      "adjectiu",
+      "Extraordinari o molt bo."
+    ]
+  ],
+  "provocació": [
+    [
+      "nom femení",
+      "Acció destinada a suscitar una reacció, sovint d’enuig o d’enfrontament."
+    ]
+  ],
+  "còsmic": [
+    [
+      "adjectiu",
+      "Relatiu a l’univers."
+    ]
+  ],
+  "providència": [
+    [
+      "nom femení",
+      "Previsió o disposició de mitjans per atendre una necessitat."
+    ],
+    [
+      "nom femení",
+      "En religió, cura amb què Déu governa el món."
+    ],
+    [
+      "nom femení",
+      "Resolució judicial de tramitació prevista per la llei."
+    ]
+  ],
+  "migració": [
+    [
+      "nom femení",
+      "Desplaçament de persones o d’animals d’un lloc a un altre."
+    ],
+    [
+      "nom femení",
+      "Trasllat de dades o de sistemes a un altre entorn informàtic."
+    ]
+  ],
+  "coreogràfic": [
+    [
+      "adjectiu",
+      "Relatiu a la composició i l’execució de danses."
+    ]
+  ],
+  "transposició": [
+    [
+      "nom femení",
+      "Canvi de lloc o d’ordre d’elements."
+    ],
+    [
+      "nom femení",
+      "En música, trasllat d’una peça a una altra tonalitat."
+    ]
+  ],
+  "estoneta": [
+    [
+      "nom femení",
+      "Estona curta."
+    ]
+  ],
+  "ressopar": [
+    [
+      "verb",
+      "Fer un àpat després de sopar."
+    ]
+  ],
+  "maternitat": [
+    [
+      "nom femení",
+      "Condició de mare."
+    ],
+    [
+      "nom femení",
+      "Establiment o servei sanitari destinat a l’atenció de les dones durant el part."
+    ]
+  ],
+  "rànquing": [
+    [
+      "nom masculí",
+      "Classificació ordenada segons un criteri, com ara resultats o puntuacions."
+    ]
+  ],
+  "paisatgístic": [
+    [
+      "adjectiu",
+      "Relatiu al paisatge."
+    ]
+  ],
+  "desmerèixer": [
+    [
+      "verb",
+      "Perdre valor o mèrit."
+    ],
+    [
+      "verb",
+      "Resultar inferior en una comparació."
+    ]
+  ],
+  "pantanós": [
+    [
+      "adjectiu",
+      "Que té pantans o característiques de pantà."
+    ]
+  ],
+  "flexionar": [
+    [
+      "verb",
+      "Doblegar una part del cos."
+    ],
+    [
+      "verb",
+      "En gramàtica, variar la forma d’un mot per expressar gènere, nombre, persona o altres categories."
+    ]
+  ],
+  "nominal": [
+    [
+      "adjectiu",
+      "Relatiu al nom."
+    ],
+    [
+      "adjectiu",
+      "Que existeix de nom però no necessàriament de manera efectiva."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un valor expressat sense ajustar-lo a altres factors."
+    ]
+  ],
+  "persistent": [
+    [
+      "adjectiu",
+      "Que continua durant molt de temps o insisteix sense abandonar."
+    ]
+  ],
+  "llautó": [
+    [
+      "nom masculí",
+      "Aliatge de coure i zinc, de color groguenc."
+    ]
+  ],
+  "viu-viu": [
+    [
+      "locució",
+      "En l’expressió «fer la viu-viu», anar passant o subsistir amb dificultats o sense destacar."
+    ]
+  ],
+  "forassenyat": [
+    [
+      "adjectiu",
+      "Que actua sense seny o d’una manera desmesurada."
+    ]
+  ],
+  "costumisme": [
+    [
+      "nom masculí",
+      "Tendència artística que representa els costums i les formes de vida d’una societat."
+    ]
+  ],
+  "pretensió": [
+    [
+      "nom femení",
+      "Allò que algú vol obtenir o aconseguir."
+    ],
+    [
+      "nom femení",
+      "Afirmació d’un dret o d’una qualitat que es considera pròpia."
+    ],
+    [
+      "nom femení",
+      "Exigència o aspiració que pot resultar excessiva."
+    ]
+  ],
+  "nominació": [
+    [
+      "nom femení",
+      "Proposta d’una persona o d’una obra com a candidata a un premi o a un càrrec."
+    ]
+  ],
+  "insubmís": [
+    [
+      "adjectiu i nom",
+      "Que es nega a sotmetre’s a una autoritat."
+    ],
+    [
+      "adjectiu i nom",
+      "Persona que rebutjava complir el servei militar obligatori i la prestació substitutòria."
+    ]
+  ],
+  "circulant": [
+    [
+      "adjectiu",
+      "Que circula."
+    ],
+    [
+      "adjectiu",
+      "En economia, dit dels recursos o béns que intervenen en el cicle habitual d’una activitat."
+    ]
+  ],
+  "comprovant": [
+    [
+      "nom masculí",
+      "Document que acredita que s’ha fet una operació, un pagament o un tràmit."
+    ]
+  ],
+  "escandinau": [
+    [
+      "adjectiu i nom",
+      "Relatiu a Escandinàvia, o persona que n’és originària."
+    ]
+  ],
+  "llúdriga": [
+    [
+      "nom femení",
+      "Mamífer carnívor de cos allargat i hàbits semiaquàtics que s’alimenta sobretot de peixos."
+    ]
+  ],
+  "imminent": [
+    [
+      "adjectiu",
+      "Que és a punt de passar."
+    ]
+  ],
+  "exigència": [
+    [
+      "nom femení",
+      "Acció de demanar alguna cosa de manera ferma."
+    ],
+    [
+      "nom femení",
+      "Condició o requisit que cal complir."
+    ]
+  ],
+  "descarat": [
+    [
+      "adjectiu",
+      "Que actua amb atreviment i sense vergonya."
+    ],
+    [
+      "adjectiu",
+      "Molt evident o dissimulat amb poca cura."
+    ]
+  ],
+  "resclosit": [
+    [
+      "adjectiu",
+      "Que ha adquirit una olor desagradable per haver estat tancat sense ventilació."
+    ]
+  ],
+  "creient": [
+    [
+      "nom i adjectiu",
+      "Persona que té fe religiosa."
+    ]
+  ],
+  "estiuejant": [
+    [
+      "nom",
+      "Persona que passa l’estiu en un lloc diferent del seu domicili habitual."
+    ]
+  ],
+  "navegant": [
+    [
+      "nom i adjectiu",
+      "Persona que navega."
+    ],
+    [
+      "nom i adjectiu",
+      "Que es desplaça navegant."
+    ]
+  ],
+  "creixent": [
+    [
+      "adjectiu",
+      "Que augmenta o es fa més gran."
+    ]
+  ],
+  "escaient": [
+    [
+      "adjectiu",
+      "Adequat o convenient per a una persona o una situació."
+    ]
+  ],
+  "suplement": [
+    [
+      "nom masculí",
+      "Element que s’afegeix per completar alguna cosa."
+    ],
+    [
+      "nom masculí",
+      "Quantitat addicional que cal pagar."
+    ],
+    [
+      "nom masculí",
+      "Publicació complementària d’un diari o d’una revista."
+    ]
+  ],
+  "favorable": [
+    [
+      "adjectiu",
+      "Que afavoreix o beneficia."
+    ],
+    [
+      "adjectiu",
+      "Que expressa suport o aprovació."
+    ]
+  ],
+  "vacant": [
+    [
+      "adjectiu i nom femení",
+      "Dit d’un càrrec o lloc que no està ocupat."
+    ],
+    [
+      "adjectiu i nom femení",
+      "Lloc disponible per ser ocupat."
+    ]
+  ],
+  "consistent": [
+    [
+      "adjectiu",
+      "Que té solidesa o cohesió."
+    ],
+    [
+      "adjectiu",
+      "Que es manté ferm i ben fonamentat."
+    ]
+  ],
+  "volàtil": [
+    [
+      "adjectiu",
+      "Que s’evapora amb facilitat."
+    ],
+    [
+      "adjectiu",
+      "Que canvia ràpidament o és inestable."
+    ]
+  ],
+  "transcendental": [
+    [
+      "adjectiu",
+      "De gran importància per les seves conseqüències."
+    ],
+    [
+      "adjectiu",
+      "En filosofia, relacionat amb les condicions que fan possible el coneixement."
+    ]
+  ],
+  "eucaliptus": [
+    [
+      "nom masculí",
+      "Arbre de fulles aromàtiques, originari sobretot d’Austràlia, del qual s’obtenen olis essencials."
+    ]
+  ],
+  "núm": [
+    [
+      "abreviatura",
+      "Abreviatura de «número», escrita habitualment «núm.»."
+    ]
+  ],
+  "se'n": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «se» i «en». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "te'n": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «te» i «en». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "se'ls": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «se» i «els». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "me'n": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «me» i «en». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "te'l": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «te» i «el». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "te'ls": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «te» i «els». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "se'm": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «se» i «em». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "me'ls": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «me» i «els». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "me'l": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «me» i «el». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "se'l": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «se» i «el». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "se'ns": [
+    [
+      "combinació de pronoms febles",
+      "Combinació dels pronoms «se» i «ens». El referent i la funció de cada pronom depenen de l’oració."
+    ]
+  ],
+  "general": [
+    [
+      "adjectiu",
+      "Que afecta tot un conjunt o la major part dels seus elements."
+    ],
+    [
+      "adjectiu",
+      "Que tracta els aspectes principals sense entrar en detalls."
+    ],
+    [
+      "nom",
+      "Militar d’un rang elevat dins l’exèrcit."
+    ]
+  ],
+  "immillorable": [
+    [
+      "adjectiu",
+      "Tan bo que no es pot millorar."
+    ]
+  ],
+  "considerable": [
+    [
+      "adjectiu",
+      "Prou gran o important perquè es tingui en compte."
+    ]
+  ],
+  "decent": [
+    [
+      "adjectiu",
+      "Que respecta les normes de respecte i honestedat."
+    ],
+    [
+      "adjectiu",
+      "D’una qualitat acceptable."
+    ]
+  ],
+  "pronominal": [
+    [
+      "adjectiu",
+      "Relatiu als pronoms."
+    ],
+    [
+      "adjectiu",
+      "Dit d’un verb que es conjuga amb un pronom feble que forma part de la seva construcció."
+    ]
+  ],
+  "prepotent": [
+    [
+      "adjectiu",
+      "Que abusa del poder o es comporta amb superioritat davant dels altres."
+    ]
+  ],
+  "previsible": [
+    [
+      "adjectiu",
+      "Que es pot preveure."
+    ]
+  ],
+  "imprudent": [
+    [
+      "adjectiu",
+      "Que actua sense valorar prou els riscos o les conseqüències."
+    ]
+  ],
+  "fònic": [
+    [
+      "adjectiu",
+      "Relatiu als sons de la parla o a la veu."
+    ]
+  ],
+  "simfònic": [
+    [
+      "adjectiu",
+      "Relatiu a les simfonies o a les orquestres que les interpreten."
+    ]
+  ],
+  "exuberant": [
+    [
+      "adjectiu",
+      "Molt abundant, vigorós o ple de vitalitat."
+    ]
+  ],
+  "trimestral": [
+    [
+      "adjectiu",
+      "Que dura tres mesos o es produeix cada tres mesos."
+    ]
+  ],
+  "obedient": [
+    [
+      "adjectiu",
+      "Que compleix les ordres o les indicacions rebudes."
+    ]
+  ],
+  "antecedent": [
+    [
+      "nom masculí",
+      "Fet anterior que ajuda a explicar una situació."
+    ],
+    [
+      "nom masculí",
+      "En gramàtica, element al qual remet un pronom o una expressió posterior."
+    ]
+  ],
+  "miraculós": [
+    [
+      "adjectiu",
+      "Que es considera produït per un miracle."
+    ],
+    [
+      "adjectiu",
+      "Extraordinari o molt sorprenent."
+    ]
+  ],
+  "encertat": [
+    [
+      "adjectiu",
+      "Adequat o correcte per a una situació."
+    ]
+  ],
+  "impetuós": [
+    [
+      "adjectiu",
+      "Que actua o es manifesta amb força i impuls."
+    ]
+  ],
+  "dificultós": [
+    [
+      "adjectiu",
+      "Que comporta dificultats."
+    ]
+  ],
+  "preliminar": [
+    [
+      "adjectiu",
+      "Que precedeix i prepara la part principal d’una activitat."
+    ]
+  ],
+  "sintètic": [
+    [
+      "adjectiu",
+      "Que resumeix o reuneix les idees principals."
+    ],
+    [
+      "adjectiu",
+      "Obtingut per síntesi, especialment mitjançant procediments químics."
+    ]
+  ],
+  "propici": [
+    [
+      "adjectiu",
+      "Favorable per fer possible una cosa."
+    ]
+  ],
+  "hídric": [
+    [
+      "adjectiu",
+      "Relatiu a l’aigua."
+    ]
+  ],
+  "longitudinal": [
+    [
+      "adjectiu",
+      "Que segueix la direcció de la llargada."
+    ],
+    [
+      "adjectiu",
+      "En estudis, que observa l’evolució d’un fenomen al llarg del temps."
+    ]
+  ],
+  "estrident": [
+    [
+      "adjectiu",
+      "Dit d’un so agut i desagradable."
+    ],
+    [
+      "adjectiu",
+      "Que crida excessivament l’atenció."
+    ]
+  ],
+  "inapel·lable": [
+    [
+      "adjectiu",
+      "Que no admet apel·lació."
+    ],
+    [
+      "adjectiu",
+      "Que es presenta com a indiscutible."
+    ]
+  ],
+  "esbojarrat": [
+    [
+      "adjectiu",
+      "Que actua amb una alegria o una agitació poc assenyades."
+    ]
+  ],
+  "difús": [
+    [
+      "adjectiu",
+      "Escampat o poc delimitat."
+    ],
+    [
+      "adjectiu",
+      "Poc clar o poc precís."
+    ]
+  ],
+  "jaure": [
+    [
+      "verb",
+      "Estar estirat o ajagut."
+    ],
+    [
+      "verb",
+      "Reposar o romandre en un lloc."
+    ]
+  ],
+  "queixar": [
+    [
+      "verb pronominal",
+      "Expressar dolor, malestar o disconformitat: «queixar-se»."
+    ]
+  ],
+  "esforçar": [
+    [
+      "verb",
+      "Aplicar força o energia."
+    ],
+    [
+      "verb",
+      "En ús pronominal, dedicar energia i voluntat a aconseguir alguna cosa."
+    ]
+  ],
+  "dissimular": [
+    [
+      "verb",
+      "Amagar o fer menys perceptible alguna cosa."
+    ],
+    [
+      "verb",
+      "Fingir que no s’adverteix un fet."
+    ]
+  ],
+  "majestuós": [
+    [
+      "adjectiu",
+      "Que impressiona per la seva grandesa o solemnitat."
+    ]
+  ],
+  "taronger": [
+    [
+      "nom masculí",
+      "Arbre fruiter que produeix taronges."
+    ]
+  ],
+  "encart": [
+    [
+      "nom masculí",
+      "Full o conjunt de fulls que s’insereix dins una publicació."
+    ]
+  ],
+  "sit": [
+    [
+      "nom masculí",
+      "Ocell granívor del grup dels emberízids, amb bec cònic."
+    ]
+  ],
+  "ressopat": [
+    [
+      "nom masculí",
+      "Àpat que es fa després de sopar."
+    ]
+  ],
+  "entravessar": [
+    [
+      "verb",
+      "Posar una cosa de través, de manera que travessi o obstrueixi un pas."
+    ]
+  ],
+  "sàpiens": [
+    [
+      "adjectiu",
+      "Element de la denominació científica «Homo sapiens», que identifica l’espècie humana actual. En llatí significa «savi»."
+    ]
+  ]
 }

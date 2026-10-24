@@ -5,8 +5,9 @@ const code=source.slice(source.indexOf(' let indexPromise'),source.indexOf(' let
 let calls=0;const sandbox={Map,Object,fetch:async url=>{calls++;const p=path.join(root,url.replace('assets/definitions/','').replace('assets/translate/','../translate/').split('?')[0]);return {ok:fs.existsSync(p),status:fs.existsSync(p)?200:404,json:async()=>JSON.parse(fs.readFileSync(p))}}};
 vm.createContext(sandbox);vm.runInContext(code+';this.senses=senses;',sandbox);
 (async()=>{
+ const acarament=await sandbox.senses('acarament');assert.equal(acarament[0].senses.length,2);
  const a=await sandbox.senses('altressí');assert.equal(a.length,1);assert.equal(a[0].senses.length,2);assert.equal(a[0].senses[0].pos,'adverbi');assert.equal(a[0].senses[1].pos,'nom masculí');
- for(const [word,lemma] of [['escriviu','escriure'],['llops','llop'],['boniques','bonic'],["l'aigua",'aigua'],['complements','complement'],['atribut','atribut']])assert((await sandbox.senses(word)).some(x=>x.word===lemma),word);
+ for(const [word,lemma] of [['escriviu','escriure'],['llops','llop'],['boniques','bonic'],["l'aigua",'aigua'],['complements','complement'],['atribut','atribut'],['ortogràfics','ortogràfic'],['semivocals','semivocal'],['loció','loció'],['tramitadors','tramitador'],["explica-m’ho",'explicar'],['jaguis','jaure']])assert((await sandbox.senses(word)).some(x=>x.word===lemma),word);
  assert((await sandbox.senses('taula'))[0].senses.length>2);
  assert.equal((await sandbox.senses('inventadíssimaqq')).length,0);
  const before=calls;await sandbox.senses('altressí');assert.equal(calls,before);

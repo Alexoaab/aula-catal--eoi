@@ -23,9 +23,19 @@ Reproducció:
     python3 extract-dump.py cawiktionary-latest-pages-articles.xml.bz2 ca-pages.json
     python3 build.py ca-pages.json
 
-El segon pas requereix els fitxers index.html, book-b2.js i translate/forms del
+El segon pas requereix els fitxers index.html, book-b2.js i translate/cat.metadix.gz del
 projecte. `coverage.json` audita el text de tots els temes i exercicis de B2,
 B2.1 i l’examen. Els elements sense entrada inclouen fragments, grafies errònies
 proposades pels exercicis, sigles, noms propis i paraules pendents. No es dedueix
 que una grafia sigui incorrecta pel fet de no tenir entrada. Les imatges no són
 text seleccionable i no s’han incorporat al recompte.
+
+Entrada «acarament»: explicacions de redacció pròpia contrastades amb el Diccionari jurídic de l’IEC, consultat el 24-10-2026: https://cit.iec.cat/progdct/defaultsinonims.asp?cerca=acarament&extern=1&opcio=1
+
+Revisió del 24-10-2026: ampliació del complement didàctic amb vocabulari dels
+temes i reconstrucció de les formes flexionades amb la morfologia catalana
+d’Apertium (vegeu les atribucions de translate/). Les definicions editorials són
+resums propis, no reproduccions ni entrades oficials d’un diccionari normatiu.
+Per detectar absències també s’ha consultat l’índex català de Kaikki, derivat
+del Wiktionary anglès: https://kaikki.org/dictionary/Catalan/index.html.
+Aquesta comparació no implica una validació normativa de totes les entrades.
