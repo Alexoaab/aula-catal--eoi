@@ -9,6 +9,22 @@
   if(!dictionaryPromise)dictionaryPromise=fetch('assets/translate/dictionary.json?v=2').then(r=>{if(!r.ok)throw Error();return r.json()}).catch(e=>{dictionaryPromise=null;throw e});
   return dictionaryPromise;
  }
+ const formLoads=new Map();
+ async function lemmas(word){
+  const key=word.codePointAt(0).toString(16);
+  if(!formLoads.has(key))formLoads.set(key,fetch('assets/translate/forms/'+key+'.json?v=3').then(r=>{if(r.status===404)return {};if(!r.ok)throw Error();return r.json()}).catch(e=>{formLoads.delete(key);throw e}));
+  const forms=await formLoads.get(key);return Object.hasOwn(forms,word)?forms[word]:[];
+ }
+ async function lookup(word,entries){
+  const matches=[];
+  if(Object.hasOwn(entries,word))matches.push({lemma:word,values:entries[word],direct:true});
+  for(const lemma of await lemmas(word))if(lemma!==word&&Object.hasOwn(entries,lemma))matches.push({lemma,values:entries[lemma],direct:false});
+  if(!matches.length&&/^(?:l|d|n|s|m|t)'/.test(word)){
+   const base=word.slice(word.indexOf("'")+1);
+   for(const match of await lookup(base,entries))matches.push({...match,direct:false});
+  }
+  return matches;
+ }
  const labels={n:'nom',adj:'adjectiu',adv:'adverbi',vblex:'verb',vbser:'verb',vbhaver:'verb',vbmod:'verb',pr:'preposició',prn:'pronom',det:'determinant',cnjcoo:'conjunció',cnjsub:'conjunció',np:'nom propi'};
  let enabled=true;try{enabled=localStorage.getItem('aula-ca-es-enabled')!=='off'}catch{}
  let timer,current,sequence=0;
@@ -16,7 +32,7 @@
  const title=document.createElement('strong'),result=document.createElement('span'),source=document.createElement('small');
  const close=document.createElement('button');close.type='button';close.textContent='×';close.setAttribute('aria-label','Tancar la traducció');close.onclick=hide;
  result.setAttribute('aria-live','polite');tip.append(close,title,result,source);document.body.append(tip);
- const settings=document.createElement('details');settings.className='ca-es-settings';settings.innerHTML='<summary>Diccionari català–castellà</summary><label><input type="checkbox"> Consultar paraules en passar-hi el ratolí</label><p>Mantén el ratolí sobre una paraula o toca-la al mòbil. També pots seleccionar-la i prémer Alt+T. Diccionari bilingüe Apertium: mostra equivalències segons el context, sense traducció automàtica. Les formes conjugades o flexionades poden no tenir entrada: consulta’n la forma base. Les consultes es fan al dispositiu.</p><p><a href="https://github.com/apertium/apertium-spa-cat" target="_blank" rel="noopener">Font: Apertium</a> · <a href="assets/translate/COPYING">Llicència GPL-2.0</a></p>';
+ const settings=document.createElement('details');settings.className='ca-es-settings';settings.innerHTML='<summary>Diccionari català–castellà</summary><label><input type="checkbox"> Consultar paraules en passar-hi el ratolí</label><p>Mantén el ratolí sobre una paraula o toca-la al mòbil. També pots seleccionar-la i prémer Alt+T. Diccionari bilingüe Apertium: mostra equivalències segons el context, sense traducció automàtica. Reconeix plurals, femenins i formes verbals; quan cal, mostra la forma base i les seves equivalències. Les consultes es fan al dispositiu.</p><p><a href="https://github.com/apertium/apertium-spa-cat" target="_blank" rel="noopener">Font: Apertium</a> · <a href="assets/translate/COPYING">Llicència GPL-2.0</a></p>';
  content.before(settings);const toggle=settings.querySelector('input');toggle.checked=enabled;toggle.onchange=()=>{enabled=toggle.checked;try{localStorage.setItem('aula-ca-es-enabled',enabled?'on':'off')}catch{}if(!enabled)hide()};
  function allowed(el){return el&&content.contains(el)&&!el.closest('input,textarea,select,button,a,label,[contenteditable],.answer-explanation,.ca-spell-status,.ca-spell-layer,.ca-spell-wrap,.actions,.exercise-index,.topic-grid')}
  function wordAt(x,y){
@@ -45,14 +61,17 @@
   const word=item.word.normalize('NFC').toLocaleLowerCase('ca').replace(/[’‘]/g,"'");
   try{
    const entries=await dictionary();if(seq!==sequence)return;
-   const found=Object.hasOwn(entries,word)?entries[word]:null;
+   const found=await lookup(word,entries);if(seq!==sequence)return;
    result.replaceChildren();
-   if(found){
-    for(const [translation,pos] of found){const row=document.createElement('span');row.style.display='block';row.lang='es';row.textContent=translation+(labels[pos]?' ('+labels[pos]+')':'');result.append(row)}
-    source.textContent='Diccionari Apertium · Tria el sentit segons el context.';
+   if(found.length){
+    for(const match of found){
+     if(!match.direct){const lemma=document.createElement('small');lemma.textContent='Forma de «'+match.lemma+'»';lemma.style.display='block';result.append(lemma)}
+     for(const [translation,pos] of match.values){const row=document.createElement('span');row.style.display='block';row.lang='es';row.textContent=translation+(labels[pos]?' ('+labels[pos]+')':'');result.append(row)}
+    }
+    source.textContent='Diccionari Apertium · Equivalències de la forma indicada; el sentit depèn del context.';
    }else{
     result.textContent='No s’ha trobat aquesta entrada.';
-    source.textContent='Si és una forma conjugada, femenina o plural, consulta la forma base al diccionari. No es genera cap traducció automàtica.';
+    source.textContent='Aquesta paraula encara no té una equivalència disponible al diccionari.';
    }
   }catch{if(seq!==sequence)return;result.textContent='No s’ha pogut carregar el diccionari. Torna-ho a provar.';source.textContent='Cal connexió per carregar el diccionari.'}
   if(seq===sequence)place(item.rect);
