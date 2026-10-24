@@ -12,11 +12,13 @@ onmessage=async({data})=>{
   await ready;
   if(data.type==='suggest'){
    const word=data.word.normalize('NFC').replace(/[’‘]/g,"'");
-   const suggestions=word.length<=32?dictionary.suggest(word,6):[];
+   const suggestions=!word.includes('-')&&word.length<=32?dictionary.suggest(word,6):[];
    postMessage({type:'suggestions',id:data.id,revision:data.revision,request:data.request,word:data.word,suggestions});return;
   }
   const errors=[];
   for(const word of data.words){
+   // Hyphens can be deliberate syllable separators in exercise answers.
+   if(word.includes('-'))continue;
    const normalized=word.normalize('NFC').replace(/[’‘]/g,"'").replace(/ŀ/g,'l·').replace(/Ŀ/g,'L·');
    if(!cache.has(normalized))cache.set(normalized,dictionary.check(normalized));
    if(!cache.get(normalized))errors.push(word);

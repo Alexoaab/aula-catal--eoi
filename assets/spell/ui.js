@@ -4,11 +4,11 @@
  const base=new URL('.',document.currentScript.src),fields=new Map();
  let worker,failed=false,ready=false,nextId=0,enabled=true;
  try{enabled=localStorage.getItem('aula-catalan-spell')!=='off'}catch{}
- const tokens=value=>Array.from(value.matchAll(/[\p{L}\p{M}]+(?:[·'’‘-][\p{L}\p{M}]+)*/gu),m=>({word:m[0],start:m.index,end:m.index+m[0].length}));
+ const tokens=value=>Array.from(value.matchAll(/[\p{L}\p{M}]+(?:[·'’‘-][\p{L}\p{M}]+)*-?/gu),m=>({word:m[0],start:m.index,end:m.index+m[0].length}));
  function start(){
   if(worker||failed)return;
   try{
-   worker=new Worker(new URL('worker.js?v=2',base));
+   worker=new Worker(new URL('worker.js?v=3',base));
    worker.onmessage=({data})=>{
     if(data.type==='ready'){ready=true;for(const f of fields.values())if(f.el.isConnected)queue(f,0);return}
     if(data.type==='error'){fail();return}
@@ -97,7 +97,7 @@
   queue(f);requestAnimationFrame(()=>geometry(f));
  }
  const bar=document.createElement('details');bar.className='ca-spell-settings';
- bar.innerHTML='<summary>Corrector català</summary><label><input type="checkbox"> Ressaltar possibles faltes mentre escric</label><p>Revisa les paraules en català només en aquesta pàgina. El text es comprova al teu navegador. Pots pausar-lo per escriure síl·labes o fragments. Els noms propis i algunes formes poden no constar al diccionari; no revisa la gramàtica.</p><a href="assets/spell/NOTICE.txt" target="_blank" rel="noopener">Diccionari i llicències</a>';
+ bar.innerHTML='<summary>Corrector català</summary><label><input type="checkbox"> Ressaltar possibles faltes mentre escric</label><p>Revisa les paraules en català només en aquesta pàgina. El text es comprova al teu navegador. Les paraules separades amb guions no es marquen com a faltes. Els noms propis i algunes formes poden no constar al diccionari; no revisa la gramàtica.</p><a href="assets/spell/NOTICE.txt" target="_blank" rel="noopener">Diccionari i llicències</a>';
  document.querySelector('#content').before(bar);
  const toggle=bar.querySelector('input');toggle.checked=enabled;
  toggle.onchange=()=>{enabled=toggle.checked;try{localStorage.setItem('aula-catalan-spell',enabled?'on':'off')}catch{}for(const f of fields.values())if(f.el.isConnected)queue(f,0)};
