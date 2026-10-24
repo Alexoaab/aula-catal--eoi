@@ -39,3 +39,11 @@ resums propis, no reproduccions ni entrades oficials d’un diccionari normatiu.
 Per detectar absències també s’ha consultat l’índex català de Kaikki, derivat
 del Wiktionary anglès: https://kaikki.org/dictionary/Catalan/index.html.
 Aquesta comparació no implica una validació normativa de totes les entrades.
+
+Revisió d’homònims: les entrades exactes es presenten abans de les anàlisis
+flexionades. Una forma possible d’un verb no implica que aquest sigui el sentit
+del mot en l’exercici. S’han eliminat les cadenes d’anàlisi que tornaven a
+interpretar un lema com si fos la forma d’un altre lema.
+L’entrada didàctica «escopinya» s’ha contrastat amb
+https://www.diccionari.cat/GDLC/escopinya i
+https://dcvb.iec.cat/results.asp?word=escopinya .

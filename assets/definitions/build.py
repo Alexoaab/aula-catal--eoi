@@ -82,7 +82,12 @@ def resolve(word,seen=None):
  seen=set() if seen is None else seen
  if word in seen or len(seen)>12:return []
  seen.add(word);out=[word] if word in definitions else []
- for lemma in aliases.get(word,[])+forms.get(word,[]):out.extend(resolve(lemma,seen))
+ # Never analyse a lemma again as another word's surface form.
+ for lemma in aliases.get(word,[]):
+  if lemma in definitions:out.append(lemma)
+  else:out.extend(resolve(lemma,seen.copy()))
+ for lemma in forms.get(word,[]):
+  if lemma in definitions:out.append(lemma)
  if not out:
   clitic=re.match(r"^(.+?)(?:-(?:me|te|se|lo|la|los|les|li|ho|ne|hi|nos|vos|us|m|t|s|l|n)|'(?:m|t|s|l|ls|n|ns|ho|hi))+$",word)
   if clitic:

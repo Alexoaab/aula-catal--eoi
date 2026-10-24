@@ -10,6 +10,10 @@ vm.createContext(sandbox);vm.runInContext(code+';this.senses=senses;',sandbox);
  for(const [word,lemma] of [['escriviu','escriure'],['llops','llop'],['boniques','bonic'],["l'aigua",'aigua'],['complements','complement'],['atribut','atribut'],['ortogràfics','ortogràfic'],['semivocals','semivocal'],['loció','loció'],['tramitadors','tramitador'],["explica-m’ho",'explicar'],['jaguis','jaure']])assert((await sandbox.senses(word)).some(x=>x.word===lemma),word);
  assert((await sandbox.senses('taula'))[0].senses.length>2);
  assert.equal((await sandbox.senses('inventadíssimaqq')).length,0);
+ for(const word of ['escopinya','factura','revista','mesura','atestat','participi','enunciat','talla','reserva','comanda']){const entries=await sandbox.senses(word);assert.equal(entries[0].word,word);assert(entries[0].senses.some(s=>s.pos.startsWith('nom')),word)}
+ assert((await sandbox.senses('escopinyes')).some(e=>e.word==='escopinya'));
+ const index=JSON.parse(fs.readFileSync(path.join(root,'index.json')));
+ for(const [word,lemmas] of Object.entries(index))if(lemmas.includes(word))assert.equal((await sandbox.senses(word))[0].word.toLowerCase(),word,'exact match first: '+word);
  const before=calls;await sandbox.senses('altressí');assert.equal(calls,before);
  let count=0;for(const file of fs.readdirSync(path.join(root,'data'))){for(const entry of Object.values(JSON.parse(fs.readFileSync(path.join(root,'data',file))))){assert(entry.senses.length);for(const s of entry.senses){assert(s.pos&&s.definition);assert(!/\{\{|\}\}|\[\[|\]\]/.test(s.definition),entry.word);count++}}}
  console.log('PASS: numbered senses, categories, homonyms, inflections, editorial provenance, missing entries, caching and '+count+' clean definitions');

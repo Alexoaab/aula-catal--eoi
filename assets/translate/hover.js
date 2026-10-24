@@ -9,7 +9,7 @@
  async function senses(word){
   word=word.normalize('NFC').toLocaleLowerCase('ca').replace(/[’‘]/g,"'").trim();
   if(!word)return [];
-  if(!indexPromise)indexPromise=loadJson('assets/definitions/index.json?v=2').catch(e=>{indexPromise=null;throw e});
+  if(!indexPromise)indexPromise=loadJson('assets/definitions/index.json?v=3').catch(e=>{indexPromise=null;throw e});
   const index=await indexPromise;let lemmas=Object.hasOwn(index,word)?index[word]:[];
   if(!lemmas.length){
    const key=word.codePointAt(0).toString(16);
@@ -22,10 +22,10 @@
   const found=[];
   for(const lemma of lemmas){
    const key=lemma.codePointAt(0).toString(16);
-   if(!shards.has(key))shards.set(key,loadJson('assets/definitions/data/'+key+'.json?v=2').catch(e=>{shards.delete(key);throw e}));
+   if(!shards.has(key))shards.set(key,loadJson('assets/definitions/data/'+key+'.json?v=3').catch(e=>{shards.delete(key);throw e}));
    const data=await shards.get(key);if(Object.hasOwn(data,lemma))found.push(data[lemma]);
   }
-  return found;
+  return found.sort((a,b)=>(a.word.toLocaleLowerCase('ca')===word?-1:0)-(b.word.toLocaleLowerCase('ca')===word?-1:0));
  }
  let enabled=true;try{enabled=localStorage.getItem('aula-ca-es-enabled')!=='off'}catch{}
  let timer,current,sequence=0;
@@ -64,15 +64,23 @@
    const entries=await senses(word);if(seq!==sequence)return;
    result.replaceChildren();
    if(entries.length){
+    const hasLexicalEntry=entries.some(e=>e.senses.some(s=>!s.pos.startsWith('verb')));
+    let alternatives;
     for(const entry of entries){
+     let host=result;
+     if(hasLexicalEntry&&entry.word.toLocaleLowerCase('ca')!==word&&entry.senses.every(s=>s.pos.startsWith('verb'))){
+      if(!alternatives){alternatives=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Altres possibles interpretacions verbals';alternatives.append(summary)}
+      host=alternatives;
+     }
      const heading=document.createElement('strong');heading.className='ca-sense-head';heading.textContent=entry.word;
-     if(entry.word.toLocaleLowerCase('ca')!==word)heading.textContent+=' · forma base';
-     result.append(heading);
+     if(entry.word.toLocaleLowerCase('ca')!==word)heading.textContent='Possible forma de «'+entry.word+'»';
+     host.append(heading);
      const list=document.createElement('ol');list.className='ca-senses';
      for(const sense of entry.senses){const li=document.createElement('li'),pos=document.createElement('em');pos.textContent=sense.pos+' ';li.append(pos,document.createTextNode(sense.definition));list.append(li)}
-     result.append(list);
+     host.append(list);
      const credit=document.createElement('a');credit.href=entry.source==='editorial'?'assets/definitions/README.md':'https://ca.wiktionary.org/wiki/'+encodeURIComponent(entry.word);credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent=entry.source==='editorial'?'Glossari didàctic de l’aula · '+entry.word:'Font: Viccionari · '+entry.word;source.append(credit,document.createElement('br'));
     }
+    if(alternatives)result.append(alternatives);
     source.append(document.createTextNode('CC BY-SA 4.0 · Selecció d’entrades per al material de l’aula.'));
    }else{
     result.textContent='Encara no hi ha cap accepció documentada per a aquesta forma.';
