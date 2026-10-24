@@ -4,7 +4,7 @@
  const base=new URL('.',document.currentScript.src),fields=new Map();
  let worker,failed=false,ready=false,nextId=0,enabled=true;
  try{enabled=localStorage.getItem('aula-catalan-spell')!=='off'}catch{}
- const tokens=value=>Array.from(value.matchAll(/[\p{L}\p{M}]+(?:[·'’‘-][\p{L}\p{M}]+)*-?/gu),m=>({word:m[0],start:m.index,end:m.index+m[0].length}));
+ const tokens=value=>Array.from(value.matchAll(/-?[\p{L}\p{M}]+(?:[·'’‘-][\p{L}\p{M}]+)*-?/gu),m=>({word:m[0],start:m.index,end:m.index+m[0].length}));
  function start(){
   if(worker||failed)return;
   try{
